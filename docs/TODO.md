@@ -12,7 +12,7 @@
 ## ✅ Stage 2: Embedding & Indexing
 
 ### 📦 Choose Embedding Model
-- [ ] Choose multilingual embedding model:
+- [x] Choose multilingual embedding model:
   - `intfloat/multilingual-e5-base`
   - `vinai/sentence-transformers-vi-m2`
   - or custom Sentence-BERT model fine-tuned on Buddhist QA
