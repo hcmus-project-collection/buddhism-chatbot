@@ -7,7 +7,7 @@ from pathlib import Path
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S"
+    datefmt="%Y-%m-%d %H:%M:%S",
 )
 logger = logging.getLogger(__name__)
 
@@ -20,15 +20,17 @@ def clean_text(text: str) -> str:
     text = re.sub(r"\s+", " ", text.strip())
 
     # 2. Normalize punctuation
-    text = re.sub(r"[“”]", '"', text)        # curly double quotes → straight
-    text = re.sub(r"[‘’]", "'", text)        # curly single quotes → straight
-    text = re.sub(r"[–—]", "-", text)        # dashes → hyphen
+    text = re.sub(r"[“”]", '"', text)  # curly double quotes → straight
+    text = re.sub(r"[‘’]", "'", text)  # curly single quotes → straight
+    text = re.sub(r"[–—]", "-", text)  # dashes → hyphen
 
     return text
 
 
 def clean_jsonl(input_path: str, output_path: str):
-    with open(input_path, "r", encoding="utf-8") as fin, open(output_path, "w", encoding="utf-8") as fout:
+    with open(input_path, "r", encoding="utf-8") as fin, open(
+        output_path, "w", encoding="utf-8"
+    ) as fout:
         for line in fin:
             record = json.loads(line)
             if "text" in record:
@@ -39,9 +41,12 @@ def clean_jsonl(input_path: str, output_path: str):
 
 
 def main():
-    json_files = list(Path("jsonl").glob("*.jsonl"))
+    json_files = list(Path("jsonl/raw").glob("*.jsonl"))
     for json_file in json_files:
-        clean_jsonl(json_file, CLEANED_JSONL_DIR / json_file.name)
+        clean_jsonl(
+            json_file,
+            CLEANED_JSONL_DIR / json_file.name.replace("_with_ner", ""),
+        )
 
 
 if __name__ == "__main__":

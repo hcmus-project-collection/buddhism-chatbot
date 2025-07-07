@@ -8,11 +8,11 @@ from pathlib import Path
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S"
+    datefmt="%Y-%m-%d %H:%M:%S",
 )
 logger = logging.getLogger(__name__)
 
-BASE_JSONL_DIR = Path("jsonl")
+BASE_JSONL_DIR = Path("jsonl/raw")
 BASE_JSONL_DIR.mkdir(exist_ok=True)
 
 
@@ -31,7 +31,7 @@ def extract_metadata(meta_elem):
         "author": meta_elem.findtext("AUTHOR"),
         "translator": meta_elem.findtext("TRANSLATOR"),
         "period": meta_elem.findtext("PERIOD"),
-        "language": meta_elem.findtext("LANGUAGE")
+        "language": meta_elem.findtext("LANGUAGE"),
     }
 
 
@@ -62,7 +62,7 @@ def convert_xml_to_jsonl(xml_path, jsonl_path):
                             **meta,
                             "section_id": section_id,
                             "page_id": page_id,
-                        }
+                        },
                     }
                     fout.write(json.dumps(record, ensure_ascii=False) + "\n")
 
