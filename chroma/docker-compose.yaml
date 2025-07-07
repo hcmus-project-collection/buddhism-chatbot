@@ -1,0 +1,21 @@
+services:
+  chromadb:
+    image: chromadb/chroma:0.6.3
+    container_name: chromadb
+    volumes:
+      - ./chromadb:/chroma/chroma
+    environment:
+      - IS_PERSISTENT=TRUE
+      - PERSIST_DIRECTORY=/chroma/chroma
+      - ANONYMIZED_TELEMETRY=${ANONYMIZED_TELEMETRY:-TRUE}
+    restart: always
+    env_file:
+      - .env
+
+    networks:
+      - localnet
+
+networks:
+  localnet:
+    external: true
+    name: localnet
