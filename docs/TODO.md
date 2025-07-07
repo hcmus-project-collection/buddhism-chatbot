@@ -4,8 +4,8 @@
 ## ✅ Stage 1: Data Preparation
 - [x] Convert XML to sentence-level JSONL format
   - Each line = 1 `<STC>` with NER and metadata
-- [ ] (Optional) Preprocess `text` fields: remove noise, normalize punctuation, lowercase, etc.
-- [ ] Split into `train`, `test`, `dev` sets if needed (e.g., for eval)
+- [x] (Optional) Preprocess `text` fields: remove noise, normalize punctuation, lowercase, etc.
+- [ ] (Optional) Split into `train`, `test`, `dev` sets if needed (e.g., for eval)
 
 ---
 
