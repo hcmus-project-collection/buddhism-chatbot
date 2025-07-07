@@ -1,0 +1,7257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+  <FILE ID="RBI_007">
+
+    <meta>
+
+      <TITLE>Quan Âm Thị Kính</TITLE>
+
+      <VOLUME/>
+
+      <AUTHOR>Tâm Minh Ngô Tằng Giao (Soạn giả)</AUTHOR>
+
+      <TRANSLATOR>Diệu Phương</TRANSLATOR>
+
+      <LANGUAGE>Tiếng Việt</LANGUAGE>
+
+      <SOURCE>Diệu Phương dịch, 2017</SOURCE>
+
+    </meta>
+
+    <SECT ID="RBI_007.001" NAME="Unknown Chapter">
+
+      <PAGE ID="RBI_007.001.008">
+
+        <STC ID="RBI_007.001.008.01">
+          Nhân sinh thành Phật dễ đâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.008.02">
+          Phải tu tinh tấn dài lâu mới thành,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.008.03">
+          Truyện xưa kể rõ ngọn ngành
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.008.04">
+          Có người nam nọ tu hành mãi thôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.008.05">
+          Xuất gia từ thuở thiếu thời
+          <NER>
+            <TME>thiếu thời</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.008.06">
+          Tu qua chín kiếp luân hồi thành tâm
+          <NER>
+            <NUM>chín kiếp</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.008.07">
+          Rũ gần sạch hết bụi trần
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.008.08">
+          Và kỳ chứng quả cũng gần tầm tay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.008.09">
+          Kể như đắc đạo chuyến này
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.008.10">
+          Gần như thành Phật, lành thay vô ngần!
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.009">
+
+        <STC ID="RBI_007.001.009.01">
+          Cuối cùng lại bị sa chân
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.009.02">
+          Khi cô gái đẹp tới gần lả lơi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.009.03">
+          Trăng hoa tình ái ướm lời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.009.04">
+          Dấu yêu nài ép duyên đời dài lâu,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.009.05">
+          Người tu thổ lộ đôi câu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.009.06">
+          Rằng điều ong bướm trước sau lánh rồi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.009.07">
+          Họa chăng đợi kiếp khác thôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.009.08">
+          Kiếp này mình trót là người tu thân.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.009.09">
+          Than ôi một thoáng tà tâm
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.009.10">
+          Chỉ vì một niệm sai lầm phút giây
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.010">
+
+        <STC ID="RBI_007.001.010.01">
+          Người tu nhân xấu vừa gây
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.010.02">
+          Chịu thêm bao cảnh đọa đày bản thân
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.010.03">
+          Để rồi lại bị trầm luân
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.010.04">
+          Thác ngay xuống cõi dương gian làm người.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.010.05">
+          Thế là tới kiếp thứ mười
+          <NER>
+            <NUM>mười</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.010.06">
+          Đầu thai vào tại nhà hai vợ chồng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.010.07">
+          Vào gia đình của Mãng ông
+          <NER>
+            <PER>Mãng ông</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.010.08">
+          Cửa nhà tài sản bậc trung bình thường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.010.09">
+          Vợ chồng hòa thuận yêu thương
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.010.10">
+          Không con, lớn tuổi, lòng đương buồn rầu,
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.011">
+
+        <STC ID="RBI_007.001.011.01">
+          Cả hai tha thiết khẩn cầu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.011.02">
+          Mong con trai đã từ lâu lắm rồi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.011.03">
+          Nay tuy sinh một gái thôi
+          <NER>
+            <NUM>một</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.011.04">
+          Bõ lời cầu khẩn cho nơi muộn màng.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.011.05">
+          Đặt tên Thị Kính cho nàng
+          <NER>
+            <PER>Thị Kính</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.011.06">
+          Vợ chồng ông Mãng vô vàn sướng vui
+          <NER>
+            <PER>ông Mãng</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.011.07">
+          Chăm lo, dạy dỗ, dưỡng nuôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.011.08">
+          Cho ăn học mãi tới thời lớn khôn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.011.09">
+          Thương yêu, quý mến con luôn.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.011.10">
+          Nhìn cô con gái làng thôn khen thầm
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.012">
+
+        <STC ID="RBI_007.001.012.01">
+          Dung nhan xinh đẹp bội phần
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.012.02">
+          “Công, dung, ngôn, hạnh” xa gần ngợi ca
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.012.03">
+          Vừa tài sắc, lại nết na
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.012.04">
+          Tỏ ra hiếu với mẹ cha sinh thành.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.012.05">
+          Thời gian thoáng chốc trôi nhanh
+          <NER>
+            <TME>Thời gian</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.012.06">
+          Tới ngày cô gái chờ thành lứa đôi
+          <NER>
+            <TME>ngày</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.012.07">
+          Đúng như cha mẹ ngỏ lời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.012.08">
+          Môn đăng hộ đối tìm nơi gả chồng.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.012.09">
+          Ở gần vùng có họ Sùng
+          <NER>
+            <PER>họ Sùng</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.012.10">
+          Thế gia dòng dõi đã trong bao đời
+          <NER>
+            <TME>bao đời</TME>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.013">
+
+        <STC ID="RBI_007.001.013.01">
+          Gia đình sinh được một trai
+          <NER>
+            <NUM>một trai</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.013.02">
+          Đặt tên Thiện Sĩ một mai nối dòng
+          <NER>
+            <PER>Thiện Sĩ</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.013.03">
+          Mẹ cha yêu quý vô cùng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.013.04">
+          Lo cho ăn học cầu mong về già.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.013.05">
+          Thời kỳ thơ ấu đã qua
+          <NER>
+            <TME>Thời kỳ thơ ấu</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.013.06">
+          Ngoài hai mươi tuổi nay đà thành niên
+          <NER>
+            <NUM>hai mươi tuổi</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.013.07">
+          Giỏi giang, chăm chỉ, lành hiền
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.013.08">
+          Đã vừa hay chữ, lại thêm đẹp người
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.013.09">
+          Chỉ ham học, chẳng ham chơi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.013.10">
+          Chưa hề để mắt tới ai trong vùng
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.014">
+
+        <STC ID="RBI_007.001.014.01">
+          Nghĩ rằng danh phận mà xong
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.014.02">
+          Thời bao người đẹp vui lòng kết đôi.
+          <NER>
+            <TME>Thời bao</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.014.03">
+          Tháng ngày lần lượt dần trôi
+          <NER>
+            <TME>Tháng ngày</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.014.04">
+          Gia đình Thiện Sĩ nghe lời đồn ra
+          <NER>
+            <PER>Thiện Sĩ</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.014.05">
+          Rằng ông bà Mãng vùng nhà
+          <NER>
+            <PER>ông bà Mãng</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.014.06">
+          Có cô con gái mặn mà đẹp xinh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.014.07">
+          Hỏi làm vợ cho con mình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.014.08">
+          Con nhà tốt nết quả tình đẹp đôi,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.014.09">
+          Gia đình bàn tính xong xuôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.014.10">
+          Mối manh quyết định mượn người đi luôn
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.015">
+
+        <STC ID="RBI_007.001.015.01">
+          Mang thơ ngỏ ý cầu hôn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.015.02">
+          Qua nhà họ Mãng ngay hôm sau liền
+          <NER>
+            <PER>họ Mãng</PER>
+            <TME>hôm sau</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.015.03">
+          Muốn xin được cưới dâu hiền
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.015.04">
+          Là nàng Thị Kính khắp miền nổi danh.
+          <NER>
+            <PER>Thị Kính</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.015.05">
+          Nhận thơ của kẻ mối manh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.015.06">
+          Xem xong hiểu rõ ý tình đầu đuôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.015.07">
+          Mãng ông hứa sẽ trả lời,
+          <NER>
+            <PER>Mãng ông</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.015.08">
+          Rồi ông cùng vợ tức thời bàn nhau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.015.09">
+          Thấy đây là chỗ quen lâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.015.10">
+          Họ Sùng vốn cũng công hầu xưa kia
+          <NER>
+            <PER>Họ Sùng</PER>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.016">
+
+        <STC ID="RBI_007.001.016.01">
+          Con trai rèn luyện sớm khuya
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.016.02">
+          Dùi mài kinh sử theo nghề bút nghiên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.016.03">
+          So ra tốt đẹp nhân duyên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.016.04">
+          Một bên gái sắc, một bên trai tài
+          <NER>
+            <NUM>một; một</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.016.05">
+          Thật vừa lứa, thật xứng đôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.016.06">
+          Như đôi chim sát cánh nơi đầu cành
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.016.07">
+          Hai bên tương xứng gia đình
+          <NER>
+            <NUM>Hai</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.016.08">
+          Dâu gia kết lại tác thành hợp thay.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.016.09">
+          Sau khi quyết định chuyện này
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.016.10">
+          Chỉ thêm có một vài ngày nữa thôi
+          <NER>
+            <NUM>một vài</NUM>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.017">
+
+        <STC ID="RBI_007.001.017.01">
+          Tơ duyên đã khéo xe rồi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.017.02">
+          Ông bà vội viết thư hồi đáp luôn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.017.03">
+          Tin vui đậm nét giấy hồng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.017.04">
+          Nhận lời Thiện Sĩ cầu hôn con mình.
+          <NER>
+            <PER>Thiện Sĩ</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.017.05">
+          Phần nàng Thị Kính buồn tình
+          <NER>
+            <PER>Thị Kính</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.017.06">
+          Sau khi hay chuyện có đành lòng đâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.017.07">
+          Miên man trằn trọc canh thâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.017.08">
+          Tấm lòng thương cảm đeo sầu xót xa
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.017.09">
+          Nghĩ thầm cha mẹ sắp già
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.017.10">
+          Một khi mình đã bước qua nhà chồng
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.018">
+
+        <STC ID="RBI_007.001.018.01">
+          Nhờ ai cha mẹ cậy trông
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.018.02">
+          Em trai không có, an lòng được sao,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.018.03">
+          Có mình phận gái má đào
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.018.04">
+          Tới lui chăm sóc, ra vào thăm nom
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.018.05">
+          Sớm hôm trọn đạo làm con
+          <NER>
+            <TME>Sớm hôm</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.018.06">
+          Vắng mình cha mẹ biết còn yên không?
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.018.07">
+          Lấy chồng thời phải theo chồng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.018.08">
+          Ôi thôi cha mẹ còn mong nhờ gì!
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.018.09">
+          Song thân Thị Kính canh khuya
+          <NER>
+            <PER>Thị Kính</PER>
+            <TME>canh khuya</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.018.10">
+          Thấy nàng lộ vẻ sầu bi võ vàng
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.019">
+
+        <STC ID="RBI_007.001.019.01">
+          Mới kêu nàng tới dạy rằng:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.019.02">
+          “Theo như thông lệ đã hằng bao lâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.019.03">
+          Phận con là gái trước sau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.019.04">
+          Lớn lên thường tới làm dâu nhà người,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.019.05">
+          Gia đình mình được ơn Trời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.019.06">
+          Cho nhiều phúc đức, nay mai dù già
+          <NER>
+            <TME>nay mai</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.019.07">
+          Mẹ cha có thể sinh ra
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.019.08">
+          Thêm em trai nữa thế là tạm yên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.019.09">
+          Chuyện nhà con chớ muộn phiền
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.019.10">
+          Mẹ cha còn khỏe, con nên an lòng.
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.020">
+
+        <STC ID="RBI_007.001.020.01">
+          Mai này về ở nhà chồng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.020.02">
+          Giữ gìn “tứ đức”, “tam tòng” dài lâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.020.03">
+          Giữ cho trọn đạo làm dâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.020.04">
+          Tránh điều trách cứ, tránh câu giận hờn,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.020.05">
+          Dù sao đi lại cũng gần
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.020.06">
+          Nhớ nhà thuận tiện mỗi lần về thăm
+          <NER>
+            <TME>mỗi lần</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.020.07">
+          Rất dễ dàng, chẳng khó khăn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.020.08">
+          Đừng buồn bã lắm, chớ băn khoăn nhiều!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.020.09">
+          Nghe lời cha mẹ kính yêu
+          <NER>
+            <PER>cha mẹ</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.020.10">
+          Ân cần dạy dỗ đủ điều thiết thân
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.021">
+
+        <STC ID="RBI_007.001.021.01">
+          Nàng Thị Kính mới bình tâm
+          <NER>
+            <PER>Nàng Thị Kính</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.021.02">
+          Trong lòng khuây khỏa, lo dần vơi đi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.021.03">
+          Ngưng dòng nước mắt sầu bi,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.021.04">
+          Thoảng nghe tiếng gió thầm thì canh thâu.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.021.05">
+          Thông tin qua lại với nhau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.021.06">
+          Hai gia đình đã bắt đầu kết liên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.021.07">
+          Đủ năm lễ thực hiện liền
+          <NER>
+            <NUM>năm</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.021.08">
+          Trước là dạm mặt khởi duyên tác thành
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.021.09">
+          Sau là chạm ngõ ngày lành
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.021.10">
+          Ăn hỏi, dẫn cưới tiến hành tiếp nhau
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.022">
+
+        <STC ID="RBI_007.001.022.01">
+          Cuối cùng là lễ rước dâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.022.02">
+          Tiếng chiêng tiếng trống lao xao dập dình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.022.03">
+          Giúp vui cho hai gia đình
+          <NER>
+            <NUM>hai</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.022.04">
+          Cô dâu chú rể kết tình lứa đôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.022.05">
+          Duyên cầm sắt đẹp tuyệt vời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.022.06">
+          Nàng lên xe rước về nơi nhà chồng.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.022.07">
+          Vườn đào phô đẹp sắc hồng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.022.08">
+          Đón nàng thoang thoảng hương nồng đầu Xuân,
+          <NER>
+            <TME>Xuân</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.022.09">
+          Đêm về trăng chiếu sáng ngần
+          <NER>
+            <TME>Đêm</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.022.10">
+          Chàng nàng kề cận giữa sân thề bồi
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.023">
+
+        <STC ID="RBI_007.001.023.01">
+          Mong mãn kiếp, ước suốt đời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.023.02">
+          Mãi cùng đoàn tụ chẳng rời xa nhau,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.023.03">
+          Lời thề như đá khắc sâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.023.04">
+          Như là đem thếp vàng đâu khác gì.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.023.05">
+          Hôn nhân êm ả trôi đi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.023.06">
+          Nàng dâu Thị Kính thôi thì đáng khen
+          <NER>
+            <PER>Thị Kính</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.023.07">
+          Đoan trang, trung hiếu, lành hiền
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.023.08">
+          Đủ bao nết tốt ở trên cõi đời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.023.09">
+          Nữ công gia chánh hơn người
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.023.10">
+          Thức khuya, dậy sớm coi nơi việc nhà
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.024">
+
+        <STC ID="RBI_007.001.024.01">
+          Hết lòng hầu hạ mẹ cha,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.024.02">
+          Những khi nhàn rỗi ngắm hoa cùng chồng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.024.03">
+          Thơ ngâm vịnh rất tinh thông
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.024.04">
+          Quả là tài, sắc cũng đồng ngang nhau.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.024.05">
+          Nàng khuyên chàng học chuyên sâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.024.06">
+          Đêm ngày sách vở để mau thành tài
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.024.07">
+          Sau này thi đỗ rạng ngời
+          <NER>
+            <TME>Sau này</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.024.08">
+          Làm quan danh giá cuộc đời thăng hoa
+          <NER>
+            <TITLE>quan</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.024.09">
+          Vui chồng vợ, đẹp cửa nhà
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.024.10">
+          Tràn đầy hạnh phúc, chan hòa tình thương.
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.025">
+
+        <STC ID="RBI_007.001.025.01">
+          Cả hai quấn quýt vấn vương
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.025.02">
+          Phòng riêng sinh hoạt bình thường hằng đêm
+          <NER>
+            <TME>hằng đêm</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.025.03">
+          Chàng thời vui thú bút nghiên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.025.04">
+          Chỉ lo bạn với sách đèn chăm thay,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.025.05">
+          Nàng thời kim chỉ vá may
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.025.06">
+          Bên chàng mong đợi một ngày thành danh.
+          <NER>
+            <TME>một ngày</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.025.07">
+          Một đêm gió thổi qua mành
+          <NER>
+            <TME>Một đêm</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.025.08">
+          Mệt vì ráng sức học hành lâu nay
+          <NER>
+            <TME>lâu nay</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.025.09">
+          Mỏi lưng chàng mới nhẹ quay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.025.10">
+          Tựa vào vợ quý ở ngay cận kề,
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.026">
+
+        <STC ID="RBI_007.001.026.01">
+          Nhìn chồng mệt mỏi kể chi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.026.02">
+          Liếc trông thấy sợi râu kia lạ thường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.026.03">
+          Mọc ra ngược ngang cằm chàng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.026.04">
+          Dao con sẵn đấy nên nàng cầm lên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.026.05">
+          Đưa vào định cắt râu trên,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.026.06">
+          Đúng ngay lúc đó chàng liền tỉnh ra
+          <NER>
+            <TME>ngay lúc đó</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.026.07">
+          Giật mình, hoảng hốt, hét la
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.026.08">
+          Ngờ rằng vợ có ý tà chi đây
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.026.09">
+          Thất thần nào rõ gian ngay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.026.10">
+          Hô rằng vợ định ra tay giết mình.
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.027">
+
+        <STC ID="RBI_007.001.027.01">
+          Mẹ cha Thiện Sĩ đêm thanh
+          <NER>
+            <PER>Thiện Sĩ</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.027.02">
+          Nghe con la lối quả tình hoang mang
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.027.03">
+          Vùng lên chạy đến hỏi rằng:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.027.04">
+          “Giữa đêm khuya khoắt sao vang những lời
+          <NER>
+            <TME>đêm khuya khoắt</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.027.05">
+          Nghe ghê gớm, thấy rụng rời?”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.027.06">
+          Bấy giờ Thiện Sĩ tức thời than van:
+          <NER>
+            <PER>Thiện Sĩ</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.027.07">
+          “Con đang thiếp ngủ chập chờn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.027.08">
+          Giật mình tỉnh dậy bất thần nhận ra
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.027.09">
+          Kề ngay cổ chứ không xa
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.027.10">
+          Một con dao nhọn thấy mà hãi thay
+          <NER>
+            <NUM>Một</NUM>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.028">
+
+        <STC ID="RBI_007.001.028.01">
+          Vợ con dao nắm trong tay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.028.02">
+          Rõ ràng có ý đêm này hại con
+          <NER>
+            <TME>đêm này</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.028.03">
+          May con bừng tỉnh kịp luôn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.028.04">
+          Nhờ ơn bảo hộ quỷ thần hai vai.”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.028.05">
+          Nghe chồng hoảng hốt thốt lời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.028.06">
+          Nàng dâu Thị Kính khoan thai thưa trình
+          <NER>
+            <PER>Thị Kính</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.028.07">
+          Đầu đuôi mọi chuyện phân minh:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.028.08">
+          “Con từ lúc kết duyên thành lứa đôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.028.09">
+          Cùng chồng khăng khít mãi thôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.028.10">
+          Giữ tâm ngay thẳng, sống đời sạch trong
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.029">
+
+        <STC ID="RBI_007.001.029.01">
+          Lòng luôn luôn kính mến chồng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.029.02">
+          Vừa không phụ nghĩa, lại không bạc tình,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.029.03">
+          Chồng con vì mải học hành
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.029.04">
+          Cho nên mỏi mệt thân mình xiết bao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.029.05">
+          Sẵn con nên dựa đầu vào
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.029.06">
+          Rồi thiu thiu ngủ có nào tỉnh đâu,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.029.07">
+          Con nhìn sang thấy cọng râu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.029.08">
+          Trên cằm mọc ngược chắc lâu nay rồi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.029.09">
+          Nên con định cắt giúp thôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.029.10">
+          Trên tay dao sẵn con thời đưa ra
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.030">
+
+        <STC ID="RBI_007.001.030.01">
+          Chứ đâu có ý gian tà
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.030.02">
+          Con xin thưa để mẹ cha tỏ tường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.030.03">
+          Giãi bày thành thật mọi đường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.030.04">
+          Mong cha mẹ xét kỹ càng kẻo oan!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.030.05">
+          Mẹ cha chàng cất tiếng than:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.030.06">
+          “Bảo cho hay gái lăng loàn thiếu chi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.030.07">
+          Vắng chồng những lúc sớm khuya
+          <NER>
+            <TME>sớm khuya</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.030.08">
+          Đàn bà lắm kẻ thường đi ngoại tình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.030.09">
+          Chứ đâu yên phận gia đình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.030.10">
+          Ra tuồng trắc nết, trung trinh sá gì,
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.031">
+
+        <STC ID="RBI_007.001.031.01">
+          May con ta chẳng lâm nguy
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.031.02">
+          Nên vùng tỉnh dậy rất chi kịp thời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.031.03">
+          Nếu say ngủ chắc tàn đời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.031.04">
+          Đây đâu còn phải chuyện chơi bình thường!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.031.05">
+          Mẹ cha Thiện Sĩ vội vàng
+          <NER>
+            <PER>Thiện Sĩ</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.031.06">
+          Sai người tức khắc đi sang thỉnh mời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.031.07">
+          Vợ chồng ông Mãng hai người
+          <NER>
+            <PER>ông Mãng</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.031.08">
+          Qua nhà Thiện Sĩ nghe lời trách than:
+          <NER>
+            <PER>Thiện Sĩ</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.031.09">
+          “Xin nghe chuyện lạ vô vàn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.031.10">
+          Vợ chồng duyên kiếp dở dang nào ngờ
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.032">
+
+        <STC ID="RBI_007.001.032.01">
+          Sông sâu còn có kẻ dò
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.032.02">
+          Lòng người nham hiểm dễ đo được nào
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.032.03">
+          Nàng dâu vô phúc biết bao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.032.04">
+          Ngoại tình trắng trợn, muốn mau giết chồng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.032.05">
+          Sinh con ai dễ sinh lòng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.032.06">
+          Chuyện này đã rõ ta không cần bàn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.032.07">
+          Khỏi tra xét, đừng hỏi han
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.032.08">
+          Xin ông bà hãy mau mang con về
+          <NER>
+            <PER>ông bà</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.032.09">
+          Để rồi dạy dỗ tùy nghi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.032.10">
+          Gia đình tôi chẳng còn gì liên quan.”
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.033">
+
+        <STC ID="RBI_007.001.033.01">
+          Lặng nghe kể lể nguồn cơn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.033.02">
+          Vợ chồng ông Mãng cảm thương con mình
+          <NER>
+            <PER>ông Mãng</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.033.03">
+          Tủi thân mắt lệ trào nhanh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.033.04">
+          Nói rằng: “Thật quả tốt lành lâu nay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.033.05">
+          Con tôi về ở nhà này
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.033.06">
+          Làm dâu, bổn phận lo đầy đủ sao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.033.07">
+          Vợ chồng trọn nghĩa trước sau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.033.08">
+          Hai bên cha mẹ gần nhau kết tình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.033.09">
+          Đẹp cho cả hai gia đình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.033.10">
+          Chúng tôi hiếm muộn chỉ sinh ra đời
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.034">
+
+        <STC ID="RBI_007.001.034.01">
+          Muộn màng một gái mà thôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.034.02">
+          Nào ngờ xảy chuyện bi ai thế này
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.034.03">
+          Làm tình nghĩa mất từ đây
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.034.04">
+          Nhân duyên dang dở, tới ngày chia xa
+          <NER>
+            <TME>ngày chia xa</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.034.05">
+          Tựa như bát nước đổ ra
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.034.06">
+          Làm sao hốt lại, thật là tiếc ghê,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.034.07">
+          Chúng tôi xin lĩnh con về
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.034.08">
+          Chỉ vì đuối lý nên chi cam đành
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.034.09">
+          Dễ gì tránh tiếng đồn quanh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.034.10">
+          Bà con thiên hạ mặc tình cười chê.”
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.035">
+
+        <STC ID="RBI_007.001.035.01">
+          Trước khi từ giã ra về
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.035.02">
+          Luôn luôn muốn giữ trọn bề gia phong
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.035.03">
+          Hai ông bà Mãng gọi con
+          <NER>
+            <PER>Mãng</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.035.04">
+          Lạy chào cha mẹ của chồng trước tiên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.035.05">
+          Tỏ ra một đấng dâu hiền
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.035.06">
+          Xong rồi nàng mới đến phiên chào chồng.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.035.07">
+          Xót xa uất nghẹn vô cùng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.035.08">
+          Mặt hoa ủ dột, má hồng sầu đau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.035.09">
+          Nàng dâu từ biệt cúi đầu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.035.10">
+          Chào cha mẹ trước rồi sau chào chồng
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.036">
+
+        <STC ID="RBI_007.001.036.01">
+          Mắt tuôn lệ tủi ròng ròng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.036.02">
+          Giãi bày thổn thức nỗi lòng bi thương:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.036.03">
+          “Từ khi kết nghĩa đá vàng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.036.04">
+          Về làm dâu, ước mong chàng chở che
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.036.05">
+          Dám đâu phụ nghĩa phu thê
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.036.06">
+          Qủy thần chứng giám lời thề thiết thân
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.036.07">
+          Vì đâu xảy chuyện bất thần
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.036.08">
+          Tự nhiên vừa hợp đã phân đôi đường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.036.09">
+          Kiếp này thôi đã lỡ làng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.036.10">
+          Mong gì tác hợp cùng chàng kiếp sau
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.037">
+
+        <STC ID="RBI_007.001.037.01">
+          Hôn nhân tan vỡ còn đâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.037.02">
+          Vợ chồng đành giã biệt nhau buổi này!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.037.03">
+          Ngập ngừng tới lúc chia tay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.037.04">
+          Cả chồng lẫn vợ giờ đây sụt sùi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.037.05">
+          Cùng thương cảm, cùng ngậm ngùi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.037.06">
+          Khóc than không biết ai người nhẫn tâm
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.037.07">
+          Đang tay gây chuyện ly phân
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.037.08">
+          Khiến cho tan nát duyên phần lứa đôi,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.037.09">
+          Lòng chàng nghĩ lại bồi hồi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.037.10">
+          Trước thì còn giận, nay thời lại thương
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.038">
+
+        <STC ID="RBI_007.001.038.01">
+          Hối vì sự đã lỡ làng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.038.02">
+          Duyên này mà đã dở dang lỡ thì
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.038.03">
+          Tương lai thiết lấy ai chi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.038.04">
+          Tình xưa nghĩa cũ còn ghi nặng lòng.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.038.05">
+          Một làn gió lọt qua song
+          <NER>
+            <NUM>Một</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.038.06">
+          Bức mành rung nhẹ như cùng thở than
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.038.07">
+          Hai người nước mắt chứa chan
+          <NER>
+            <NUM>Hai</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.038.08">
+          Phút giây ly biệt vô vàn đớn đau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.038.09">
+          Biết bao kỷ niệm cùng nhau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.038.10">
+          Mảnh y vương phấn, mái đầu ướp hương
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.039">
+
+        <STC ID="RBI_007.001.039.01">
+          Tiếc thay chia cách đôi đường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.039.02">
+          Tương lai không biết ai nàng trao duyên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.039.03">
+          Ra đi vương vấn không yên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.039.04">
+          Dù cho đến chết khó quên chuyện mình.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.039.05">
+          Từ khi lỡ dở cuộc tình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.039.06">
+          Từ khi về với gia đình xưa kia
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.039.07">
+          Lệ buồn ứa mãi bờ mi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.039.08">
+          Nàng không còn muốn nghĩ gì đến ai
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.039.09">
+          Một thời oan trái chông gai
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.039.10">
+          Thêm đời chồng nữa người ngoài cười chê
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.040">
+
+        <STC ID="RBI_007.001.040.01">
+          Mặt nào cứ mãi u mê
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.040.02">
+          Một lần đã đủ ê chề đời hoa
+          <NER>
+            <NUM>Một lần</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.040.03">
+          Nàng than: “Gia cảnh nỗi nhà
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.040.04">
+          Neo đơn chỉ có mình là con thôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.040.05">
+          Anh em nếu có thêm người
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.040.06">
+          Thời mình nhắm mắt lìa đời là yên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.040.07">
+          Còn hơn khổ não triền miên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.040.08">
+          Còn hơn ôm nỗi muộn phiền trong tâm
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.040.09">
+          Nếu mình lìa cõi dương trần
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.040.10">
+          Lấy ai phụng dưỡng song thân sớm chiều!”
+          <NER>
+            <TME>sớm chiều</TME>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.041">
+
+        <STC ID="RBI_007.001.041.01">
+          Phòng riêng rã rượi tiêu điều
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.041.02">
+          Gió đưa tiếng thảm, đèn khêu bóng sầu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.041.03">
+          Một ngày sao thấy thật lâu
+          <NER>
+            <TME>Một ngày</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.041.04">
+          Dài bằng cả một năm đâu khác nào
+          <NER>
+            <TME>một năm</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.041.05">
+          Hai hàng nước mắt tuôn trào
+          <NER>
+            <NUM>Hai</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.041.06">
+          Uống ăn chẳng thiết thấy sao chán chường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.041.07">
+          Đêm không yên giấc mộng thường,
+          <NER>
+            <TME>Đêm</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.041.08">
+          Nực cười vì chuyện nhỏ dường sợi lông
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.041.09">
+          Mà gây hậu quả khốn cùng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.041.10">
+          To như trái núi so không kém gì,
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.042">
+
+        <STC ID="RBI_007.001.042.01">
+          Phần nàng tủi phận mọi bề
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.042.02">
+          Phần cha mẹ cũng chẳng hề được yên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.042.03">
+          Da mồi, tóc bạc, cao niên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.042.04">
+          Vẫn lâm vào cảnh ưu phiền khôn khuây
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.042.05">
+          Ai gieo nỗi khổ này đây?
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.042.06">
+          Phận nàng là gái bó tay mất rồi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.042.07">
+          Nàng không mang được niềm vui
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.042.08">
+          Chỉ đem ai oán cho nơi gia đình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.042.09">
+          Công ơn cha mẹ dưỡng sinh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.042.10">
+          Lấy chi báo đáp trọn tình trước sau.
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.043">
+
+        <STC ID="RBI_007.001.043.01">
+          Trong lòng đang lúc thương đau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.043.02">
+          Chợt nàng nghĩ tới đạo mầu quang vinh:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.043.03">
+          “Có khi dốc chí tu hành
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.043.04">
+          Lánh miền trần tục nương mình cửa không
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.043.05">
+          Mau gạn đục, sớm khơi trong
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.043.06">
+          Nhờ ơn Phật độ mới mong an lành,
+          <NER>
+            <PER>Phật</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.043.07">
+          Đạo mầu độ khắp chúng sinh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.043.08">
+          Giúp người tu diệt ngọn ngành khổ đau,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.043.09">
+          Mình dành phúc đức lại sau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.043.10">
+          Kính dâng cha mẹ để mau đáp đền
+          <NER>
+            <PER>cha mẹ</PER>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.044">
+
+        <STC ID="RBI_007.001.044.01">
+          Ân sâu nghĩa nặng nào quên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.044.02">
+          Phần mình cũng hưởng được niềm an vui
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.044.03">
+          Duyên trần đã lắm ngậm ngùi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.044.04">
+          Vào tu cửa Phật tránh đời gian truân,
+          <NER>
+            <ORG>cửa Phật</ORG>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.044.05">
+          Nhưng thưa gửi cùng song thân
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.044.06">
+          E rằng sẽ gặp khó khăn thật tình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.044.07">
+          Dù cha mẹ rất tâm thành
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.044.08">
+          Cũng không dễ để cho mình đi tu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.044.09">
+          Thôi thời tránh chuyện trình thưa
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.044.10">
+          Tự mình quyết định còn chờ đợi chi
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.045">
+
+        <STC ID="RBI_007.001.045.01">
+          Quản gì thêm tiếng thị phi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.045.02">
+          Đời mình đã lắm sầu bi chán chường!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.045.03">
+          Sau khi tính toán mọi đường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.045.04">
+          Nàng bèn theo kế tìm phương trốn liền,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.045.05">
+          Xuất gia chí đã vững bền
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.045.06">
+          Gia đình tạm lánh, cửa Thiền tìm nương
+          <NER>
+            <LOC>cửa Thiền</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.045.07">
+          Viết thư để lại kính tường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.045.08">
+          Nàng ra đi giữa đêm trường đầy sao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.045.09">
+          Trăng vàng đưa lối trên cao.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.045.10">
+          Biết mình phận gái ai nào cho tu
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.046">
+
+        <STC ID="RBI_007.001.046.01">
+          Cho nên nàng chẳng chần chừ
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.046.02">
+          Lấy quần áo mặc giả như trai rồi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.046.03">
+          Giả trai mới dễ tu thôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.046.04">
+          Căn nguyên nguồn cội ai thời rõ đâu.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.046.05">
+          Song thân Thị Kính hôm sau
+          <NER>
+            <PER>Thị Kính</PER>
+            <TME>hôm sau</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.046.06">
+          Đọc thư kinh ngạc cúi đầu nghĩ suy
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.046.07">
+          Sững sờ, bối rối, sầu bi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.046.08">
+          Lo cho thân gái ra đi dặm trường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.046.09">
+          Bao nhiêu trở ngại bất thường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.046.10">
+          Ở nơi lạ lẫm trên đường thẳm xa
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.047">
+
+        <STC ID="RBI_007.001.047.01">
+          Rồi đây tai tiếng thêm ra
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.047.02">
+          Rằng con lại đã bỏ nhà theo trai
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.047.03">
+          Thật là bể khổ cuộc đời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.047.04">
+          Nuôi con khôn lớn mong hồi cậy trông
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.047.05">
+          Tiếc thay cho gái má hồng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.047.06">
+          Duyên không đằm thắm, phận không tốt lành,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.047.07">
+          Chắc là nay đã rắp ranh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.047.08">
+          Tìm nơi vụng trộm ái tình gái trai
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.047.09">
+          Vậy thì sao chẳng một lời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.047.10">
+          Mẹ cha mà biết tức thời gả ngay
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.048">
+
+        <STC ID="RBI_007.001.048.01">
+          Nhưng con tốt nết xưa nay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.048.02">
+          Lẽ nào theo thói xấu này được sao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.048.03">
+          Mưa sa gió táp vì đâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.048.04">
+          Để cho phận gái dãi dầu, long đong
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.048.05">
+          Vừa xa lìa với nhà chồng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.048.06">
+          Bây giờ lại cách chia không một lời
+          <NER>
+            <TME>Bây giờ</TME>
+            <NUM>một</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.048.07">
+          Mặc cha mẹ già đơn côi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.048.08">
+          Mắt lòa, chân chậm nghĩ thời xót xa,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.048.09">
+          Con trai không có trong nhà
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.048.10">
+          Mình con là gái vậy mà bỏ đi
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.049">
+
+        <STC ID="RBI_007.001.049.01">
+          Bắc nam đôi ngả phân ly
+          <NER>
+            <LOC>Bắc Nam</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.049.02">
+          Phương trời xa lạ dễ chi kiếm nào
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.049.03">
+          Biết con sống chết ra sao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.049.04">
+          Có còn cảm ứng lời cầu mẹ cha
+          <NER>
+            <PER>mẹ cha</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.049.05">
+          Tuổi già lụ khụ ở nhà
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.049.06">
+          Thật là đau khổ, thật là thảm thương
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.049.07">
+          Đêm nghe tiếng dế kêu sương
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.049.08">
+          Hè dài ba tháng canh trường cuốc kêu.
+          <NER>
+            <TME>ba tháng</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.049.09">
+          Từ khi xa chốn thân yêu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.049.10">
+          Nỗi lòng Thị Kính sớm chiều khôn nguôi
+          <NER>
+            <PER>Thị Kính</PER>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.050">
+
+        <STC ID="RBI_007.001.050.01">
+          Lo cho cha mẹ mãi thôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.050.02">
+          Công ơn dưỡng dục như trời mênh mông
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.050.03">
+          Như là bể rộng muôn trùng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.050.04">
+          Bao giờ có dịp mà mong đáp đền
+          <NER>
+            <TME>Bao giờ</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.050.05">
+          Nàng buồn bã, dạ chẳng yên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.050.06">
+          Tấm lòng hiếu thảo khơi thêm mạch sầu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.050.07">
+          Mẹ cha đã bạc mái đầu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.050.08">
+          Biết ai thay thế mình hầu hạ đây?
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.050.09">
+          Nỗi lòng thương cảm dâng đầy
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.050.10">
+          Tâm tư thiểu não hao gầy tấm thân
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.051">
+
+        <STC ID="RBI_007.001.051.01">
+          Lâu nay phiêu bạt bước chân
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.051.02">
+          Lang thang đất khách tần ngần khôn khuây
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.051.03">
+          Chập chờn giấc mộng bao ngày
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.051.04">
+          Tình quê đành gửi đám mây cuối trời.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.051.05">
+          Dần dà thăm hỏi nhiều người
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.051.06">
+          Rồi nàng Thị Kính dừng nơi chốn này
+          <NER>
+            <PER>Thị Kính</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.051.07">
+          Đây chùa Vân đẹp đẽ thay
+          <NER>
+            <LOC>chùa Vân</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.051.08">
+          Bốn bề phong cảnh đắm say lòng trần
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.051.09">
+          Quanh chùa thanh tịnh vô ngần,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.051.10">
+          Nàng qua chánh điện dừng chân nhìn vào
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.052">
+
+        <STC ID="RBI_007.001.052.01">
+          Bàn thờ Phật ở trên cao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.052.02">
+          Dưới là sư cụ thanh tao dáng hình
+          <NER>
+            <TITLE>sư cụ</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.052.03">
+          Đang ngồi nghiêm chỉnh tụng kinh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.052.04">
+          Tiếng chuông tiếng mõ an bình hòa theo
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.052.05">
+          Lời kinh thanh thoát cao siêu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.052.06">
+          Như gieo chân lý giáo điều thâm sâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.052.07">
+          Nàng nghe chợt nghĩ đạo mầu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.052.08">
+          Nơi đây cũng dễ đổi sầu làm vui.
+          <NER>
+            <LOC>Nơi đây</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.052.09">
+          Chờ khi sư tụng xong xuôi
+          <NER>
+            <TITLE>sư</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.052.10">
+          Nàng bèn nhẹ bước vào nơi điện thờ
+          <NER>
+            <LOC>điện thờ</LOC>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.053">
+
+        <STC ID="RBI_007.001.053.01">
+          Lạy chào kính cẩn trước sư
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.053.02">
+          Thành tâm quỳ xuống xin thưa ngọn ngành
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.053.03">
+          Họ tên, quê quán của mình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.053.04">
+          Thêm rằng mình vốn học hành văn chương
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.053.05">
+          Lợi danh không muốn tìm đường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.053.06">
+          Chán trò giả dối tầm thường thế gian
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.053.07">
+          Nên quay về ánh đạo vàng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.053.08">
+          Tìm nương cửa Phật vô vàn từ bi
+          <NER>
+            <LOC>cửa Phật</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.053.09">
+          Đến đây xin được quy y
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.053.10">
+          Xa lìa cõi tục rất chi muộn phiền.
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.054">
+
+        <STC ID="RBI_007.001.054.01">
+          Sư nhìn chàng trẻ thiếu niên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.054.02">
+          Thấy đầy phong cách lại thêm đẹp người
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.054.03">
+          Ngạc nhiên sư mới thốt lời:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.054.04">
+          “Từ bi đạo Phật muôn đời chứa chan
+          <NER>
+            <ORG>đạo Phật</ORG>
+            <TME>muôn đời</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.054.05">
+          Độ cho hết thảy nhân gian
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.054.06">
+          Riêng con nhà ở dặm ngàn chốn xa
+          <NER>
+            <NUM>dặm ngàn</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.054.07">
+          Sao con lại bỏ mẹ cha
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.054.08">
+          Bỏ nơi êm ấm tìm ra chốn này
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.054.09">
+          Suối rừng vắng vẻ lắm thay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.054.10">
+          Quanh năm lặng lẽ, suốt ngày buồn tênh?
+          <NER>
+            <TME>Quanh năm; suốt ngày</TME>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.055">
+
+        <STC ID="RBI_007.001.055.01">
+          Hay là con đã thất tình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.055.02">
+          Hờn duyên, tủi phận nên đành bỏ đi?
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.055.03">
+          Hay con phạm tội lỗi chi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.055.04">
+          Tìm đường trốn tránh lo bề yên thân
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.055.05">
+          Vào chùa ở chốn xa xăm
+          <NER>
+            <LOC>chùa</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.055.06">
+          E làm liên lụy khó khăn cho thầy?”
+          <NER>
+            <TITLE>thầy</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.055.07">
+          Nàng bèn vội vã thưa ngay:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.055.08">
+          “Thưa thầy con vốn lâu nay lành hiền
+          <NER>
+            <TITLE>thầy</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.055.09">
+          Là học trò quen bút nghiên
+          <NER>
+            <TITLE>học trò</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.055.10">
+          Không làm chi quấy gây phiền cho ai
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.056">
+
+        <STC ID="RBI_007.001.056.01">
+          Nhà khá giả, vốn con trai
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.056.02">
+          Cũng mong nhiều lúc với đời đua tranh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.056.03">
+          Nhưng nhìn thế thái nhân tình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.056.04">
+          Nực cười thấy sự vật quanh cõi đời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.056.05">
+          Đều là trò giả dối thôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.056.06">
+          Như tuồng ảo thuật có rồi lại không
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.056.07">
+          Như mây trôi nổi bềnh bồng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.056.08">
+          Chuyện đời biến ảo mung lung bất thường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.056.09">
+          Thay hình đổi dạng vô chừng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.056.10">
+          Lợi danh phú quý là đường chông gai
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.057">
+
+        <STC ID="RBI_007.001.057.01">
+          Nhục nhằn đè nặng đôi vai
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.057.02">
+          Nên con muốn thoát khỏi nơi bụi trần
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.057.03">
+          Muốn tìm cửa Phật nương thân
+          <NER>
+            <ORG>Phật</ORG>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.057.04">
+          Tu hành rốt ráo, thành tâm nguyện thề
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.057.05">
+          Mong thầy mở lượng từ bi
+          <NER>
+            <TITLE>thầy</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.057.06">
+          Nhận con tu học còn gì phước hơn!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.057.07">
+          Sư nghe lên tiếng khen luôn:
+          <NER>
+            <TITLE>Sư</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.057.08">
+          “Nói năng lễ độ đúng khuôn phép nhà
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.057.09">
+          Vẻ nho phong, chí cao xa
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.057.10">
+          Biết đời mọi sự quả là sắc không
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.058">
+
+        <STC ID="RBI_007.001.058.01">
+          Như là bọt nước bềnh bồng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.058.02">
+          Như là bóng chớp hiện xong mất liền
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.058.03">
+          Như sương tan khi nắng lên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.058.04">
+          Như chiêm bao lúc nửa đêm chập chờn
+          <NER>
+            <TME>nửa đêm</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.058.05">
+          Sao tranh giành mãi phần hơn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.058.06">
+          Để khi thắng lợi ngập tràn sướng vui
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.058.07">
+          Nhưng khi lỡ thất bại rồi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.058.08">
+          Quanh năm khổ não, suốt đời sầu bi
+          <NER>
+            <TME>Quanh năm; suốt đời</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.058.09">
+          Nhục vinh, mất được mà chi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.058.10">
+          Xuôi tay nhắm mắt còn gì nữa đâu
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.059">
+
+        <STC ID="RBI_007.001.059.01">
+          Chỉ còn lại nấm mộ sâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.059.02">
+          Chung quanh cỏ mọc một mầu úa xanh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.059.03">
+          Sao bằng dứt chuyện quẩn quanh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.059.04">
+          Dứt đi hình tướng tranh giành lâu nay
+          <NER>
+            <TME>lâu nay</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.059.05">
+          Sá gì sinh tử vần xoay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.059.06">
+          Tìm về nguồn đạo tràn đầy tịnh thanh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.059.07">
+          Tìm về nẻo sáng tu hành
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.059.08">
+          Tìm nương cửa Phật tâm thành cho mau.
+          <NER>
+            <LOC>cửa Phật</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.059.09">
+          Con vì kính mến đạo mầu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.059.10">
+          Quyết lòng tìm tới đây đâu ngại ngần
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.060">
+
+        <STC ID="RBI_007.001.060.01">
+          Quyết lòng phủi sạch bụi trần
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.060.02">
+          Khiến ta cảm thấy muôn phần ưng thay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.060.03">
+          Nhận con làm tiểu chùa này
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.060.04">
+          Kính Tâm ta đặt tên ngay từ giờ.”
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.060.05">
+          Tuân lời quý báu của Sư
+          <NER>
+            <TITLE>Sư</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.060.06">
+          Kính Tâm chú tiểu cửa từ nương thân
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.060.07">
+          Hàng ngày học đạo chuyên cần
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.060.08">
+          Khơi đèn trí tuệ sáng ngần thêm ra
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.060.09">
+          Tìm vui dưới bóng Phật Đà,
+          <NER>
+            <TITLE>Phật Đà</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.060.10">
+          Đôi khi niềm nhớ quê nhà trào dâng
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.061">
+
+        <STC ID="RBI_007.001.061.01">
+          Tâm hồn cảm thấy lâng lâng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.061.02">
+          Năm canh trằn trọc bâng khuâng nặng tình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.061.03">
+          Riêng mình tự biết chuyện mình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.061.04">
+          Giờ đành nén việc gia đình làm khuây
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.061.05">
+          Nhận chân ở cõi đời này
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.061.06">
+          Ái tình trói buộc chỉ gây lụy trần
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.061.07">
+          Đây trò giả dối trăm phần
+          <NER>
+            <NUM>trăm phần</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.061.08">
+          Không nên vướng mắc sa chân bước vào.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.061.09">
+          Quyết theo đường đạo thanh cao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.061.10">
+          Kính Tâm tụng niệm xiết bao nhiệt thành
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.062">
+
+        <STC ID="RBI_007.001.062.01">
+          Khi khai kệ, lúc đọc kinh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.062.02">
+          Đánh chuông, gõ mõ âm thanh vang đều,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.062.03">
+          Gió vườn thổi, thông rừng reo
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.062.04">
+          Hòa cùng tiếng trúc vẳng theo nhịp nhàng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.062.05">
+          Thiên nhiên rực rỡ ánh vàng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.062.06">
+          Như cùng đồng cảm với chàng Kính Tâm.
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.062.07">
+          Muôn chim đua hót ngoài sân
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.062.08">
+          Cảnh chùa thanh lịch đón chân khách vào,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.062.09">
+          Tiểu Kính Tâm dáng thanh tao
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.062.10">
+          Áo tu đơn giản vẫn sao khác thường
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.063">
+
+        <STC ID="RBI_007.001.063.01">
+          Nên trong đám khách thập phương
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.063.02">
+          Đàn bà con gái nhiều nàng lưu tâm
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.063.03">
+          Kẻ đa tình nảy lòng xuân
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.063.04">
+          Muốn tìm phương kế để gần tiểu kia.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.063.05">
+          Trời sinh nhan sắc làm chi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.063.06">
+          Khiến cho lắm kẻ kiếm bề dòm nom
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.063.07">
+          Như hoa thắm, tựa hương thơm
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.063.08">
+          Làm cho ong bướm phải vờn quanh hoa.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.063.09">
+          Ở trong làng có một nhà
+          <NER>
+            <NUM>một</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.063.10">
+          Phú ông tài sản tính ra rất giàu
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.064">
+
+        <STC ID="RBI_007.001.064.01">
+          Có con gái tên Thị Mầu
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.064.02">
+          Tuổi vừa đôi tám khởi đầu tình duyên
+          <NER>
+            <NUM>đôi tám</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.064.03">
+          Nhiều nơi dạm hỏi cưới xin
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.064.04">
+          Tiểu thư chỉ thích ở yên một mình
+          <NER>
+            <TITLE>Tiểu thư</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.064.05">
+          Với cha mẹ, với gia đình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.064.06">
+          Nào đâu có chịu kết tình lứa đôi.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.064.07">
+          Thói nhà nề nếp lâu đời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.064.08">
+          Lên chùa lễ Phật nàng thời rất chăm
+          <NER>
+            <LOC>chùa</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.064.09">
+          Cả mồng một lẫn ngày rằm
+          <NER>
+            <TME>mồng một; ngày rằm</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.064.10">
+          Nàng thường mang các món ăn cúng dường,
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.065">
+
+        <STC ID="RBI_007.001.065.01">
+          Nhìn Kính Tâm vẻ bất thường
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.065.02">
+          Thị Mầu liếc mắt thấy thương mến chàng
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.065.03">
+          Đẹp trai, tuấn tú, dịu dàng,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.065.04">
+          Đa tình cặp mắt của nàng khát khao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.065.05">
+          Người đâu có dáng thanh tao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.065.06">
+          Như hoa in bóng đẹp vào nước trong
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.065.07">
+          Như sao lấp lánh từng không
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.065.08">
+          Thị Mầu ngó thấy trong lòng say mê
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.065.09">
+          Lân la gặp mặt kiếm bề
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.065.10">
+          Nhưng nào thưa gửi chút gì được đâu
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.066">
+
+        <STC ID="RBI_007.001.066.01">
+          Tiểu kia đã vội cúi đầu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.066.02">
+          Chân thời rảo bước đi mau mất rồi.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.066.03">
+          Thị Mầu lòng dạ bồi hồi
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.066.04">
+          Vô minh xui khiến cất lời u mê:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.066.05">
+          “Cầu xin đức Phật độ trì
+          <NER>
+            <TITLE>Phật</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.066.06">
+          Cho con gần gũi tiểu kia thân tình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.066.07">
+          Dù duyên chồng vợ chẳng thành
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.066.08">
+          Lấy nhau không được cũng đành vậy thôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.066.09">
+          Xin cho dan díu nhất thời
+          <NER>
+            <TME>nhất thời</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.066.10">
+          Ái ân ít bữa thỏa lời ước mơ!”
+          <NER>
+            <TME>ít bữa</TME>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.067">
+
+        <STC ID="RBI_007.001.067.01">
+          Lạ thay tiểu vẫn hững hờ
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.067.02">
+          Gặp nàng vẫn cứ thờ ơ lạnh lùng,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.067.03">
+          Nàng chờ đợi, nàng mơ mòng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.067.04">
+          Sầu riêng một khối ôm trong tâm hồn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.067.05">
+          Trách ông nguyệt lão kia luôn
+          <NER>
+            <PER>ông nguyệt lão</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.067.06">
+          Biết nhà Phật cấm chẳng còn chữ dâm
+          <NER>
+            <ORG>nhà Phật</ORG>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.067.07">
+          Chắc ông ra sức cản ngăn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.067.08">
+          Đâu cho nàng dễ được gần tiểu kia.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.067.09">
+          Bừng bừng lửa dục bốn bề
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.067.10">
+          Thị Mầu day dứt não nề khôn nguôi
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.068">
+
+        <STC ID="RBI_007.001.068.01">
+          Gối chăn mơ tưởng mãi thôi,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.068.02">
+          Trong nhà sẵn có một người làm công
+          <NER>
+            <NUM>một</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.068.03">
+          Đầy tớ trai cũng dễ trông
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.068.04">
+          Thị Mầu tình tự thỏa lòng ái ân
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.068.05">
+          Khi không tự chủ bản thân
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.068.06">
+          Nghĩ rằng phút chốc thông dâm trong nhà
+          <NER>
+            <TME>phút chốc</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.068.07">
+          Dễ gì lộ việc này ra
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.068.08">
+          Ai hay đâu chuyện nguyệt hoa của mình.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.068.09">
+          Nào ngờ giây phút hứng tình
+          <NER>
+            <TME>giây phút</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.068.10">
+          Sớm gây hậu quả tác thành nguy tai
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.069">
+
+        <STC ID="RBI_007.001.069.01">
+          Hiện ngay hình tướng ra ngoài
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.069.02">
+          Có mang ba tháng bào thai rõ ràng
+          <NER>
+            <TME>ba tháng</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.069.03">
+          Bắt đầu ăn uống chẳng màng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.069.04">
+          Của chua là món nay nàng thích ưa.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.069.05">
+          Mẹ cha thấy vậy nghi ngờ
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.069.06">
+          Mới lên tiếng hỏi gái hư đôi lời:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.069.07">
+          “Sao điềm kỳ lạ khác người
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.069.08">
+          Con nhiều triệu chứng thấy thời chẳng hay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.069.09">
+          Vậy mà từ bấy lâu nay
+          <NER>
+            <TME>bấy lâu nay</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.069.10">
+          Bao người hỏi cưới con hay chối từ
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.070">
+
+        <STC ID="RBI_007.001.070.01">
+          Biết làm sao được bây giờ
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.070.02">
+          Thế là mọi sự kể như lỡ làng,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.070.03">
+          Nếu con trót dại chửa hoang
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.070.04">
+          Thời ai gây cảnh đoạn trường này đây?
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.070.05">
+          Khó mà giấu giếm lắm thay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.070.06">
+          Trước sau rồi cũng có ngày lộ ra
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.070.07">
+          Và rồi tiếng dữ đồn xa
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.070.08">
+          Mang điều xấu hổ cho gia đình mình!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.070.09">
+          Thị Mầu tìm cách chối quanh:
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.070.10">
+          Thưa rằng: “Chuyện đó quả tình lạ sao
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.071">
+
+        <STC ID="RBI_007.001.071.01">
+          Con như hoa giữ nguyên mầu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.071.02">
+          Giữ lòng trinh trắng trước sau thơm lành
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.071.03">
+          Có đâu vì cái xuân tình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.071.04">
+          Để rồi khờ khạo mà đành hoài thân,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.071.05">
+          Nếu con trót dại đôi lần
+          <NER>
+            <NUM>đôi lần</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.071.06">
+          Làm điều trắc nết, sa chân đường tà
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.071.07">
+          Thời con đã trốn khỏi nhà
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.071.08">
+          Đâu còn ở lại đây mà làm chi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.071.09">
+          Năm xung tháng hạn tới kỳ
+          <NER>
+            <TME>Năm xung tháng hạn; kỳ</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.071.10">
+          Nghe đồn chuyện xấu còn gì bực thêm!”
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.072">
+
+        <STC ID="RBI_007.001.072.01">
+          Thị Mầu vừa dứt lời trên
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.072.02">
+          Thời nghe tiếng mõ vang lên phía ngoài
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.072.03">
+          Mõ làng loan báo mọi người
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.072.04">
+          Họp nhau bàn bạc tại nơi đình làng
+          <NER>
+            <LOC>đình làng</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.072.05">
+          Đòi ra tra hỏi rõ ràng:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.072.06">
+          “Việc người con gái chửa hoang trong vùng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.072.07">
+          Ngoại tình xấu hổ vô cùng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.072.08">
+          Phải cần xử phạt làm gương cho đời!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.072.09">
+          Phú ông nghe nói rụng rời
+          <NER>
+            <PER>Phú ông</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.072.10">
+          Thế là mọi chuyện nguy tai tới rồi
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.073">
+
+        <STC ID="RBI_007.001.073.01">
+          Gia đình sẽ khổ mà thôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.073.02">
+          Ra vào tắc lưỡi, đứng ngồi chẳng yên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.073.03">
+          Vật mình than thở kêu rên:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.073.04">
+          “Tự con sinh sự gây nên việc này
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.073.05">
+          Tất nhiên sẽ gánh lụy ngay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.073.06">
+          Chứ nào tai vạ Trời đầy xuống đâu,
+          <NER>
+            <LOC>Trời</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.073.07">
+          Hay nhà này đã từ lâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.073.08">
+          Gặp nền đất xấu trước sau động hoài
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.073.09">
+          Hay là con đã gặp ai
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.073.10">
+          Dúi đưa thuốc lú, mồi chài bùa yêu
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.074">
+
+        <STC ID="RBI_007.001.074.01">
+          Nên dâm bôn mới đặt điều
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.074.02">
+          Xấu xa tai tiếng lỡ gieo khắp vùng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.074.03">
+          Vậy mà cười cợt như thường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.074.04">
+          Không hề lo nghĩ thẹn thùng chút nao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.074.05">
+          Hãy khai cho rõ đi nào
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.074.06">
+          Kẻo làng bắt phạt gắt gao nặng nề
+          <NER>
+            <LOC>làng</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.074.07">
+          Bà con làng xóm cười chê
+          <NER>
+            <LOC>làng xóm</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.074.08">
+          Mẹ cha xấu hổ, não nề tâm can!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.074.09">
+          Ngày đầu tháng họp đình làng
+          <NER>
+            <TME>Ngày đầu tháng</TME>
+            <LOC>đình làng</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.074.10">
+          Phú ông vội dắt tay nàng ra đi
+          <NER>
+            <TITLE>Phú ông</TITLE>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.075">
+
+        <STC ID="RBI_007.001.075.01">
+          Nàng thời mang bụng nặng nề
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.075.02">
+          Cha già thấp thỏm đi kề một bên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.075.03">
+          Con hư cha mẹ nào yên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.075.04">
+          Chịu bao nhục nhã lụy phiền đớn đau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.075.05">
+          Phú ông khuyên nhủ Thị Mầu:
+          <NER>
+            <TITLE>Phú ông</TITLE>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.075.06">
+          “Liệu đường khai báo trước sau rõ ràng!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.075.07">
+          Bị tra hỏi trước đình làng
+          <NER>
+            <LOC>đình làng</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.075.08">
+          Thị Mầu liến thoắng thưa rằng oan khiên:
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.075.09">
+          “Phận tôi nhi nữ lành hiền
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.075.10">
+          Đạo tam tòng giữ vững bền lâu nay
+          <NER>
+            <TITLE>tam tòng</TITLE>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.076">
+
+        <STC ID="RBI_007.001.076.01">
+          Dù khi đi đó đi đây
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.076.02">
+          Người cường bạo chẳng dám gây sự tình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.076.03">
+          Mở lời trêu ghẹo đến mình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.076.04">
+          Chắc ai thêu dệt gian manh chuyện này
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.076.05">
+          Đặt điều bêu riếu lắm thay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.076.06">
+          Chứ tôi nào có thói hay dâm tà
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.076.07">
+          Bụng hơi to vì chẳng qua
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.076.08">
+          Trong người xấu máu ai mà hiểu đây
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.076.09">
+          Thật là vạ gió tai bay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.076.10">
+          Bỗng dưng gán tội to tầy trời cao!”
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.077">
+
+        <STC ID="RBI_007.001.077.01">
+          Lão làng các vị xôn xao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.077.02">
+          Nghiêm trang vặn hỏi: “Đây nào chuyện chơi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.077.03">
+          Đừng bẻm mép, chớ nhiều lời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.077.04">
+          Chanh chua giọng nói con người gian dâm
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.077.05">
+          Để mà chối tội bản thân
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.077.06">
+          Tướng hình hiện rõ chẳng cần hỏi thêm,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.077.07">
+          Gái mà cặp mắt láo liên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.077.08">
+          Xanh lèo như nước trong miền hồ thu
+          <NER>
+            <LOC>hồ thu</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.077.09">
+          Đa tình biết mấy cho vừa
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.077.10">
+          Lại thêm dáng điệu đong đưa chẳng lành
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.078">
+
+        <STC ID="RBI_007.001.078.01">
+          Má màu hồng đã thành xanh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.078.02">
+          Chớ già mồm nữa, khai thành thực mau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.078.03">
+          Có thai đã được bao lâu?
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.078.04">
+          Với ai khai rõ? Làng đâu hẹp hòi
+          <NER>
+            <LOC>Làng</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.078.05">
+          Lệ làng cho kết hợp thôi
+          <NER>
+            <LOC>làng</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.078.06">
+          Thành chồng thành vợ lứa đôi sống đời,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.078.07">
+          Nếu không làng phải tức thời
+          <NER>
+            <LOC>làng</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.078.08">
+          Đệ đơn lên cửa công nơi chốn này
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.078.09">
+          Khó mà êm chuyện được thay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.078.10">
+          Chắc là phải chịu gắt gay khổ hình.”
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.079">
+
+        <STC ID="RBI_007.001.079.01">
+          Thị Mầu nghe tiếng dỗ dành
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.079.02">
+          Nghe chừng có lý, đâu đành lặng yên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.079.03">
+          Cõi lòng nao núng ngay liền
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.079.04">
+          Nghĩ mình trót dại gây nên họa rồi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.079.05">
+          Dễ gì giấu giếm mãi thôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.079.06">
+          Phần tên đầy tớ nay thời vắng đây
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.079.07">
+          Đã cao chạy, đã xa bay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.079.08">
+          Trốn đi mất tích bao ngày vừa qua
+          <NER>
+            <TME>bao ngày</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.079.09">
+          Bây giờ mình có khai ra
+          <NER>
+            <TME>Bây giờ</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.079.10">
+          Chỉ thêm xấu hổ cho gia đình mình
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.080">
+
+        <STC ID="RBI_007.001.080.01">
+          Không bằng cớ để chứng minh,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.080.02">
+          Nay làng đã bắt khai trình đầu đuôi
+          <NER>
+            <ORG>làng</ORG>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.080.03">
+          Thời yêu ai đã lâu rồi
+          <NER>
+            <TME>lâu rồi</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.080.04">
+          Ta nên cứ việc khai người ấy ra
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.080.05">
+          Có khi may lại được nhờ
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.080.06">
+          Làng cho tác hợp có cơ gặp chàng.
+          <NER>
+            <ORG>Làng</ORG>
+            <PER>chàng</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.080.07">
+          Nàng bèn khép nép thưa rằng:
+          <NER>
+            <PER>Nàng</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.080.08">
+          “Nay xin thú thật rõ ràng chuyện riêng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.080.09">
+          Dám đâu che giấu gì thêm,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.080.10">
+          Xưa nay con sống ấm êm bình thường
+          <NER>
+            <TME>Xưa nay</TME>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.081">
+
+        <STC ID="RBI_007.001.081.01">
+          Nơi kín cổng, chốn cao tường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.081.02">
+          Không ham bể ái, chẳng vương thuyền tình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.081.03">
+          Không hề ong bướm dập dình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.081.04">
+          Không trai gái với ai quanh trong vùng,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.081.05">
+          Chợt khi lên chốn thiền đường
+          <NER>
+            <LOC>thiền đường</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.081.06">
+          Cùng đi với khách thập phương ngày rằm
+          <NER>
+            <TME>ngày rằm</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.081.07">
+          Bất ngờ gặp tiểu Kính Tâm
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.081.08">
+          Hiện ra sau tấm bia sân chùa làng
+          <NER>
+            <LOC>sân chùa làng</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.081.09">
+          Vẻ thanh tao, dáng dịu dàng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.081.10">
+          Khiến con bỗng phải lòng chàng ngay thôi
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.082">
+
+        <STC ID="RBI_007.001.082.01">
+          Quá yêu nên trót thốt lời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.082.02">
+          Nguyện thề chung sống trọn đời ái ân
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.082.03">
+          Cho nên đã chẳng ngại ngần
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.082.04">
+          Để rồi thất tiết trao thân cho chàng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.082.05">
+          Cúi xin chức sắc trong làng
+          <NER>
+            <TITLE>chức sắc</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.082.06">
+          Lệnh cho kết hợp đôi đàng sống chung
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.082.07">
+          Thời con cảm tạ vô cùng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.082.08">
+          Ơn như trời biển ghi lòng chẳng quên!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.082.09">
+          Thị Mầu khai rõ như trên
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.082.10">
+          Rõ ràng chỉ mặt vạch tên người tình
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.083">
+
+        <STC ID="RBI_007.001.083.01">
+          Nên làng ra lệnh dẫn trình
+          <NER>
+            <ORG>làng</ORG>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.083.02">
+          Kính Tâm phải đến tại đình làng mau
+          <NER>
+            <PER>Kính Tâm</PER>
+            <LOC>đình làng</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.083.03">
+          Đôi bên đối chứng cùng nhau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.083.04">
+          Trắng đen phân rõ khi vào đôi co.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.083.05">
+          Được tin chùa lấy làm lo
+          <NER>
+            <LOC>chùa</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.083.06">
+          Dữ lành nào biết nguyên do việc gì
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.083.07">
+          Sư bèn dẫn Kính Tâm đi
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.083.08">
+          Tay thời lần hạt, miệng thì tụng kinh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.083.09">
+          Đến nơi làng hỏi sự tình:
+          <NER>
+            <ORG>làng</ORG>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.083.10">
+          “Tiểu kia đã quyết tâm thành đi tu
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.084">
+
+        <STC ID="RBI_007.001.084.01">
+          Sao điều dâm dục còn ưa?
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.084.02">
+          Thị Mầu đây đã trình thưa rõ ràng
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.084.03">
+          Hãy khai sự thật với làng
+          <NER>
+            <LOC>làng</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.084.04">
+          Làng thương cũng sẽ tìm đường thứ tha
+          <NER>
+            <LOC>Làng</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.084.05">
+          Lời quanh co, ý gian tà
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.084.06">
+          Thời đòn roi vọt khó mà thoát đâu!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.084.07">
+          Lặng nghe lòng dạ đớn đau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.084.08">
+          Kính Tâm cảm thấy đời sao khổ hoài
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.084.09">
+          Kiếp tu biết có kéo dài
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.084.10">
+          Từ lâu cải dạng con trai tu hành
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.085">
+
+        <STC ID="RBI_007.001.085.01">
+          Bây giờ khai thật chuyện mình
+          <NER>
+            <TME>Bây giờ</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.085.02">
+          Sẽ mau thoát tội, quả tình dễ sao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.085.03">
+          Nhưng rồi tu chẳng được nào
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.085.04">
+          Ai cho phái nữ đi vào chùa tu,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.085.05">
+          Thực vàng thời thử nào lo
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.085.06">
+          Dù cho than nóng, dù cho lửa hồng,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.085.07">
+          Kính Tâm bèn tỏ nỗi lòng:
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.085.08">
+          “Biết rằng sắc tức là không lâu rồi
+          <NER>
+            <TME>lâu rồi</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.085.09">
+          Không tức là sắc đấy thôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.085.10">
+          Nên làm chi vướng vào nơi sắc tình,
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.086">
+
+        <STC ID="RBI_007.001.086.01">
+          Như còn trai gái phần mình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.086.02">
+          Thời xin Đức Phật chứng minh trên đầu.”
+          <NER>
+            <PER>Đức Phật</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.086.03">
+          Trái tai làng hỏi Thị Mầu
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.086.04">
+          Gái hư trắc nết trước sau một lời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.086.05">
+          Rành rành chỉ rõ tiểu thôi.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.086.06">
+          Làng rằng: “Như vậy có đời nào oan
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.086.07">
+          Tiểu kia chớ có dối gian
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.086.08">
+          Liệu trình cho thực thời làng thứ tha
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.086.09">
+          Bề ngoài tâm Phật khoe ra
+          <NER>
+            <PER>Phật</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.086.10">
+          Bề trong phá giới trăng hoa thỏa lòng
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.087">
+
+        <STC ID="RBI_007.001.087.01">
+          Bả tình ái còn mơ mòng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.087.02">
+          Thời đường gia thất cũng không cấm nào,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.087.03">
+          Dễ gì dối được Trời cao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.087.04">
+          Giả hình làm tiểu nương vào chùa đây,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.087.05">
+          Khai cho rõ mọi chuyện ngay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.087.06">
+          Nếu không roi vọt làng này khảo tra!”
+          <NER>
+            <LOC>làng này</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.087.07">
+          Mặc làng chiêu dụ gần xa
+          <NER>
+            <LOC>làng</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.087.08">
+          Kính Tâm vẫn cứ khai là mình oan.
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.087.09">
+          Nghe lời tiểu nói vô can
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.087.10">
+          Tức thì có lệnh của làng truyền ra
+          <NER>
+            <LOC>làng</LOC>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.088">
+
+        <STC ID="RBI_007.001.088.01">
+          Dùng đòn vọt để khảo tra
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.088.02">
+          Tiếng roi tới tấp nghe mà hãi kinh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.088.03">
+          Nhăn nét mặt, quặn thân hình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.088.04">
+          Mím môi nhẫn nhục, rướn mình đớn đau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.088.05">
+          Tiểu nào chịu nhận tội đâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.088.06">
+          Mặc cho đất thảm trời sầu bữa nay
+          <NER>
+            <TME>bữa nay</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.088.07">
+          Ngẫm đời sao lắm chua cay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.088.08">
+          Đuốc nào soi thấu oan này được chăng?
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.088.09">
+          Thị Mầu một giọng khăng khăng
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.088.10">
+          Khai tư tình với chính chàng tiểu thôi
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.089">
+
+        <STC ID="RBI_007.001.089.01">
+          Trước sau vẫn giữ nguyên lời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.089.02">
+          Nỡ nào gieo họa cho người hiền lương.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.089.03">
+          Đòn roi chừng đã chán chường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.089.04">
+          Áo quần của tiểu thấy dường tả tơi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.089.05">
+          Thương cho thân tiểu tơi bời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.089.06">
+          Sư bèn lên tiếng như khơi lòng từ
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.089.07">
+          Van lơn rằng: “Tiểu đi tu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.089.08">
+          Rất là tinh tấn, rất ư tâm thành
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.089.09">
+          Xin làng dẹp bớt lôi đình
+          <NER>
+            <ORG>làng</ORG>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.089.10">
+          Mở lòng làm phúc thứ tình một phen
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.090">
+
+        <STC ID="RBI_007.001.090.01">
+          Tha cho tiểu vốn lành hiền
+          <NER>
+            <TITLE>tiểu</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.090.02">
+          Khoán làng đòi phạt tôi xin nộp liền.”
+          <NER>
+            <ORG>làng</ORG>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.090.03">
+          Nghe lời đạo đức cất lên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.090.04">
+          Nguôi cơn giận giữ làng bèn phán ra:
+          <NER>
+            <ORG>làng</ORG>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.090.05">
+          “Những toan đòn vọt khảo tra
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.090.06">
+          Tới khi tiểu phải thật thà cung khai
+          <NER>
+            <TITLE>tiểu</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.090.07">
+          Nhưng mà sư đã ngỏ lời
+          <NER>
+            <TITLE>sư</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.090.08">
+          Lĩnh cho tiểu được về nơi chùa nhà
+          <NER>
+            <TITLE>tiểu</TITLE>
+            <LOC>chùa</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.090.09">
+          Thời làng mở lượng thứ tha
+          <NER>
+            <ORG>làng</ORG>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.090.10">
+          Cho về chùa lại, cải tà ngay đi!”
+          <NER>
+            <LOC>chùa</LOC>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.091">
+
+        <STC ID="RBI_007.001.091.01">
+          Thế là sư lãnh tiểu về
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.091.02">
+          Kính Tâm cũng tạm một bề yên thân
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.091.03">
+          Lửa phiền não cũng dẹp dần
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.091.04">
+          Lân la sư mới ân cần nhủ khuyên:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.091.05">
+          “Con từng lâm cảnh lụy phiền
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.091.06">
+          Bà con làng xóm khắp miền chê bai
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.091.07">
+          Nay con ra mái hiên ngoài
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.091.08">
+          Lánh mình tạm trú tại nơi cổng chùa
+          <NER>
+            <LOC>cổng chùa</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.091.09">
+          Kẻo e thiên hạ không ưa
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.091.10">
+          Mỉa mai lên tiếng dây dưa đến thầy.
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.092">
+
+        <STC ID="RBI_007.001.092.01">
+          Nếu con phá giới mới đây
+          <NER>
+            <TME>mới đây</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.092.02">
+          Thời nên sám hối, từ nay nên chừa
+          <NER>
+            <TME>từ nay</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.092.03">
+          Lòng trần gột rửa bợn nhơ
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.092.04">
+          Vô minh dẹp sạch, mê mờ xua tan,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.092.05">
+          Nếu con quả thật vô can
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.092.06">
+          Tự nhiên mắc phải tiếng oan tầy đình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.092.07">
+          Cũng nên gắng gượng làm thinh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.092.08">
+          Đau lòng dứt bỏ, buồn tình buông trôi.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.092.09">
+          Kính Tâm ngoan ngoãn tuân lời
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.092.10">
+          Lánh nơi chánh điện, xa nơi thiền đường
+          <NER>
+            <LOC>chánh điện; thiền đường</LOC>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.093">
+
+        <STC ID="RBI_007.001.093.01">
+          Hiên chùa mái trước tìm nương
+          <NER>
+            <LOC>Hiên chùa</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.093.02">
+          Bên vườn hoa cúc tỏa hương thơm lừng
+          <NER>
+            <LOC>vườn hoa cúc</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.093.03">
+          Vài chồi trúc, dăm khóm tùng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.093.04">
+          Cười cùng gió mát, bạn cùng trăng trong
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.093.05">
+          Để thêm khuây khỏa cõi lòng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.093.06">
+          Hướng về đường đạo cầu mong giải phiền
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.093.07">
+          Khi kinh kệ, lúc nhang đèn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.093.08">
+          Vang theo chuông mõ tâm hiền thăng hoa
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.093.09">
+          Nhìn lên mây trắng nẻo xa
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.093.10">
+          Phải chăng chốn đó là nhà song thân?
+          <NER>
+            <PER>song thân</PER>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.094">
+
+        <STC ID="RBI_007.001.094.01">
+          Công ơn cha mẹ vô ngần
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.094.02">
+          Nghĩ mình chưa báo được phần nhỏ nhoi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.094.03">
+          Bấy lâu xa cách đôi nơi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.094.04">
+          Song thân chắc mãi ngậm ngùi nhớ con
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.094.05">
+          Sóng sầu chợt gợn tâm hồn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.094.06">
+          Kính Tâm cứ ngỡ chẳng còn nạn chi
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.094.07">
+          Nào hay tai họa mãi kề
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.094.08">
+          Chắc gây nhân xấu nhiều bề trước đây
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.094.09">
+          Cho nên Trời bắt đọa đày
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.094.10">
+          Gánh vào nghiệp chướng kiếp này hai phen
+          <NER>
+            <NUM>hai phen</NUM>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.095">
+
+        <STC ID="RBI_007.001.095.01">
+          Giữa gian ngay, giữa trắng đen
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.095.02">
+          Mắt phàm phân biệt đôi bên dễ nào
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.095.03">
+          Oan khiên chịu tiếng ngập đầu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.095.04">
+          Nuốt niềm tủi nhục trước sau hai lần,
+          <NER>
+            <NUM>hai lần</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.095.05">
+          Tiểu bèn tụng niệm thành tâm
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.095.06">
+          Vang lời kinh Phật, gieo nhân tốt lành
+          <NER>
+            <PER>Phật</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.095.07">
+          Buông cho hết, xả cho nhanh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.095.08">
+          Sá chi thù đứa ô danh dâm tình,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.095.09">
+          Đã không chấp chước thân mình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.095.10">
+          Còn đâu ác nghiệp tạo hình vương theo
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.096">
+
+        <STC ID="RBI_007.001.096.01">
+          Chữ rằng nhẫn nhục đủ điều
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.096.02">
+          Mới mang hỉ lạc về gieo cõi lòng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.096.03">
+          Nhẫn điều khó nhẫn tột cùng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.096.04">
+          Mới là dấn bước vào vùng chân tu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.096.05">
+          Tu thân thiền định công phu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.096.06">
+          Bao năm trì trí cũng như lọc vàng
+          <NER>
+            <TME>Bao năm</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.096.07">
+          Mặt quay vào một vách tường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.096.08">
+          Không vương ý tạp, không nương cảnh ngoài.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.096.09">
+          Thoắt đà thêm nửa năm trời
+          <NER>
+            <TME>nửa năm</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.096.10">
+          Thị Mầu đã đủ tới hồi sinh trai
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.097">
+
+        <STC ID="RBI_007.001.097.01">
+          Phú ông chẳng chút đoái hoài
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.097.02">
+          Phán rằng: “Thằng bé con ai trả về
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.097.03">
+          Giữ chi cho lắm ê chề!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.097.04">
+          Thị Mầu giờ chợt não nề tâm can
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.097.05">
+          Thật dở dang, thật lỡ làng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.097.06">
+          Giữ thời mãi khổ, bỏ càng thêm đau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.097.07">
+          Vòng tay ôm giọt máu đào
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.097.08">
+          Tới lui thờ thẫn, ra vào đăm chiêu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.097.09">
+          Cuồng dâm một phút làm liều
+          <NER>
+            <TME>một phút</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.097.10">
+          Nào đâu ngờ đến đủ điều gian truân
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.098">
+
+        <STC ID="RBI_007.001.098.01">
+          Cắn răng đành dứt tình thâm
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.098.02">
+          Mang con đem bỏ, bước chân ngần ngừ.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.098.03">
+          Thị Mầu tới trước cửa chùa
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.098.04">
+          Ôm con lén đứng ngó từ phía xa
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.098.05">
+          Rồi chân rón rén tinh ma
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.098.06">
+          Tới hiên chùa đó nép qua phía ngoài,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.098.07">
+          Tiểu đang tụng niệm khoan thai
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.098.08">
+          Bỗng nghe trẻ khóc bên tai ồn ào
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.098.09">
+          Giật mình chưa biết tính sao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.098.10">
+          Ngoảnh đi thời dạ nỡ nào đành đây
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.099">
+
+        <STC ID="RBI_007.001.099.01">
+          Nhận thời hóa kẻ gian thay,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.099.02">
+          Thị Mầu mặt dạn mày dày tiến lên
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.099.03">
+          Bỏ con cạnh tiểu một bên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.099.04">
+          Nói rằng: “Xin trả con liền bữa nay
+          <NER>
+            <TME>bữa nay</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.099.05">
+          Gắng nuôi trẻ nhỏ từ đây!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.099.06">
+          Nói xong nàng tất tả quay trở về.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.099.07">
+          Chao ơi nghiệp quả khắt khe
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.099.08">
+          Khéo xui bêu riếu não nề người tu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.099.09">
+          Kính Tâm vốn sẵn tâm từ
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.099.10">
+          Rộng như mặt biển, lớn như bầu trời
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.100">
+
+        <STC ID="RBI_007.001.100.01">
+          Nên thương yêu khắp mọi người
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.100.02">
+          Như là tình mẹ thương nơi con mình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.100.03">
+          Nên mang lòng dạ hiếu sinh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.100.04">
+          Quyết tâm làm phúc, mặc tình chịu dơ
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.100.05">
+          Xả thân cứu đứa trẻ thơ
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.100.06">
+          Tuy rằng nước lã coi như máu đào
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.100.07">
+          Không sinh cũng bỏ công lao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.100.08">
+          Nhọc nhằn nuôi trẻ lẽ nào buông tay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.100.09">
+          Xót tình măng sữa thơ ngây
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.100.10">
+          Kính Tâm ôm trẻ, từ đây độ người.
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.101">
+
+        <STC ID="RBI_007.001.101.01">
+          Hôm sau sư ghé tới nơi
+          <NER>
+            <TME>Hôm sau</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.101.02">
+          Mới hay chú tiểu nay thời ôm con
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.101.03">
+          Khiến cho thầy cũng ngờ luôn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.101.04">
+          Dạy rằng: “Tình cảnh thấy còn hồ nghi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.101.05">
+          Trong điều tai tiếng trước kia
+          <NER>
+            <TME>trước kia</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.101.06">
+          Chắc con khai báo không chi thật tình,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.101.07">
+          Nếu như không phải con mình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.101.08">
+          Đa mang chi vậy, gây thành tiếng tăm
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.101.09">
+          Con ai mặc họ lo toan.”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.101.10">
+          Kính Tâm bày tỏ tâm can cùng thầy:
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.102">
+
+        <STC ID="RBI_007.001.102.01">
+          “Lời vàng thầy dạy xưa nay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.102.02">
+          Dầu cho chín đợt dựng xây tháp đền
+          <NER>
+            <NUM>chín</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.102.03">
+          Sao bằng làm phúc một phen
+          <NER>
+            <NUM>một</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.102.04">
+          Cứu người dù chẳng thân quen với mình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.102.05">
+          Thầy chỉ bảo, con tuân hành
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.102.06">
+          Mạng người là trọng sao đành buông lơi.”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.102.07">
+          Sư nghe tiểu thốt mấy lời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.102.08">
+          Khen rằng: “Con quả là người từ tâm!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.102.09">
+          Kính Tâm đem cả tình thâm
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.102.10">
+          Chăm nuôi con trẻ muôn phần thương yêu
+          <NER>
+            <NUM>muôn</NUM>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.103">
+
+        <STC ID="RBI_007.001.103.01">
+          Con thời khát sữa sớm chiều
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.103.02">
+          Tiểu thời không sữa đủ điều khó khăn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.103.03">
+          Vẫn nâng niu dù nhọc nhằn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.103.04">
+          Nhai cơm mớm sữa ân cần mãi thôi,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.103.05">
+          Đi xin sữa bị chê cười:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.103.06">
+          “Tiểu kia tu có trót đời mà mong!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.103.07">
+          Họ nào hay đứa làm công
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.103.08">
+          Cùng Thị Mầu lúc lửa lòng khát khao
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.103.09">
+          Đã gieo tai tiếng ồn ào
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.103.10">
+          Khiến cho chú tiểu gánh bao oan tình.
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.104">
+
+        <STC ID="RBI_007.001.104.01">
+          Mặc dư luận xấu quanh mình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.104.02">
+          Kính Tâm nhẫn nhục tâm thành nuôi con
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.104.03">
+          Khi buồn bã, lúc héo hon
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.104.04">
+          Hóa ra có trẻ ít còn đau thương
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.104.05">
+          Tụng kinh, gõ mõ, rung chuông
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.104.06">
+          Ru con hòa tiếng nhẹ buông tối ngày.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.104.07">
+          Bốn mùa lần lượt vần xoay
+          <NER>
+            <TME>Bốn mùa</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.104.08">
+          Trẻ thơ thấm thoắt giờ này lớn lên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.104.09">
+          Không bệnh hoạn, không thuốc men
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.104.10">
+          Tiếng kinh Phật độ cho thêm an lành
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.105">
+
+        <STC ID="RBI_007.001.105.01">
+          Mấy năm trời đã qua nhanh
+          <NER>
+            <TME>Mấy năm trời</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.105.02">
+          Sớm chiều trẻ chỉ quẩn quanh chùa nhà
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.105.03">
+          Giờ đây tuổi đã lên ba
+          <NER>
+            <NUM>ba</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.105.04">
+          Trẻ nay lại giống như là cha nuôi,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.105.05">
+          Hình dung, ý tứ khác người
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.105.06">
+          Khác cha mẹ đẻ, khác nòi bản sinh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.105.07">
+          Tương lai đến lúc trưởng thành
+          <NER>
+            <TME>Tương lai</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.105.08">
+          Chắc là tươi sáng, thỏa tình cha nuôi.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.105.09">
+          Vừa mừng con đã lớn rồi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.105.10">
+          Công lao nuôi dưỡng thấy thời khả quan
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.106">
+
+        <STC ID="RBI_007.001.106.01">
+          Ai ngờ sắp tới ly tan
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.106.02">
+          Bao năm tu học đạo vàng yêu thương
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.106.03">
+          Trần duyên trừ sạch mọi đường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.106.04">
+          Không còn quyến luyến vấn vương gì đời
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.106.05">
+          Về nơi tịch diệt mà thôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.106.06">
+          Kính Tâm cảm thấy tới hồi ra đi
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.106.07">
+          Rời xa trần thế sầu bi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.106.08">
+          Thác về cõi Phật tràn trề an vui.
+          <NER>
+            <LOC>cõi Phật</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.106.09">
+          Đành rằng lệ chẳng tuôn rơi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.106.10">
+          Đoái tình con trẻ nghĩ thời cũng thương
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.107">
+
+        <STC ID="RBI_007.001.107.01">
+          Gọi con từ giã mọi đường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.107.02">
+          Tự tay bèn viết vài hàng trối trăng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.107.03">
+          Dặn con kỹ lưỡng ân cần
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.107.04">
+          Mang thư trao lại song thân quê nhà
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.107.05">
+          Sau khi mình đã rời xa
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.107.06">
+          Giã từ cái cõi ta bà khổ đau,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.107.07">
+          Đồng thời đừng đợi chờ lâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.107.08">
+          Lên hầu sư phụ trình mau sự tình.
+          <NER>
+            <TITLE>sư phụ</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.107.09">
+          Dứt lời căn dặn con mình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.107.10">
+          Kính Tâm về cõi an bình từ đây
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.108">
+
+        <STC ID="RBI_007.001.108.01">
+          Hóa thân để lại chốn này
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.108.02">
+          Hương hồn đã sẵn xe mây rước về.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.108.03">
+          Khen thay con trẻ giỏi ghê
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.108.04">
+          Vật mình khóc lóc ngồi kề một bên
+          <NER>
+            <NUM>một</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.108.05">
+          Lời cha nhắn lại nào quên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.108.06">
+          Vội lên trình báo sư trên thiền đường.
+          <NER>
+            <LOC>thiền đường</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.108.07">
+          Sư nghe tin nghĩ mà thương
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.108.08">
+          Dạy người của nhóm đạo tràng ra coi:
+          <NER>
+            <ORG>đạo tràng</ORG>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.108.09">
+          “Kính Tâm chầu Phật đi rồi
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.108.10">
+          Hãy ra xem xét mé ngoài thiền môn!”
+          <NER>
+            <LOC>thiền môn</LOC>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.109">
+
+        <STC ID="RBI_007.001.109.01">
+          Đạo tràng tuân lệnh đi luôn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.109.02">
+          Sau khi coi tỏ không còn hồ nghi:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.109.03">
+          “Tiểu Kính Tâm là nữ nhi!”
+          <NER>
+            <PER>Tiểu Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.109.04">
+          Mọi người trình lại sư nghe tỏ tường.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.109.05">
+          Sư nghe tin thấy lạ thường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.109.06">
+          Sai thêm bà vãi vội vàng ra xem
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.109.07">
+          Vãi trình mọi chuyện rõ thêm:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.109.08">
+          “Tiểu là nhi nữ lành hiền chẳng sai
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.109.09">
+          Thế mà bị tiếng chê bai
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.109.10">
+          Bị người đầy đọa rạc rài đến nay!”
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.110">
+
+        <STC ID="RBI_007.001.110.01">
+          Sư sai người báo làng ngay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.110.02">
+          Quả nhiên thôn xóm quanh đây bàng hoàng
+          <NER>
+            <LOC>thôn xóm quanh đây</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.110.03">
+          Từ lâu cứ mãi nghi oan
+          <NER>
+            <TME>Từ lâu</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.110.04">
+          Xiết bao tội nghiệp! Vô vàn xót xa!
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.110.05">
+          Mọi người chen chúc đổ ra
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.110.06">
+          Thiện nam, tín nữ, lão bà, lão ông
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.110.07">
+          Đồng thanh ca tụng vô cùng:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.110.08">
+          “Tiểu này nhẫn nhục tu trong cửa từ
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.110.09">
+          Quả là một bậc chân tu!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.110.10">
+          Thị Mầu trắc nết phao vu cho người
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.111">
+
+        <STC ID="RBI_007.001.111.01">
+          Mõ rao lập tức cho đòi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.111.02">
+          Phải cùng cha mẹ ra nơi đình làng
+          <NER>
+            <LOC>đình làng</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.111.03">
+          Cả ba nghe phán rõ ràng:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.111.04">
+          “Số tiền sư nộp khoán làng truớc đây
+          <NER>
+            <LOC>làng</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.111.05">
+          Cả ba phải trả phạt ngay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.111.06">
+          Trả sư lại số tiền này gấp đôi,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.111.07">
+          Tang ma mọi việc xong xuôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.111.08">
+          Phú ông trách nhiệm phải bồi hoàn luôn!”
+          <NER>
+            <TITLE>Phú ông</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.111.09">
+          Thấy con trẻ thật tinh khôn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.111.10">
+          Sư bèn gọi tới ôn tồn hỏi han:
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.112">
+
+        <STC ID="RBI_007.001.112.01">
+          “Trước khi lìa cõi dương gian
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.112.02">
+          Cha con có dặn con làm gì chăng?”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.112.03">
+          Trẻ thưa: “Trong lúc trối trăng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.112.04">
+          Cha con có viết vài hàng lại đây.”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.112.05">
+          Trẻ bèn trình bức thư ngay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.112.06">
+          Xem xong sư mới được hay ngọn ngành,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.112.07">
+          Thương cho tiểu của chùa mình
+          <NER>
+            <TITLE>tiểu</TITLE>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.112.08">
+          Điều này, tiếng nọ oan tình chứa chan
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.112.09">
+          Thương nàng Thị Kính vô vàn.
+          <NER>
+            <PER>Thị Kính</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.112.10">
+          Dù cho cách trở dặm ngàn sá chi
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.113">
+
+        <STC ID="RBI_007.001.113.01">
+          Sư truyền mang bức thư đi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.113.02">
+          Đưa về cha mẹ tận quê nhà nàng.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.113.03">
+          Thư nàng Thị Kính viết rằng:
+          <NER>
+            <PER>Thị Kính</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.113.04">
+          “Công ơn cha mẹ lớn bằng núi cao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.113.05">
+          Con chưa báo đáp chút nào
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.113.06">
+          Ở thời chẳng được, đi sao không đành?
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.113.07">
+          Sinh làm phận gái mong manh
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.113.08">
+          Nên mười nhi nữ cũng thành như không
+          <NER>
+            <NUM>mười</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.113.09">
+          Dù cho sống chết đều cùng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.113.10">
+          Luôn mang tủi nhục trong lòng mãi thôi.
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.114">
+
+        <STC ID="RBI_007.001.114.01">
+          Chuyện xưa chợt nhớ bồi hồi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.114.02">
+          Mươi hàng gửi lại đôi lời thành tâm:
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.114.03">
+          Nữ lưu hổ phận vô ngần
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.114.04">
+          Dựa nền phúc ấm song thân nương nhờ.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.114.05">
+          Từ ngày kết tóc xe tơ
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.114.06">
+          Bên chồng chung sống mặn mà ba năm
+          <NER>
+            <TME>ba năm</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.114.07">
+          Vì vô tình cắt râu cằm
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.114.08">
+          Cho nên gây đợt sóng ngầm nổi lên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.114.09">
+          Chỉ vì giây phút kể trên
+          <NER>
+            <TME>giây phút</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.114.10">
+          Vợ chồng tình nghĩa tan liền ngờ đâu
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.115">
+
+        <STC ID="RBI_007.001.115.01">
+          Đôi nơi cách trở lìa nhau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.115.02">
+          Khiến cho cha mẹ xiết bao bồi hồi.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.115.03">
+          Chốn quê tai tiếng mất rồi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.115.04">
+          Con vì chữ hiếu phải dời chân đi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.115.05">
+          Dù cho cách trở sơn khê
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.115.06">
+          Chùa xa thanh tịnh tìm về nương thân
+          <NER>
+            <LOC>Chùa</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.115.07">
+          Mong qua bể khổ cõi trần
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.115.08">
+          Tới gần bờ giác, xa dần bến mê
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.115.09">
+          Đuốc quang minh sáng kể chi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.115.10">
+          Cầu mong đốt cháy hết đi thành sầu,
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.116">
+
+        <STC ID="RBI_007.001.116.01">
+          Theo đường khổ hạnh dài lâu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.116.02">
+          Cầu mong cõi Phật được mau ghé vào,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.116.03">
+          Chùa Vân cảnh đẹp xiết bao
+          <NER>
+            <LOC>Chùa Vân</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.116.04">
+          Dạt dào nguồn pháp dâng cao độ người
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.116.05">
+          Rẩy cành dương sạch trần ai
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.116.06">
+          Nào ngờ có ả gái trai tư tình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.116.07">
+          Thị Mầu dâm loạn quẩn quanh
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.116.08">
+          Dối gian giá họa con đành chịu oan
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.116.09">
+          Khảo tra roi vọt bạo tàn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.116.10">
+          Thân gầy vóc liễu vẫn cam chịu đòn.
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.117">
+
+        <STC ID="RBI_007.001.117.01">
+          Thuở làm vợ cũng không tròn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.117.02">
+          Chồng ngờ thất tiết tiếng còn mãi mang,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.117.03">
+          Lúc làm trai chẳng vẹn toàn
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.117.04">
+          Gái kia trắc nết đổ oan tư tình,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.117.05">
+          Nghĩ ơn cha mẹ sinh thành
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.117.06">
+          Xa xôi chốc đã trôi nhanh tháng ngày
+          <NER>
+            <TME>tháng ngày</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.117.07">
+          Sáu năm sớm tối quắt quay
+          <NER>
+            <TME>Sáu năm</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.117.08">
+          Niềm thương nỗi nhớ dâng đầy lòng con,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.117.09">
+          Nghĩ niềm ly biệt héo hon
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.117.10">
+          Hết luôn sớm viếng, chẳng còn tối thăm
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.118">
+
+        <STC ID="RBI_007.001.118.01">
+          Muôn phần bội bạc đã cam
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.118.02">
+          Con xin cha mẹ nhận trăm lạy này
+          <NER>
+            <NUM>trăm</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.118.03">
+          Xin ở lại, mong lành thay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.118.04">
+          Phần con cõi tịnh từ đây tìm về!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.118.05">
+          Tang ma lễ vật mọi bề
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.118.06">
+          Phú ông sắm sửa dám nề hà đâu
+          <NER>
+            <PER>Phú ông</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.118.07">
+          Ngửa tay chịu việc tốn hao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.118.08">
+          Chu toàn mọi sự trước sau cam lòng.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.118.09">
+          Thị Mầu cũng gái má hồng
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.118.10">
+          Để tang Thị Kính như chồng mình thôi
+          <NER>
+            <PER>Thị Kính</PER>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.119">
+
+        <STC ID="RBI_007.001.119.01">
+          Cũng than khóc, cũng ngậm ngùi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.119.02">
+          Phần thì xấu hổ với người lân bang
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.119.03">
+          Phần thì rầu rĩ võ vàng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.119.04">
+          Mẹ cha đay nghiến mãi càng thêm đau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.119.05">
+          Càng thêm thẹn, càng thêm sầu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.119.06">
+          Đành liều tự vẫn còn đâu ngại ngần
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.119.07">
+          Kiếp sau bể khổ trầm luân
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.119.08">
+          Tiếng đời để lại muôn phần xấu xa.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.119.09">
+          Song thân Thị Kính tuổi già
+          <NER>
+            <PER>Thị Kính</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.119.10">
+          Nhận thư đưa tới xem qua rụng rời
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.120">
+
+        <STC ID="RBI_007.001.120.01">
+          Nhớ mong con mấy năm trời
+          <NER>
+            <TME>mấy năm trời</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.120.02">
+          Thư về lại hóa ra lời biệt ly.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.120.03">
+          Ông bà than khóc não nề
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.120.04">
+          Con thời đã khuất, thư thì còn đây
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.120.05">
+          Ông bà vội vã đi ngay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.120.06">
+          Non cao, nước thẳm thân gầy quản chi,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.120.07">
+          Nghe tin, Thiện Sĩ cùng đi
+          <NER>
+            <PER>Thiện Sĩ</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.120.08">
+          Xót tình vợ cũ xưa kia mặn nồng,
+          <NER>
+            <TME>xưa kia</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.120.09">
+          Khi vượt núi, lúc băng đồng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.120.10">
+          Cả ba san sẻ cùng chung gánh sầu
+          <NER>
+            <NUM>ba</NUM>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.121">
+
+        <STC ID="RBI_007.001.121.01">
+          Đường trường bước thấp bước cao
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.121.02">
+          Hỏi thăm, lần lối tìm vào chùa Vân.
+          <NER>
+            <LOC>chùa Vân</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.121.03">
+          Tới thiền môn vừa dừng chân
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.121.04">
+          Ngẩng trông đã thấy cành phan trên đầu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.121.05">
+          Phất phơ tấm lụa đỏ mầu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.121.06">
+          Người ta chuẩn bị rước đầu đám ma
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.121.07">
+          Cả ba bật khóc xót xa
+          <NER>
+            <NUM>ba</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.121.08">
+          Chan hòa khóe mắt, nhạt nhòa bờ mi.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.121.09">
+          Từ ngày Thị Kính ra đi
+          <NER>
+            <PER>Thị Kính</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.121.10">
+          Gia đình mong mỏi dễ chi kiếm tìm
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.122">
+
+        <STC ID="RBI_007.001.122.01">
+          Tìm con như thể tìm chim
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.122.02">
+          Vớt trăng giữa biển, mò kim dưới hồ
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.122.03">
+          Bấy lâu tin tức mịt mù
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.122.04">
+          Ai hay con tới cửa từ nương thân
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.122.05">
+          Giờ con từ giã cõi trần
+          <NER>
+            <TME>Giờ</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.122.06">
+          Bỏ cha mẹ lại xa gần không ai
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.122.07">
+          Để mà trông cậy nay mai
+          <NER>
+            <TME>nay mai</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.122.08">
+          Mẹ thời đau yếu, cha thời già nua.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.122.09">
+          Riêng người chồng thuở xa xưa
+          <NER>
+            <TME>thuở xa xưa</TME>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.122.10">
+          Là chàng Thiện Sĩ giờ như mất hồn
+          <NER>
+            <PER>Thiện Sĩ</PER>
+            <TME>giờ</TME>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.123">
+
+        <STC ID="RBI_007.001.123.01">
+          Hai dòng nước mắt mãi tuôn
+          <NER>
+            <NUM>Hai</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.123.02">
+          Đớn đau tâm khảm, héo hon cõi lòng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.123.03">
+          Nhớ xưa chỉ núi thề sông
+          <NER>
+            <LOC>núi; sông</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.123.04">
+          Lời nguyền thắm thiết vợ chồng yêu thương
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.123.05">
+          Tơ duyên bỗng tách đôi đường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.123.06">
+          Vì chàng lỗi đạo nên nàng bị oan!
+          <NER>
+            <PER>chàng; nàng</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.123.07">
+          Tưởng rằng sau chuyện ly tan
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.123.08">
+          Là ngày tái ngộ ngập tràn niềm vui
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.123.09">
+          Lại hợp duyên, lại kết đôi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.123.10">
+          Nào ngờ nàng đã lìa đời còn chi
+          <NER>
+            <PER>nàng</PER>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.124">
+
+        <STC ID="RBI_007.001.124.01">
+          Thế là vĩnh viễn phân ly
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.124.02">
+          Âm dương đôi ngả còn gì nữa đâu,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.124.03">
+          Trong cơn chất ngất u sầu
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.124.04">
+          Nghiệm ra trần thế từ lâu não nề
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.124.05">
+          Chàng thề: “Xin được chết đi
+          <NER>
+            <PER>Chàng</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.124.06">
+          Họa may có dịp cận kề nhau ngay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.124.07">
+          Tương phùng trong kiếp sau này
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.124.08">
+          Như chim liền cánh, như cây liền cành!”
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.124.09">
+          Người ngoài nhìn thấy sự tình
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.124.10">
+          Động lòng thương cảm đứng quanh sụt sùi.
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.125">
+
+        <STC ID="RBI_007.001.125.01">
+          Ban lo tang lễ tới lui
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.125.02">
+          Sửa đường dẹp lối tiễn người ra đi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.125.03">
+          Sẵn sàng huyệt mộ và bia
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.125.04">
+          Đoàn người đưa đám tức thì theo sau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.125.05">
+          Song thân Thị Kính dẫn đầu
+          <NER>
+            <PER>Thị Kính</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.125.06">
+          Có con của ả Thị Mầu cạnh bên
+          <NER>
+            <PER>Thị Mầu</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.125.07">
+          Tang ma tiếng nhạc trổi lên
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.125.08">
+          Điệu kèn ai oán vang rền không trung,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.125.09">
+          Một dây lụa trắng bềnh bồng
+          <NER>
+            <NUM>Một</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.125.10">
+          Giăng làm cầu tế độ vong hồn người
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.126">
+
+        <STC ID="RBI_007.001.126.01">
+          Từ bờ đau khổ trần ai
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.126.02">
+          Qua bờ giải thoát là nơi tuyệt vời.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.126.03">
+          Theo đưa bao kẻ ngậm ngùi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.126.04">
+          Chạnh lòng nghĩ đến cuộc đời khổ thay
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.126.05">
+          Lệ như mưa, sầu như mây
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.126.06">
+          Âm dương tình nghĩa trọn đầy tiễn nhau,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.126.07">
+          Mồ yên mả đẹp trước sau
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.126.08">
+          Mọi người mới kéo nhau vào chùa trong
+          <NER>
+            <LOC>chùa</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.126.09">
+          Cầu siêu tổ chức thật đông
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.126.10">
+          Đủ mười lễ vật thấy không thiếu gì,
+          <NER>
+            <NUM>mười</NUM>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.127">
+
+        <STC ID="RBI_007.001.127.01">
+          Lời kinh cầu nguyện vang đi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.127.02">
+          Đưa hồn người chết hướng về Tây Phương
+          <NER>
+            <LOC>Tây Phương</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.127.03">
+          Chúc cho giải thoát mọi đường
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.127.04">
+          Về miền Cực Lạc rỡ ràng kiếp sau.
+          <NER>
+            <LOC>Cực Lạc</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.127.05">
+          Ai hay phép Phật nhiệm mầu
+          <NER>
+            <PER>Phật</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.127.06">
+          Có khi cõi Phật xa đâu chốn này
+          <NER>
+            <PER>Phật</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.127.07">
+          Giữa trời chợt một vầng mây
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.127.08">
+          Năm mầu phô sắc nhẹ bay tới gần
+          <NER>
+            <NUM>Năm</NUM>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.127.09">
+          Trên đàn tràng hiện toàn thân
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.127.10">
+          Dáng hình Đức Phật muôn phần uy nghi
+          <NER>
+            <PER>Đức Phật</PER>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.128">
+
+        <STC ID="RBI_007.001.128.01">
+          Hai bên xe quý Phật đi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.128.02">
+          Cờ bay lặng lẽ, lọng che âm thầm.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.128.03">
+          Phật truyền cho tiểu Kính Tâm
+          <NER>
+            <PER>Kính Tâm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.128.04">
+          Siêu thăng làm Phật Quan Âm tức thời
+          <NER>
+            <PER>Quan Âm</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.128.05">
+          Lên trên mây đứng cạnh Ngài
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.128.06">
+          Trẻ kia cũng được lên nơi cận kề
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.128.07">
+          Phật thương cho trẻ mọi bề,
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.128.08">
+          Còn như chàng Thiện Sĩ kia lờ đờ
+          <NER>
+            <PER>Thiện Sĩ</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.128.09">
+          Chẳng tinh anh, cứ thẫn thờ
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.128.10">
+          Hóa làm chim vẹt đứng nhờ một bên,
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.129">
+
+        <STC ID="RBI_007.001.129.01">
+          Và rồi Phật lại độ thêm
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.129.02">
+          Song thân của tiểu được lên trên tòa.
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.129.03">
+          Bà Thị Kính cả một nhà
+          <NER>
+            <PER>Thị Kính</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.129.04">
+          Từ đây chung hưởng thật là vẻ vang
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.129.05">
+          Phúc nhiều như cát sông Hằng,
+          <NER>
+            <LOC>sông Hằng</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.129.06">
+          Gia đình hoan hỷ siêu thăng trọn bề
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.129.07">
+          Lên miền Cực Lạc còn chi
+          <NER>
+            <LOC>Cực Lạc</LOC>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.129.08">
+          Đây là cõi Phật A Di Đà rồi
+          <NER>
+            <PER>A Di Đà</PER>
+          </NER>
+        </STC>
+
+      </PAGE>
+
+      <PAGE ID="RBI_007.001.130">
+
+        <STC ID="RBI_007.001.130.01">
+          An lành, sung sướng, vui tươi
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.130.02">
+          Người tu Đạo Phật suốt đời cầu mong.
+          <NER>
+            <ORG>Đạo Phật</ORG>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.130.03">
+          Đàn tràng im lặng vô cùng
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.130.04">
+          Mọi người quanh đấy đều trông rành rành
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.130.05">
+          Gieo nhân lành, hái quả lành
+          <NER/>
+        </STC>
+
+        <STC ID="RBI_007.001.130.06">
+          Lời vàng Phật dạy tu hành quên sao,
+          <NER>
+            <ORG>Phật</ORG>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.130.07">
+          Gương bà Thị Kính nêu cao
+          <NER>
+            <PER>Thị Kính</PER>
+          </NER>
+        </STC>
+
+        <STC ID="RBI_007.001.130.08">
+          Mãi luôn nhắc nhở cho bao nhiêu đời.
+          <NER/>
+        </STC>
+
+      </PAGE>
+
+    </SECT>
+
+  </FILE>
+
+</root>
