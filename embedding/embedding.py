@@ -1,12 +1,15 @@
 # Ensure to run this yourself, because the output of embedding for kinhtuongungbo.jsonl is 512MB, so I cannot push it to GitHub.
 import json
 import logging
+import os
 import torch
 
+from dotenv import load_dotenv
 from pathlib import Path
 from sentence_transformers import SentenceTransformer
 from tqdm import tqdm
 
+load_dotenv()
 
 logging.basicConfig(
     level=logging.INFO,
@@ -27,7 +30,7 @@ BASE_CLEANED_JSONL_PATH = Path("jsonl/cleaned")
 EMBEDDING_JSONL_PATH = Path("jsonl/embeddings")
 EMBEDDING_JSONL_PATH.mkdir(parents=True, exist_ok=True)
 
-MODEL_NAME = "intfloat/multilingual-e5-base"
+MODEL_NAME = os.getenv("EMBEDDING_MODEL_NAME", "intfloat/multilingual-e5-base")
 BATCH_SIZE = 32
 
 logger.info(f"Loading model: {MODEL_NAME} on device: {device}")
