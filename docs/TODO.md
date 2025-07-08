@@ -2,9 +2,9 @@
 # ✅ Plan for Eastern Religion RAG Chatbot
 
 ## ✅ Stage 1: Data Preparation
-- [x] Convert XML to sentence-level JSONL format
+- ✅ Convert XML to sentence-level JSONL format
   - Each line = 1 `<STC>` with NER and metadata
-- [x] (Optional) Preprocess `text` fields: remove noise, normalize punctuation, lowercase, etc.
+- ✅ (Optional) Preprocess `text` fields: remove noise, normalize punctuation, lowercase, etc.
 - [ ] (Optional) Split into `train`, `test`, `dev` sets if needed (e.g., for eval)
 
 ---
@@ -12,14 +12,14 @@
 ## ✅ Stage 2: Embedding & Indexing
 
 ### 📦 Choose Embedding Model
-- [x] Choose multilingual embedding model:
+- ✅ Choose multilingual embedding model:
   - `intfloat/multilingual-e5-base`
   - `vinai/sentence-transformers-vi-m2`
   - or custom Sentence-BERT model fine-tuned on Buddhist QA
 
 ### 📥 Vector Indexing
-- [ ] Choose vector DB: `FAISS`, `Qdrant`, or `Chroma`
-- [ ] Write script to:
+- ✅ Choose vector DB: `FAISS`, `Qdrant`, or `Chroma`
+- ✅ Write script to:
   - Load JSONL
   - Embed each `text` field
   - Store vector + `meta` (title, id, entities) in DB
@@ -29,8 +29,8 @@
 ## ✅ Stage 3: Retrieval Module
 
 - [ ] Implement `retrieve(query)` function:
-  - Embed user question
-  - Retrieve top-k similar STC segments
+  - ✅ Embed user question
+  - ✅ Retrieve top-k similar STC segments
   - Return both text and metadata
 
 ---
