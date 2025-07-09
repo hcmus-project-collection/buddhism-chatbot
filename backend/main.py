@@ -25,6 +25,13 @@ qdrant_client = connect_to_qdrant()
 app = FastAPI()
 
 
+class RelevantText(BaseModel):
+    """Relevant text from Qdrant."""
+    text: str
+    score: float
+    sentence_id: str
+    meta: dict
+
 class QueryRequest(BaseModel):
     """Request body for the query endpoint."""
 
@@ -36,7 +43,7 @@ class QueryResponse(BaseModel):
     """Response body for the query endpoint."""
 
     answer: str
-    relevant_texts: list[str]
+    relevant_texts: list[RelevantText]
 
 
 @app.get("/")
@@ -56,7 +63,12 @@ async def query(request: QueryRequest) -> QueryResponse:
         embedding_model,
     )
     answer = generate_answer(request.query, relevant_texts)
-    return QueryResponse(answer=answer, relevant_texts=relevant_texts)
+    return QueryResponse(
+        answer=answer,
+        relevant_texts=[
+            RelevantText(**text) for text in relevant_texts
+        ],
+    )
 
 
 if __name__ == "__main__":
