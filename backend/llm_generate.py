@@ -44,7 +44,8 @@ Nếu nội dung liên quan không được tìm thấy (là rỗng hoặc khôn
 USER_PROMPT_TEMPLATE = """
 Câu hỏi: {question}
 
-Các nội dung liên quan: {relevant_texts}
+Các nội dung liên quan:
+{relevant_texts}
 
 Hướng dẫn: hãy dựa trên các nội dung liên quan để trả lời câu hỏi.
 
@@ -63,6 +64,8 @@ def generate_answer(
         question=question,
         relevant_texts=relevant_texts,
     )
+    logger.info(f"Calling LLM at {OPENAI_API_BASE} with model {model_name}")
+    logger.info(f"Prompt: {prompt}")
     try:
         response = client.chat.completions.create(
             model=model_name,
@@ -77,3 +80,13 @@ def generate_answer(
         return ""
 
     return response.choices[0].message.content or ""
+
+
+if __name__ == "__main__":
+    retrieved = [
+        "Người làm thiện được phúc, người làm ác chịu báo ứng.",
+        "Đế Quân dạy rằng nhân quả không sai một mảy may.",
+    ]
+    question = "Đế Quân dạy điều gì về nhân quả?"
+    response = generate_answer(question, retrieved)
+    logger.info(f"🤖 LLM said that: {response}")
