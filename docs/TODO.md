@@ -38,13 +38,13 @@
 ## ✅ Stage 4: Generation Module (Chatbot)
 
 ### 🧠 Choose LLM Backend
-- [ ] Use:
+- ✅ Use:
   - `mistralai/Mistral-7B-Instruct`
   - `Qwen1.5-1.8B-Chat`
   - or `GPT-4` (via API)
 
 ### 📜 Prompt Template
-- [ ] Design context-aware prompt:
+- ✅ Design context-aware prompt:
   ```text
   [Question]
   {user_input}
