@@ -70,6 +70,7 @@ def generate_answer(
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": prompt},
             ],
+            temperature=0.1,
         )
     except Exception as e:
         logger.error(f"Error generating answer: {e}")
