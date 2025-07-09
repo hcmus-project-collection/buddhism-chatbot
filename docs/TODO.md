@@ -31,7 +31,7 @@
 - [ ] Implement `retrieve(query)` function:
   - ✅ Embed user question
   - ✅ Retrieve top-k similar STC segments
-  - Return both text and metadata
+  - ✅ Return both text and metadata
 
 ---
 
