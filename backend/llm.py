@@ -1,9 +1,8 @@
 import logging
-import os
 
 import openai
 
-from dotenv import load_dotenv
+from config import OPENAI_API_BASE, OPENAI_API_KEY, OPENAI_MODEL_NAME
 
 logging.basicConfig(
     level=logging.INFO,
@@ -11,18 +10,6 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S",
 )
 logger = logging.getLogger(__name__)
-
-load_dotenv()
-
-OPENAI_API_BASE = os.getenv(
-    "OPENAI_API_BASE",
-    "https://api.openai.com/v1",
-)  # In case we need to use a different OpenAI-compatible API
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "no-need")
-OPENAI_MODEL_NAME = os.getenv(
-    "OPENAI_MODEL_NAME",
-    "gpt-4o-mini",
-)
 
 client = openai.OpenAI(
     base_url=OPENAI_API_BASE,

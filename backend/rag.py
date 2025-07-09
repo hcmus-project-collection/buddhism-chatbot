@@ -1,19 +1,11 @@
-import json
 import logging
-import os
 import torch
-import uuid
-
-from dotenv import load_dotenv
-from pathlib import Path
-from tqdm import tqdm
 
 from sentence_transformers import SentenceTransformer
 
 from qdrant_client import QdrantClient
-from qdrant_client.models import PointStruct, VectorParams, Distance
 
-load_dotenv()
+from config import EMBEDDING_MODEL_NAME, QDRANT_URL, QDRANT_API_KEY, COLLECTION_NAME
 
 logging.basicConfig(
     level=logging.INFO,
@@ -22,17 +14,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Qdrant configuration
-QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333")
-QDRANT_API_KEY = os.getenv("QDRANT_API_KEY", None)
-COLLECTION_NAME = os.getenv("QDRANT_COLLECTION_NAME", "eastern_religion")
-
-# Embedding model configuration
-# EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-base"
-EMBEDDING_MODEL_NAME = os.getenv(
-    "EMBEDDING_MODEL_NAME",
-    "intfloat/multilingual-e5-base",
-)
 device = (
     "cuda"
     if torch.cuda.is_available()
@@ -90,7 +71,6 @@ def query_qdrant(
     ]
 
 
-# === Example usage
 if __name__ == "__main__":
     client = connect_to_qdrant()
     user_query = "Đế Quân dạy điều gì về nhân quả?"
