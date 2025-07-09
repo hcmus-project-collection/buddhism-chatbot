@@ -50,12 +50,13 @@ def query_qdrant(
     collection_name: str,
     query: str,
     top_k: int = 5,
+    embedding_model: SentenceTransformer | None = None,
 ) -> list[dict]:
     """Query Qdrant with a given query."""
     logger.info(
         f"Querying Qdrant collection '{collection_name}' with query: {query}",
     )
-    query = embed_query(query)
+    query = embed_query(query, embedding_model)
 
     results = client.search(
         collection_name=collection_name,

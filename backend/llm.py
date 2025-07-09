@@ -2,6 +2,8 @@ import logging
 
 import openai
 
+from typing import Generator
+
 from config import OPENAI_API_BASE, OPENAI_API_KEY, OPENAI_MODEL_NAME
 
 logging.basicConfig(
@@ -43,6 +45,7 @@ def generate_answer(
     question: str,
     relevant_texts: str | list[str],
     model_name: str = OPENAI_MODEL_NAME,
+    stream: bool = True,
 ) -> str:
     if isinstance(relevant_texts, list):
         relevant_texts = "\n".join(f"- {text}" for text in relevant_texts)
@@ -53,20 +56,31 @@ def generate_answer(
     )
     logger.info(f"Calling LLM at {OPENAI_API_BASE} with model {model_name}")
     logger.info(f"Prompt: {prompt}")
-    try:
-        response = client.chat.completions.create(
-            model=model_name,
-            messages=[
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": prompt},
-            ],
-            temperature=0.1,
-        )
-    except Exception as e:
-        logger.error(f"Error generating answer: {e}")
-        return ""
+    if stream:
+        try:
+            response = client.chat.completions.create(
+                model=model_name,
+                messages=[
+                    {"role": "system", "content": SYSTEM_PROMPT},
+                    {"role": "user", "content": prompt},
+                ],
+                temperature=0.1,
+            )
+        except Exception as e:
+            logger.error(f"Error generating answer: {e}")
+            return ""
 
-    return response.choices[0].message.content or ""
+        return response.choices[0].message.content or ""
+
+    response = client.chat.completions.create(
+        model=model_name,
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": prompt},
+        ],
+        temperature=0.1,
+        stream=True,
+    )
 
 
 if __name__ == "__main__":

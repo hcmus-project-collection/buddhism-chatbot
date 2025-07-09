@@ -34,3 +34,4 @@ DEVICE = (
     if torch.backends.mps.is_available()
     else "cpu"
 )
+PORT = int(os.getenv("PORT", 8000))

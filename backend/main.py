@@ -1,0 +1,63 @@
+import logging
+
+import uvicorn
+
+from fastapi import FastAPI
+from pydantic import BaseModel
+from sentence_transformers import SentenceTransformer
+
+from config import EMBEDDING_MODEL_NAME, DEVICE, PORT, COLLECTION_NAME
+from llm import generate_answer
+from rag import query_qdrant, connect_to_qdrant
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+logger = logging.getLogger(__name__)
+
+
+embedding_model = SentenceTransformer(EMBEDDING_MODEL_NAME, device=DEVICE)
+
+qdrant_client = connect_to_qdrant()
+
+app = FastAPI()
+
+
+class QueryRequest(BaseModel):
+    """Request body for the query endpoint."""
+
+    query: str
+    top_k: int = 5
+
+
+class QueryResponse(BaseModel):
+    """Response body for the query endpoint."""
+
+    answer: str
+    relevant_texts: list[str]
+
+
+@app.get("/")
+async def health_check() -> dict[str, str]:
+    """Implement the health check endpoint."""
+    return {"status": "ok"}
+
+
+@app.post("/query", response_model=QueryResponse)
+async def query(request: QueryRequest) -> QueryResponse:
+    """Query the Qdrant database."""
+    relevant_texts = query_qdrant(
+        qdrant_client,
+        COLLECTION_NAME,
+        request.query,
+        request.top_k,
+        embedding_model,
+    )
+    answer = generate_answer(request.query, relevant_texts)
+    return QueryResponse(answer=answer, relevant_texts=relevant_texts)
+
+
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="0.0.0.0", port=PORT, reload=True)
