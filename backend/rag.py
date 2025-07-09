@@ -5,7 +5,13 @@ from sentence_transformers import SentenceTransformer
 
 from qdrant_client import QdrantClient
 
-from config import EMBEDDING_MODEL_NAME, QDRANT_URL, QDRANT_API_KEY, COLLECTION_NAME
+from config import (
+    EMBEDDING_MODEL_NAME,
+    QDRANT_URL,
+    QDRANT_API_KEY,
+    COLLECTION_NAME,
+    DEVICE,
+)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -13,15 +19,6 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S",
 )
 logger = logging.getLogger(__name__)
-
-device = (
-    "cuda"
-    if torch.cuda.is_available()
-    else "mps"
-    if torch.backends.mps.is_available()
-    else "cpu"
-)
-model = SentenceTransformer(EMBEDDING_MODEL_NAME, device=device)
 
 
 def connect_to_qdrant() -> QdrantClient:
@@ -31,10 +28,17 @@ def connect_to_qdrant() -> QdrantClient:
     return QdrantClient(url=QDRANT_URL)
 
 
-def embed_query(query: str) -> list[float]:
+def embed_query(
+    query: str,
+    embedding_model: SentenceTransformer | None = None,
+) -> list[float]:
     """Embed the query with the embedding model."""
     logger.info(f"Embedding query: {query}")
-    return model.encode(
+    embedding_model = (
+        embedding_model
+        or SentenceTransformer(EMBEDDING_MODEL_NAME, device=DEVICE)
+    )
+    return embedding_model.encode(
         query,
         normalize_embeddings=True,
         convert_to_numpy=True,

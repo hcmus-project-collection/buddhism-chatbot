@@ -1,5 +1,7 @@
 import os
 
+import torch
+
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -23,4 +25,12 @@ COLLECTION_NAME = os.getenv("QDRANT_COLLECTION_NAME", "eastern_religion")
 EMBEDDING_MODEL_NAME = os.getenv(
     "EMBEDDING_MODEL_NAME",
     "intfloat/multilingual-e5-base",
+)
+
+DEVICE = (
+    "cuda"
+    if torch.cuda.is_available()
+    else "mps"
+    if torch.backends.mps.is_available()
+    else "cpu"
 )
