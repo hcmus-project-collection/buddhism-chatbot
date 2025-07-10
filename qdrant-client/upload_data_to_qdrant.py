@@ -25,7 +25,6 @@ QDRANT_API_KEY = os.getenv("QDRANT_API_KEY", None)
 COLLECTION_NAME = os.getenv("QDRANT_COLLECTION_NAME", "eastern_religion")
 EMBEDDING_DIM = int(os.getenv("EMBEDDING_DIM", 768))  # match the embedding model intfloat/multilingual-e5-base
 BATCH_SIZE = 256
-
 BASE_JSONL_EMBEDDINGS_DIR = Path("./jsonl/embeddings")
 
 
@@ -63,26 +62,53 @@ def create_collection(
             )
 
 
+def flatten_entities(meta: dict) -> dict:
+    """Flatten NER entity types for filtering."""
+    flat = {}
+    entities = meta.get("entities", [])
+    for ent in entities:
+        ent_type = ent.get("type")
+        ent_text = ent.get("text")
+        if ent_type and ent_text:
+            key = f"entities_{ent_type}"
+            flat.setdefault(key, []).append(ent_text)
+    return flat
+
+
 def load_points_from_jsonl(file_path: str | Path) -> list[PointStruct]:
-    """Load points from a JSONL file."""
+    """Load points from a JSONL file and enrich metadata."""
     points = []
     if isinstance(file_path, str):
         file_path = Path(file_path)
     with file_path.open("r", encoding="utf-8") as f:
         for line in tqdm(f, desc=f"Loading points from {file_path.name}"):
             data = json.loads(line)
+            sentence_id = data["id"]
+
+            # Extract structured metadata from sentence_id
+            try:
+                book_id, chapter_id, page_id, sentence_number = sentence_id.split(".")
+            except ValueError:
+                book_id = chapter_id = page_id = sentence_number = None
+                logger.warning(f"Malformed sentence_id: {sentence_id}")
+
+            payload = {
+                "text": data["text"],
+                "sentence_id": sentence_id,
+                "book_id": book_id,
+                "chapter_id": chapter_id,
+                "page_id": page_id,
+                "sentence_number": sentence_number,
+                **data.get("meta", {}),
+            }
+
             point = PointStruct(
                 id=uuid.uuid4().hex,  # Generate a unique ID for each point
                 vector=data["embedding"],
-                payload={
-                    "text": data["text"],
-                    "sentence_id": data["id"],
-                    **data.get("meta", {})
-                }
+                payload=payload,
             )
             points.append(point)
     logger.info(f"Loaded {len(points)} points from {file_path.name}")
-
     return points
 
 
@@ -109,7 +135,6 @@ def upload_data_to_qdrant(
     logger.info(
         f"Uploaded {len(points)} points to collection '{collection_name}'",
     )
-
 
 
 def main():
