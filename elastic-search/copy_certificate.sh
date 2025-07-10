@@ -1,0 +1,1 @@
+docker cp es-eastern-religion-chatbot:/usr/share/elasticsearch/config/certs/http_ca.crt ./
