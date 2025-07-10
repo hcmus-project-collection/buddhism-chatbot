@@ -4,6 +4,7 @@ import torch
 from sentence_transformers import SentenceTransformer
 
 from qdrant_client import QdrantClient
+from qdrant_client.models import Filter, FieldCondition, MatchValue
 
 from config import (
     EMBEDDING_MODEL_NAME,
@@ -51,11 +52,26 @@ def query_qdrant(
     query: str,
     top_k: int = 5,
     embedding_model: SentenceTransformer | None = None,
+    metadata_filter: dict | None = None,
 ) -> list[dict]:
     """Query Qdrant with a given query."""
     logger.info(
         f"Querying Qdrant collection '{collection_name}' with query: {query}",
     )
+
+    qdrant_filter = None
+    if metadata_filter:
+        qdrant_filter = Filter(
+            must=[
+                FieldCondition(
+                    key=key,
+                    match=MatchValue(value=value),
+                )
+                for key, value in metadata_filter.items()
+            ],
+        )
+
+
     query = embed_query(query, embedding_model)
 
     results = client.search(
@@ -63,6 +79,7 @@ def query_qdrant(
         query_vector=query,
         limit=top_k,
         with_payload=True,
+        query_filter=qdrant_filter,
     )
 
     return [

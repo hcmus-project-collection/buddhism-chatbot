@@ -37,6 +37,7 @@ class QueryRequest(BaseModel):
 
     query: str
     top_k: int = 5
+    metadata_filter: dict[str, str] | None = None
 
 
 class QueryResponse(BaseModel):
@@ -56,11 +57,12 @@ async def health_check() -> dict[str, str]:
 async def query(request: QueryRequest) -> QueryResponse:
     """Query the Qdrant database."""
     relevant_texts = query_qdrant(
-        qdrant_client,
-        COLLECTION_NAME,
-        request.query,
-        request.top_k,
-        embedding_model,
+        client=qdrant_client,
+        collection_name=COLLECTION_NAME,
+        query=request.query,
+        top_k=request.top_k,
+        embedding_model=embedding_model,
+        metadata_filter=request.metadata_filter,
     )
     answer = generate_answer(request.query, relevant_texts)
     return QueryResponse(
