@@ -1,7 +1,7 @@
-import logging
 import torch
 
 from sentence_transformers import SentenceTransformer
+from loguru import logger
 
 from qdrant_client import QdrantClient
 from qdrant_client.models import Filter, FieldCondition, MatchValue
@@ -13,13 +13,6 @@ from config import (
     COLLECTION_NAME,
     DEVICE,
 )
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
-logger = logging.getLogger(__name__)
 
 
 def connect_to_qdrant() -> QdrantClient:

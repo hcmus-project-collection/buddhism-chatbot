@@ -7,3 +7,5 @@ fastapi
 uvicorn
 streamlit
 elasticsearch==8.13.1  # to be compatible with elasticsearch 8.7.0 inside Makefile
+# https://pypi.org/project/loguru/
+loguru

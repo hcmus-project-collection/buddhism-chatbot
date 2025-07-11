@@ -1,20 +1,13 @@
 import json
-import logging
 from pathlib import Path
 
 from elasticsearch import Elasticsearch
 from tqdm import tqdm
+from loguru import logger
 
 from utils import connect_to_elasticsearch, ELASTIC_INDEX_NAME
 
 BASE_JSONL_DIR = Path("./jsonl/cleaned")
-
-# Set up logging
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-)
-logger = logging.getLogger(__name__)
 
 
 def _normalize_entities(entities: dict) -> dict:

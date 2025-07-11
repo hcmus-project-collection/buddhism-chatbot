@@ -1,15 +1,8 @@
 import json
-import logging
 import re
 
 from pathlib import Path
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
-logger = logging.getLogger(__name__)
+from loguru import logger
 
 CLEANED_JSONL_DIR = Path("jsonl/cleaned")
 CLEANED_JSONL_DIR.mkdir(exist_ok=True)

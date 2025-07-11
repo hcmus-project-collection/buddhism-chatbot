@@ -1,23 +1,16 @@
 import json
-import logging
 import os
 import uuid
 
 from dotenv import load_dotenv
 from pathlib import Path
 from tqdm import tqdm
+from loguru import logger
 
 from qdrant_client import QdrantClient
 from qdrant_client.models import PointStruct, VectorParams, Distance
 
 load_dotenv()
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
-logger = logging.getLogger(__name__)
 
 # Qdrant configuration
 QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333")

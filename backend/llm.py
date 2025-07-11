@@ -1,17 +1,9 @@
-import logging
-
 import openai
 
 from typing import Generator
+from loguru import logger
 
 from config import OPENAI_API_BASE, OPENAI_API_KEY, OPENAI_MODEL_NAME
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
-logger = logging.getLogger(__name__)
 
 client = openai.OpenAI(
     base_url=OPENAI_API_BASE,

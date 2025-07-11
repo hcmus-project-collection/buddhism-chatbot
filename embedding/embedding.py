@@ -1,6 +1,5 @@
 # Ensure to run this yourself, because the output of embedding for kinhtuongungbo.jsonl is 512MB, so I cannot push it to GitHub.
 import json
-import logging
 import os
 import torch
 
@@ -8,15 +7,9 @@ from dotenv import load_dotenv
 from pathlib import Path
 from sentence_transformers import SentenceTransformer
 from tqdm import tqdm
+from loguru import logger
 
 load_dotenv()
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
-logger = logging.getLogger(__name__)
 
 device = (
     "cuda"
