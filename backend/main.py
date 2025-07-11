@@ -1,13 +1,14 @@
 import uvicorn
 
 from fastapi import FastAPI
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from sentence_transformers import SentenceTransformer
 from loguru import logger
 
 from config import EMBEDDING_MODEL_NAME, DEVICE, PORT, COLLECTION_NAME
 from llm import generate_answer
 from rag import query_qdrant, connect_to_qdrant
+from elastic import search_texts_by_page_info, connect_to_elasticsearch
 
 # Configure loguru to match the existing logging format
 logger.remove()  # Remove default handler
@@ -17,10 +18,10 @@ logger.add(
     level="INFO",
 )
 
-
 embedding_model = SentenceTransformer(EMBEDDING_MODEL_NAME, device=DEVICE)
 
 qdrant_client = connect_to_qdrant()
+elastic_client = connect_to_elasticsearch()
 
 app = FastAPI()
 
@@ -37,7 +38,7 @@ class QueryRequest(BaseModel):
 
     query: str
     top_k: int = 5
-    metadata_filter: dict[str, str] | None = None
+    metadata_filter: dict[str, str] = Field(default_factory=dict, example={})
 
 
 class QueryResponse(BaseModel):
@@ -56,6 +57,7 @@ async def health_check() -> dict[str, str]:
 @app.post("/query", response_model=QueryResponse)
 async def query(request: QueryRequest) -> QueryResponse:
     """Query the Qdrant database."""
+    logger.info(f"Request: {request}")
     relevant_texts = query_qdrant(
         client=qdrant_client,
         collection_name=COLLECTION_NAME,
@@ -64,6 +66,24 @@ async def query(request: QueryRequest) -> QueryResponse:
         embedding_model=embedding_model,
         metadata_filter=request.metadata_filter,
     )
+
+    for text in relevant_texts:
+        logger.info(f"Processing text: {text}")
+        sentence_id = text["sentence_id"]
+        if not sentence_id:
+            text["texts_on_the_same_page"] = []
+            continue
+        book_id = text.get("meta", {}).get("book_id", "")
+        chapter_id = text.get("meta", {}).get("chapter_id")
+        page_id = text.get("meta", {}).get("page_id")
+        texts_on_the_same_page = search_texts_by_page_info(
+            client=elastic_client,
+            book_id=book_id,
+            chapter_id=chapter_id,
+            page_id=page_id,
+        )
+        text["texts_on_the_same_page"] = texts_on_the_same_page
+
     answer = generate_answer(request.query, relevant_texts)
     return QueryResponse(
         answer=answer,

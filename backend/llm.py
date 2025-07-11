@@ -13,9 +13,7 @@ client = openai.OpenAI(
 SYSTEM_PROMPT = """
 Bạn là một chuyên gia trong lĩnh vực tôn giáo phương Đông.
 
-Bạn sẽ được cung cấp câu hỏi (question), các nội dung liên quan (relevant texts) (nếu có), và hướng dẫn (instruction).
-
-Bạn sẽ dựa vào các nội dung liên quan (relevant texts) và hướng dẫn (instruction) để trả lời câu hỏi (question).
+Bạn sẽ được cung cấp câu hỏi (question), các nội dung liên quan (relevant texts) (nếu có), và hướng dẫn (instruction). Đối với mỗi nội dung liên quan, bạn cũng sẽ được cung cấp các nội dung xuất hiện trên cùng trang với câu đó (texts_on_the_same_page). Các nội dung này sẽ bắt đầu bằng pattern 'Các nội dung liên quan trên cùng trang:'. Hãy xem xét cẩn thận các phần này (bao gồm cả các nội dung liên quan - relevant texts và các nội dung xuất hiện trên cùng trang - texts_on_the_same_page), và dựa vào chúng để trả lời câu hỏi.
 
 Nếu câu hỏi không liên quan đến tôn giáo phương Đông (như giá BTC hôm nay bao nhiêu, Python là gì, ...), hãy trả lời một cách lịch sự rằng câu hỏi này không liên quan đến lĩnh vực chuyên môn của bạn.
 
@@ -35,16 +33,22 @@ Hướng dẫn: hãy dựa trên các nội dung liên quan để trả lời c�
 
 def generate_answer(
     question: str,
-    relevant_texts: str | list[str],
+    relevant_texts: list[dict],
     model_name: str = OPENAI_MODEL_NAME,
     stream: bool = True,
 ) -> str:
-    if isinstance(relevant_texts, list):
-        relevant_texts = "\n".join(f"- {text}" for text in relevant_texts)
+
+    relevant_texts_str = "\n"
+    for text in relevant_texts:
+        relevant_texts_str += f"- {text['text']}\n"
+        relevant_texts_str += "Các nội dung liên quan trên cùng trang:\n"
+        for same_page_text in text["texts_on_the_same_page"]:
+            relevant_texts_str += f"- {same_page_text['text']}\n"
+        relevant_texts_str += "\n"
 
     prompt = USER_PROMPT_TEMPLATE.format(
         question=question,
-        relevant_texts=relevant_texts,
+        relevant_texts=relevant_texts_str,
     )
     logger.info(f"Calling LLM at {OPENAI_API_BASE} with model {model_name}")
     logger.info(f"Prompt: {prompt}")
