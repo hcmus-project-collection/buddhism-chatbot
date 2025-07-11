@@ -1,11 +1,16 @@
 import json
+import os
 from pathlib import Path
 
+from dotenv import load_dotenv
 from elasticsearch import Elasticsearch
 from tqdm import tqdm
 from loguru import logger
 
-from utils import connect_to_elasticsearch, ELASTIC_INDEX_NAME
+
+from utils import connect_to_elasticsearch, ELASTIC_INDEX_NAME, recreate_index
+
+load_dotenv()
 
 BASE_JSONL_DIR = Path("./jsonl/cleaned")
 
@@ -40,6 +45,11 @@ def extract_entities_from_jsonl(jsonl_file: str | Path):
             if not entities:
                 continue
             sentence_id = obj["id"]
+            try:
+                book_id, chapter_id, page_id, sentence_number = sentence_id.split(".")
+            except ValueError:
+                book_id = chapter_id = page_id = sentence_number = None
+                logger.warning(f"Malformed sentence_id: {sentence_id}")
             entities = _normalize_entities(entities)
             for entity_type, entity_values in entities.items():
                 for entity_value in entity_values:
@@ -51,6 +61,10 @@ def extract_entities_from_jsonl(jsonl_file: str | Path):
                             "text": obj["text"],
                             "entity_type": entity_type,
                             "entity_value": entity_value,
+                            "book_id": book_id,
+                            "chapter_id": chapter_id,
+                            "page_id": page_id,
+                            "sentence_number": sentence_number,
                         },
                     }
 
@@ -91,5 +105,7 @@ def index_named_entities(
 if __name__ == "__main__":
     logger.info("Connecting to Elasticsearch...")
     client = connect_to_elasticsearch()
+    if os.getenv("ELASTIC_FORCE_RECREATE", "false").lower() == "true":
+        recreate_index(client=client, index_name=ELASTIC_INDEX_NAME)
     logger.info("Connected.")
     index_named_entities(client=client, jsonl_dir=BASE_JSONL_DIR)
