@@ -4,11 +4,9 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 from elasticsearch import Elasticsearch
-from tqdm import tqdm
 from loguru import logger
-
-
-from utils import connect_to_elasticsearch, ELASTIC_INDEX_NAME, recreate_index
+from tqdm import tqdm
+from utils import ELASTIC_INDEX_NAME, connect_to_elasticsearch, recreate_index
 
 load_dotenv()
 

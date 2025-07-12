@@ -1,14 +1,13 @@
 import json
 import os
 import uuid
+from pathlib import Path
 
 from dotenv import load_dotenv
-from pathlib import Path
-from tqdm import tqdm
 from loguru import logger
-
 from qdrant_client import QdrantClient
-from qdrant_client.models import PointStruct, VectorParams, Distance
+from qdrant_client.models import Distance, PointStruct, VectorParams
+from tqdm import tqdm
 
 load_dotenv()
 

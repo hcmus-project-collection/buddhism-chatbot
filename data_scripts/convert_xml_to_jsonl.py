@@ -1,8 +1,8 @@
 import json
 import xml.etree.ElementTree as ET
-
 from collections import defaultdict
 from pathlib import Path
+
 from loguru import logger
 
 BASE_JSONL_DIR = Path("jsonl/raw")

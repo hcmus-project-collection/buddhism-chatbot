@@ -1,9 +1,8 @@
-import openai
-
 from typing import Generator
-from loguru import logger
 
+import openai
 from config import OPENAI_API_BASE, OPENAI_API_KEY, OPENAI_MODEL_NAME
+from loguru import logger
 
 client = openai.OpenAI(
     base_url=OPENAI_API_BASE,

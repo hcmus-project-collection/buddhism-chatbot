@@ -1,13 +1,11 @@
 import uvicorn
-
+from config import COLLECTION_NAME, PORT
+from elastic import connect_to_elasticsearch, search_texts_by_page_info
 from fastapi import FastAPI
-from pydantic import BaseModel, Field
-from loguru import logger
-
-from config import PORT, COLLECTION_NAME
 from llm import generate_answer
-from rag import query_qdrant, connect_to_qdrant
-from elastic import search_texts_by_page_info, connect_to_elasticsearch
+from loguru import logger
+from pydantic import BaseModel, Field
+from rag import connect_to_qdrant, query_qdrant
 
 # Configure loguru to match the existing logging format
 logger.remove()  # Remove default handler

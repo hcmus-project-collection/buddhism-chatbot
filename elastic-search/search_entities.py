@@ -1,7 +1,6 @@
 from elasticsearch import Elasticsearch
 from loguru import logger
-
-from utils import connect_to_elasticsearch, ELASTIC_INDEX_NAME
+from utils import ELASTIC_INDEX_NAME, connect_to_elasticsearch
 
 
 def search_entities_general(
