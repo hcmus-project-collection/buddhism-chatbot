@@ -1,11 +1,11 @@
 import uvicorn
-from config import COLLECTION_NAME, PORT
-from elastic import connect_to_elasticsearch, search_texts_by_page_info
+from backend.config import COLLECTION_NAME, PORT
+from backend.elastic import connect_to_elasticsearch, search_texts_by_page_info
 from fastapi import FastAPI
-from llm import generate_answer
+from backend.llm import generate_answer
 from loguru import logger
 from pydantic import BaseModel, Field
-from rag import connect_to_qdrant, query_qdrant
+from backend.rag import connect_to_qdrant, query_qdrant
 
 # Configure loguru to match the existing logging format
 logger.remove()  # Remove default handler
@@ -23,6 +23,7 @@ app = FastAPI()
 
 class RelevantText(BaseModel):
     """Relevant text from Qdrant."""
+
     text: str
     score: float
     sentence_id: str
@@ -35,7 +36,7 @@ class QueryRequest(BaseModel):
 
     query: str
     top_k: int = 5
-    metadata_filter: dict[str, str] = Field(default_factory=dict, example={})
+    metadata_filter: dict[str, str] = Field(default_factory=dict, example={})  # type: ignore
 
 
 class QueryResponse(BaseModel):
@@ -84,17 +85,14 @@ async def query(request: QueryRequest) -> QueryResponse:
 
     for text in relevant_texts:
         text["texts_on_the_same_page"] = [
-            text["text"]
-            for text in texts_on_the_same_page
+            text["text"] for text in texts_on_the_same_page
         ]
 
     return QueryResponse(
         answer=answer,
-        relevant_texts=[
-            RelevantText(**text) for text in relevant_texts
-        ],
+        relevant_texts=[RelevantText(**text) for text in relevant_texts],
     )
 
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=PORT, reload=True)
+    uvicorn.run("backend.main:app", host="0.0.0.0", port=PORT, reload=True)

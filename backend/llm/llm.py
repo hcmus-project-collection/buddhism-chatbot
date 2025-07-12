@@ -1,7 +1,5 @@
-from typing import Generator
-
 import openai
-from config import OPENAI_API_BASE, OPENAI_API_KEY, OPENAI_MODEL_NAME
+from backend.config import OPENAI_API_BASE, OPENAI_API_KEY, OPENAI_MODEL_NAME
 from loguru import logger
 
 client = openai.OpenAI(
@@ -36,7 +34,6 @@ def generate_answer(
     model_name: str = OPENAI_MODEL_NAME,
     stream: bool = True,
 ) -> str:
-
     relevant_texts_str = "\n"
     for text in relevant_texts:
         relevant_texts_str += f"- {text['text']}\n"

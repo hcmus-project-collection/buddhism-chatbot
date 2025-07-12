@@ -1,5 +1,10 @@
-from config import (ELASTIC_HOST, ELASTIC_INDEX_NAME, ELASTIC_PASSWORD,
-                    ELASTIC_PORT, ELASTIC_USERNAME)
+from backend.config import (
+    ELASTIC_HOST,
+    ELASTIC_INDEX_NAME,
+    ELASTIC_PASSWORD,
+    ELASTIC_PORT,
+    ELASTIC_USERNAME,
+)
 from elasticsearch import Elasticsearch
 from loguru import logger
 
