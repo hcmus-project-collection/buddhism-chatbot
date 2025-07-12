@@ -2,10 +2,9 @@ import uvicorn
 
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
-from sentence_transformers import SentenceTransformer
 from loguru import logger
 
-from config import EMBEDDING_MODEL_NAME, DEVICE, PORT, COLLECTION_NAME
+from config import PORT, COLLECTION_NAME
 from llm import generate_answer
 from rag import query_qdrant, connect_to_qdrant
 from elastic import search_texts_by_page_info, connect_to_elasticsearch
@@ -17,8 +16,6 @@ logger.add(
     format="{time:YYYY-MM-DD HH:mm:SS} - {level} - {message}",
     level="INFO",
 )
-
-embedding_model = SentenceTransformer(EMBEDDING_MODEL_NAME, device=DEVICE)
 
 qdrant_client = connect_to_qdrant()
 elastic_client = connect_to_elasticsearch()
@@ -65,7 +62,6 @@ async def query(request: QueryRequest) -> QueryResponse:
         collection_name=COLLECTION_NAME,
         query=request.query,
         top_k=request.top_k,
-        embedding_model=embedding_model,
         metadata_filter=request.metadata_filter,
     )
 
