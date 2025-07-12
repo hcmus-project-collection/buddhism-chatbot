@@ -32,6 +32,8 @@ class RelevantText(BaseModel):
     score: float
     sentence_id: str
     meta: dict
+    texts_on_the_same_page: list[str]
+
 
 class QueryRequest(BaseModel):
     """Request body for the query endpoint."""
@@ -85,6 +87,13 @@ async def query(request: QueryRequest) -> QueryResponse:
         text["texts_on_the_same_page"] = texts_on_the_same_page
 
     answer = generate_answer(request.query, relevant_texts)
+
+    for text in relevant_texts:
+        text["texts_on_the_same_page"] = [
+            text["text"]
+            for text in texts_on_the_same_page
+        ]
+
     return QueryResponse(
         answer=answer,
         relevant_texts=[
