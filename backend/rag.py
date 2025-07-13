@@ -1,18 +1,14 @@
-import torch
-
-from sentence_transformers import SentenceTransformer
-from loguru import logger
-
-from qdrant_client import QdrantClient
-from qdrant_client.models import Filter, FieldCondition, MatchValue
-
-from config import (
-    EMBEDDING_MODEL_NAME,
-    QDRANT_URL,
-    QDRANT_API_KEY,
+from backend.config import (
     COLLECTION_NAME,
     DEVICE,
+    EMBEDDING_MODEL_NAME,
+    QDRANT_API_KEY,
+    QDRANT_URL,
 )
+from loguru import logger
+from qdrant_client import QdrantClient
+from qdrant_client.models import FieldCondition, Filter, MatchValue
+from sentence_transformers import SentenceTransformer
 
 
 def connect_to_qdrant() -> QdrantClient:
@@ -28,9 +24,9 @@ def embed_query(
 ) -> list[float]:
     """Embed the query with the embedding model."""
     logger.info(f"Embedding query: {query}")
-    embedding_model = (
-        embedding_model
-        or SentenceTransformer(EMBEDDING_MODEL_NAME, device=DEVICE)
+    embedding_model = embedding_model or SentenceTransformer(
+        EMBEDDING_MODEL_NAME,
+        device=DEVICE,
     )
     return embedding_model.encode(
         query,
@@ -40,14 +36,16 @@ def embed_query(
 
 
 def query_qdrant(
-    client: QdrantClient,
-    collection_name: str,
     query: str,
+    client: QdrantClient | None = None,
     top_k: int = 5,
-    embedding_model: SentenceTransformer | None = None,
     metadata_filter: dict | None = None,
+    collection_name: str = COLLECTION_NAME,
+    embedding_model: SentenceTransformer | None = None,
 ) -> list[dict]:
     """Query Qdrant with a given query."""
+    client = client or connect_to_qdrant()
+
     logger.info(
         f"Querying Qdrant collection '{collection_name}' with query: {query}",
     )
@@ -64,12 +62,11 @@ def query_qdrant(
             ],
         )
 
-
-    query = embed_query(query, embedding_model)
+    query_vector = embed_query(query, embedding_model)
 
     results = client.search(
         collection_name=collection_name,
-        query_vector=query,
+        query_vector=query_vector,
         limit=top_k,
         with_payload=True,
         query_filter=qdrant_filter,
@@ -78,9 +75,15 @@ def query_qdrant(
     return [
         {
             "score": r.score,
-            "text": r.payload["text"],
-            "sentence_id": r.payload.get("sentence_id", ""),
-            "meta": {k: v for k, v in r.payload.items() if k not in {"text", "sentence_id"}}
+            "text": r.payload["text"] if r.payload else "",
+            "sentence_id": (
+                r.payload.get("sentence_id", "") if r.payload else ""
+            ),
+            "meta": {
+                k: v
+                for k, v in (r.payload or {}).items()
+                if k not in {"text", "sentence_id"}
+            },
         }
         for r in results
     ]
@@ -97,4 +100,4 @@ if __name__ == "__main__":
     )
 
     for i, r in enumerate(results, 1):
-        print(f"\n🔹 Result {i} (score: {r['score']:.4f}):\n{r['text']}")
+        logger.info(f"\n🔹 Result {i} (score: {r['score']:.4f}):\n{r['text']}")
