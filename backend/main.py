@@ -2,7 +2,7 @@ import uvicorn
 from backend.config import COLLECTION_NAME, PORT
 from backend.elastic import connect_to_elasticsearch, search_texts_by_page_info
 from fastapi import FastAPI
-from backend.llm import generate_answer
+from backend.llm import generate_answer, generate_answer_with_tools
 from loguru import logger
 from pydantic import BaseModel, Field
 from backend.rag import connect_to_qdrant, query_qdrant
@@ -37,6 +37,7 @@ class QueryRequest(BaseModel):
     query: str
     top_k: int = 5
     metadata_filter: dict[str, str] = Field(default_factory=dict, example={})  # type: ignore
+    using_tools: bool = False
 
 
 class QueryResponse(BaseModel):
@@ -81,7 +82,14 @@ async def query(request: QueryRequest) -> QueryResponse:
         )
         text["texts_on_the_same_page"] = texts_on_the_same_page
 
-    answer = generate_answer(request.query, relevant_texts)
+    if request.using_tools:
+        answer = await generate_answer_with_tools(request.query)
+        if not answer:
+            answer = "Không tìm thấy thông tin về câu hỏi này"
+    else:
+        answer = generate_answer(request.query, relevant_texts)
+        if not answer:
+            answer = "Không tìm thấy thông tin về câu hỏi này"
 
     for text in relevant_texts:
         text["texts_on_the_same_page"] = [
