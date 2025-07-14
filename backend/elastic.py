@@ -19,13 +19,15 @@ def connect_to_elasticsearch() -> Elasticsearch:
 
 
 def search_texts_by_page_info(
-    client: Elasticsearch,
+    client: Elasticsearch | None = None,
     book_id: str | None = None,
     chapter_id: str | None = None,
     page_id: str | None = None,
     index_name: str = ELASTIC_INDEX_NAME,
     size: int = 10,
 ):
+    client = client or connect_to_elasticsearch()
+
     clauses = []
     if book_id:
         clauses.append({"match": {"book_id": book_id}})
