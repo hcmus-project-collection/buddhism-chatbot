@@ -1,11 +1,11 @@
 import uvicorn
 from backend.config import COLLECTION_NAME, PORT
-from backend.elastic import connect_to_elasticsearch, search_texts_by_page_info
+from backend.elastic import search_texts_by_page_info
 from fastapi import FastAPI
 from backend.llm import generate_answer, generate_answer_with_tools
 from loguru import logger
 from pydantic import BaseModel, Field
-from backend.rag import connect_to_qdrant, query_qdrant
+from backend.rag import query_qdrant
 
 # Configure loguru to match the existing logging format
 logger.remove()  # Remove default handler
@@ -14,9 +14,6 @@ logger.add(
     format="{time:YYYY-MM-DD HH:mm:SS} - {level} - {message}",
     level="INFO",
 )
-
-qdrant_client = connect_to_qdrant()
-elastic_client = connect_to_elasticsearch()
 
 app = FastAPI()
 
@@ -58,7 +55,6 @@ async def query(request: QueryRequest) -> QueryResponse:
     """Query the Qdrant database."""
     logger.info(f"Request: {request}")
     relevant_texts = query_qdrant(
-        client=qdrant_client,
         collection_name=COLLECTION_NAME,
         query=request.query,
         top_k=request.top_k,
@@ -75,7 +71,6 @@ async def query(request: QueryRequest) -> QueryResponse:
         chapter_id = text.get("meta", {}).get("chapter_id")
         page_id = text.get("meta", {}).get("page_id")
         texts_on_the_same_page = search_texts_by_page_info(
-            client=elastic_client,
             book_id=book_id,
             chapter_id=chapter_id,
             page_id=page_id,
