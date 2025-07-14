@@ -11,6 +11,7 @@ from loguru import logger
 
 from backend.constants import Title, Volume
 from backend.rag import query_qdrant
+from backend.elastic import search_texts_by_page_info
 
 mcp = FastMCP("Eastern Religion Retriever")
 
@@ -18,13 +19,6 @@ mcp = FastMCP("Eastern Religion Retriever")
 @mcp.tool()
 def retrieve_text(
     query: str,
-    # title: Literal[
-    #     Title.AN_SI_TOAN_THU,
-    #     Title.KINH_TUONG_UNG_BO,
-    #     Title.QUAN_AM_THI_KINH,
-    #     Title.THIEN_UYEN_TAP_ANH,
-    # ]
-    # | None = None,
     title: Literal[
         Title.AN_SI_TOAN_THU,
         Title.KINH_TUONG_UNG_BO,
@@ -45,7 +39,7 @@ def retrieve_text(
     """
     logger.info(f"Calling retrieve_text tool with arguments: {query}, {title}")
     if not title:
-        return query_qdrant(query)
+        results = query_qdrant(query)
 
     if isinstance(title, Title):
         title = title.value
@@ -53,7 +47,25 @@ def retrieve_text(
     metadata_filter = {
         "title": title,
     }
-    return query_qdrant(query, metadata_filter=metadata_filter)
+    results = query_qdrant(query, metadata_filter=metadata_filter)
+
+    for result in results:
+        logger.info(f"Processing text")
+        sentence_id = result["sentence_id"]
+        if not sentence_id:
+            result["texts_on_the_same_page"] = []
+            continue
+        book_id = result.get("meta", {}).get("book_id", "")
+        chapter_id = result.get("meta", {}).get("chapter_id")
+        page_id = result.get("meta", {}).get("page_id")
+        texts_on_the_same_page = search_texts_by_page_info(
+            book_id=book_id,
+            chapter_id=chapter_id,
+            page_id=page_id,
+        )
+        result["texts_on_the_same_page"] = texts_on_the_same_page
+
+    return results
 
 
 @mcp.tool()
