@@ -8,4 +8,7 @@ all_pdf_files = Path(base_path).glob("*.pdf")
 for pdf_file in all_pdf_files:
     converter = DocumentConverter()
     result = converter.convert(pdf_file)
-    print(result.document.export_to_markdown())
+    markdown_content = result.document.export_to_markdown()
+    output_path = pdf_file.with_suffix('.md')
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(markdown_content)
