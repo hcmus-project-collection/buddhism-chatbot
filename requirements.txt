@@ -11,3 +11,4 @@ elasticsearch==8.13.1  # to be compatible with elasticsearch 8.7.0 inside Makefi
 loguru
 fastmcp
 json-repair
+docling
