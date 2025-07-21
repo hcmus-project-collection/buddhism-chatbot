@@ -1,6 +1,5 @@
 import uvicorn
 from backend.config import COLLECTION_NAME, PORT
-from backend.elastic import search_texts_by_page_info
 from fastapi import FastAPI
 from backend.llm import generate_answer, generate_answer_with_tools
 from loguru import logger
@@ -25,7 +24,6 @@ class RelevantText(BaseModel):
     score: float
     sentence_id: str
     meta: dict
-    texts_on_the_same_page: list[str]
 
 
 class QueryRequest(BaseModel):
@@ -61,22 +59,6 @@ async def query(request: QueryRequest) -> QueryResponse:
         metadata_filter=request.metadata_filter,
     )
 
-    for text in relevant_texts:
-        logger.info(f"Processing text: {text}")
-        sentence_id = text["sentence_id"]
-        if not sentence_id:
-            text["texts_on_the_same_page"] = []
-            continue
-        book_id = text.get("meta", {}).get("book_id", "")
-        chapter_id = text.get("meta", {}).get("chapter_id")
-        page_id = text.get("meta", {}).get("page_id")
-        texts_on_the_same_page = search_texts_by_page_info(
-            book_id=book_id,
-            chapter_id=chapter_id,
-            page_id=page_id,
-        )
-        text["texts_on_the_same_page"] = texts_on_the_same_page
-
     if request.using_tools:
         answer = await generate_answer_with_tools(request.query)
         if not answer:
@@ -85,11 +67,6 @@ async def query(request: QueryRequest) -> QueryResponse:
         answer = generate_answer(request.query, relevant_texts)
         if not answer:
             answer = "Không tìm thấy thông tin về câu hỏi này"
-
-    for text in relevant_texts:
-        text["texts_on_the_same_page"] = [
-            text["text"] for text in texts_on_the_same_page
-        ]
 
     return QueryResponse(
         answer=answer,

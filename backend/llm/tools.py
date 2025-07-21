@@ -11,7 +11,6 @@ from loguru import logger
 
 from backend.constants import Title, Volume
 from backend.rag import query_qdrant
-from backend.elastic import search_texts_by_page_info
 
 mcp = FastMCP("Eastern Religion Retriever")
 
@@ -48,22 +47,6 @@ def retrieve_text(
         "title": title,
     }
     results = query_qdrant(query, metadata_filter=metadata_filter)
-
-    for result in results:
-        logger.info(f"Processing text")
-        sentence_id = result["sentence_id"]
-        if not sentence_id:
-            result["texts_on_the_same_page"] = []
-            continue
-        book_id = result.get("meta", {}).get("book_id", "")
-        chapter_id = result.get("meta", {}).get("chapter_id")
-        page_id = result.get("meta", {}).get("page_id")
-        texts_on_the_same_page = search_texts_by_page_info(
-            book_id=book_id,
-            chapter_id=chapter_id,
-            page_id=page_id,
-        )
-        result["texts_on_the_same_page"] = texts_on_the_same_page
 
     return results
 
