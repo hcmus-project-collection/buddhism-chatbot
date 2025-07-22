@@ -1,0 +1,30 @@
+# Backend .dockerignore
+Dockerfile*
+.dockerignore
+.git
+.gitignore
+README.md
+.pytest_cache
+.coverage
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+frontend/
+tests/
+docs/
+*.log
+# Poetry files (not needed for pip)
+poetry.lock
+pyproject.toml
