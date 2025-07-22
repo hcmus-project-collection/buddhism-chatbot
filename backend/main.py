@@ -1,6 +1,7 @@
 import uvicorn
 from backend.config import COLLECTION_NAME, PORT
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from backend.llm import generate_answer, generate_answer_with_tools
 from loguru import logger
 from pydantic import BaseModel, Field
@@ -15,6 +16,19 @@ logger.add(
 )
 
 app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://eastern-chatbot.nguyenvanloc.com",
+        "http://localhost:3000",  # For local development
+        "http://127.0.0.1:3000",  # For local development
+    ],
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allow_headers=["*"],
+)
 
 
 class RelevantText(BaseModel):
