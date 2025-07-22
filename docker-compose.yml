@@ -10,11 +10,10 @@ services:
       - ./.env:/app/.env:ro
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.backend.rule=Host(`backend-easternchatbot.nguyenvanloc.com`)"
-      - "traefik.http.routers.backend.entrypoints=websecure"
-      - "traefik.http.routers.backend.tls=true"
-      - "traefik.http.routers.backend.service=backend"
-      - "traefik.http.services.backend.loadbalancer.server.port=8000"
+      - "traefik.http.routers.eastern-backend.rule=Host(`backend-easternchatbot.nguyenvanloc.com`)"
+      - "traefik.http.routers.eastern-backend.entrypoints=websecure"
+      - "traefik.http.routers.eastern-backend.tls=true"
+      - "traefik.http.services.eastern-backend.loadbalancer.server.port=8000"
     networks:
       - localnet
     restart: unless-stopped
@@ -32,13 +31,12 @@ services:
     container_name: eastern-religion-frontend
     environment:
       - NODE_ENV=production
-      - NEXT_PUBLIC_API_URL=http://backend:8000
+      - NEXT_PUBLIC_API_URL=https://backend-easternchatbot.nguyenvanloc.com
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.frontend.rule=Host(`eastern-chatbot.nguyenvanloc.com`)"
-      - "traefik.http.routers.frontend.entrypoints=websecure"
-      - "traefik.http.routers.frontend.tls=true"
-      - "traefik.http.routers.frontend.service=frontend"
+      - "traefik.http.routers.eastern-frontend.rule=Host(`eastern-chatbot.nguyenvanloc.com`)"
+      - "traefik.http.routers.eastern-frontend.entrypoints=websecure"
+      - "traefik.http.routers.eastern-frontend.tls=true"
       - "traefik.http.services.frontend.loadbalancer.server.port=3000"
     networks:
       - localnet
@@ -50,4 +48,3 @@ services:
 networks:
   localnet:
     external: true
-    name: localnet
