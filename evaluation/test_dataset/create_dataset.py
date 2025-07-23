@@ -17,7 +17,7 @@ from loguru import logger
 
 load_dotenv()
 
-logger.add(f"evaluation/create_dataset_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.log")
+logger.add(f"evaluation/test_dataset/create_dataset_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.log")
 
 AZURE_INFERENCE_SDK_ENDPOINT=os.getenv("AZURE_INFERENCE_SDK_ENDPOINT")
 AZURE_INFERENCE_SDK_MODEL_NAME=os.getenv("AZURE_INFERENCE_SDK_MODEL_NAME")
@@ -49,7 +49,7 @@ SYSTEM_PROMPT = (
     "The question and answer should be in Vietnamese.\n"
 )
 
-OUTPUT_PATH = "evaluation/test_set.json"
+OUTPUT_PATH = "evaluation/test_dataset/test_set.json"
 
 
 def _read_markdown_files(files: list[Path] = markdown_files) -> str:

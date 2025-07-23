@@ -12,8 +12,8 @@ load_dotenv()
 
 # Configuration
 DATASET_ID = "vanloc1808/buddhist-scholar-test-set"
-OUTPUT_PATH = "evaluation/test_set.json"
-README_PATH = "evaluation/dataset_README.md"
+OUTPUT_PATH = "evaluation/test_dataset/test_set.json"
+README_PATH = "evaluation/test_dataset/dataset_README.md"
 
 # Initialize Hugging Face API
 api = HfApi()
