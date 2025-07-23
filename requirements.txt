@@ -14,3 +14,13 @@ json-repair
 docling
 pydantic
 requests
+json-repair
+
+# Azure AI Inference
+azure.identity
+azure-ai-inference
+azure-core
+
+# For processing datasets
+datasets
+huggingface-hub
