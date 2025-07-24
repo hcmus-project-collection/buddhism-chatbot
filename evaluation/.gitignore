@@ -1,0 +1,20 @@
+# Evaluation results and logs
+results/
+demo_results/
+*.log
+*.csv
+*.json
+!requirements.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
