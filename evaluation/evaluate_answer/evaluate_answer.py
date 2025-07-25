@@ -2,15 +2,15 @@ import asyncio
 import json
 import os
 from datetime import datetime
-from typing import List, Dict, Optional
+from pathlib import Path
 
 import json_repair
+from bert_score import score
 from dotenv import load_dotenv
 from loguru import logger
 from openai import AsyncOpenAI
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-from bert_score import score
 
 load_dotenv()
 
@@ -36,7 +36,7 @@ sentence_model = SentenceTransformer("intfloat/e5-base")
 class AnswerEvaluator:
     """Unified answer evaluator with multiple evaluation methods."""
 
-    def __init__(self):
+    def __init__(self) -> None:
         self.openai_client = openai_client
         self.sentence_model = sentence_model
 
@@ -97,25 +97,25 @@ class AnswerEvaluator:
         logger.info(f"BERT score: {f1_score}")
         return float(f1_score)
 
-    def load_json_data(self, json_file: str) -> List[Dict]:
+    def load_json_data(self, json_file: str) -> list[dict]:
         """Load and parse JSON data from file."""
         logger.info(f"Loading data from {json_file}")
-        with open(json_file, "r") as f:
+        with Path(json_file).open("r", encoding="utf-8") as f:
             data = json_repair.loads(f.read())
         return data
 
-    def save_json_data(self, data: List[Dict], output_file: str) -> None:
+    def save_json_data(self, data: list[dict], output_file: str) -> None:
         """Save data to JSON file."""
         logger.info(f"Saving data to {output_file}")
-        with open(output_file, "w") as f:
+        with Path(output_file).open("w", encoding="utf-8") as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
 
-    async def evaluate_json_file_openai(self, json_file: str, max_concurrent: int = 10) -> List[Dict]:
+    async def evaluate_json_file_openai(self, json_file: str, max_concurrent: int = 10) -> list[dict]:
         """Evaluate the similarity between expected and actual answers using OpenAI GPT."""
         data = self.load_json_data(json_file)
         semaphore = asyncio.Semaphore(max_concurrent)
 
-        async def evaluate_item(item: Dict):
+        async def evaluate_item(item: dict) -> None:
             async with semaphore:
                 item["gpt_similarity_score"] = await self.evaluate_similarity_openai(
                     item["expected_answer"],
@@ -126,7 +126,7 @@ class AnswerEvaluator:
         await asyncio.gather(*tasks)
         return data
 
-    def evaluate_json_file_cosine(self, json_file: str) -> List[Dict]:
+    def evaluate_json_file_cosine(self, json_file: str) -> list[dict]:
         """Evaluate the similarity using cosine similarity."""
         data = self.load_json_data(json_file)
 
@@ -137,7 +137,7 @@ class AnswerEvaluator:
             )
         return data
 
-    def evaluate_json_file_bert(self, json_file: str) -> List[Dict]:
+    def evaluate_json_file_bert(self, json_file: str) -> list[dict]:
         """Evaluate the similarity using BERT score."""
         data = self.load_json_data(json_file)
 
@@ -148,7 +148,7 @@ class AnswerEvaluator:
             )
         return data
 
-    async def evaluate_json_file_all(self, json_file: str, max_concurrent: int = 10) -> List[Dict]:
+    async def evaluate_json_file_all(self, json_file: str, max_concurrent: int = 10) -> list[dict]:
         """Evaluate using all available methods."""
         logger.info("Starting evaluation with all methods")
 
@@ -168,7 +168,7 @@ class AnswerEvaluator:
         if self.openai_client:
             semaphore = asyncio.Semaphore(max_concurrent)
 
-            async def evaluate_item_openai(item: Dict):
+            async def evaluate_item_openai(item: dict) -> None:
                 async with semaphore:
                     item["gpt_similarity_score"] = await self.evaluate_similarity_openai(
                         item["expected_answer"],
@@ -184,13 +184,13 @@ class AnswerEvaluator:
         return data
 
 
-async def main():
-    """Main function to run evaluation."""
+async def main() -> None:
+    """Implement the main function to run evaluation."""
     evaluator = AnswerEvaluator()
 
     # Configuration
     json_file = "evaluation/results/evaluation_results_20250724_112717.json"
-    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
     # Evaluate with all methods
     data = await evaluator.evaluate_json_file_all(json_file)

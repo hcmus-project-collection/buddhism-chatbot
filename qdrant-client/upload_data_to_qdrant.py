@@ -15,7 +15,9 @@ load_dotenv()
 QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333")
 QDRANT_API_KEY = os.getenv("QDRANT_API_KEY", None)
 COLLECTION_NAME = os.getenv("QDRANT_COLLECTION_NAME", "eastern_religion")
-EMBEDDING_DIM = int(os.getenv("EMBEDDING_DIM", 768))  # match the embedding model intfloat/multilingual-e5-base
+EMBEDDING_DIM = int(
+    os.getenv("EMBEDDING_DIM", 768),
+)  # match the embedding model intfloat/multilingual-e5-base
 BATCH_SIZE = 256
 BASE_JSONL_EMBEDDINGS_DIR = Path("./jsonl/embeddings")
 
@@ -79,7 +81,9 @@ def load_points_from_jsonl(file_path: str | Path) -> list[PointStruct]:
 
             # Extract structured metadata from sentence_id
             try:
-                book_id, chapter_id, page_id, sentence_number = sentence_id.split(".")
+                book_id, chapter_id, page_id, sentence_number = (
+                    sentence_id.split("."),
+                )
             except ValueError:
                 book_id = chapter_id = page_id = sentence_number = None
                 logger.warning(f"Malformed sentence_id: {sentence_id}")
@@ -129,8 +133,8 @@ def upload_data_to_qdrant(
     )
 
 
-def main():
-    """Main function to upload data to Qdrant."""
+def main() -> None:
+    """Implement the main function to upload data to Qdrant."""
     client = connect_to_qdrant()
     logger.info(f"Connected to Qdrant at {QDRANT_URL}")
 

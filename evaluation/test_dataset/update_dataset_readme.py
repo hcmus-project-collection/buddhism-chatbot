@@ -1,7 +1,7 @@
 import json
-import os
-from datetime import datetime
+from datetime import UTC, datetime
 from pathlib import Path
+from typing import Any
 
 from datasets import Dataset
 from dotenv import load_dotenv
@@ -18,11 +18,11 @@ README_PATH = "evaluation/test_dataset/dataset_README.md"
 # Initialize Hugging Face API
 api = HfApi()
 
-def analyze_dataset():
+def analyze_dataset() -> dict[str, Any]:
     """Analyze the dataset to gather statistics and information."""
     logger.info("Analyzing dataset...")
 
-    with open(OUTPUT_PATH, "r", encoding="utf-8") as f:
+    with Path(OUTPUT_PATH).open(encoding="utf-8") as f:
         data = json.load(f)
 
     # Basic statistics
@@ -46,13 +46,13 @@ def analyze_dataset():
         "max_question_length": max(question_lengths),
         "min_answer_length": min(answer_lengths),
         "max_answer_length": max(answer_lengths),
-        "samples": samples
+        "samples": samples,
     }
 
     logger.info(f"Dataset analysis complete: {total_questions} Q&A pairs")
     return stats
 
-def generate_readme(stats):
+def generate_readme(stats: dict[str, Any]) -> str:
     """Generate a comprehensive README for the dataset."""
     readme_content = f"""---
 license: mit
@@ -203,7 +203,7 @@ For questions or issues regarding this dataset, please contact the creator throu
 
     return readme_content
 
-def update_readme():
+def update_readme() -> None:
     """Update the dataset README on Hugging Face Hub."""
     logger.info("Starting README update process...")
 
@@ -215,7 +215,7 @@ def update_readme():
         readme_content = generate_readme(stats)
 
         # Save README locally
-        with open(README_PATH, "w", encoding="utf-8") as f:
+        with Path(README_PATH).open("w", encoding="utf-8") as f:
             f.write(readme_content)
 
         logger.info(f"README saved locally to {README_PATH}")
@@ -228,18 +228,27 @@ def update_readme():
             path_in_repo="README.md",
             repo_id=DATASET_ID,
             repo_type="dataset",
-            commit_message=f"Update dataset README - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+            commit_message=(
+                "Update dataset README - "
+                f"{datetime.now(tz=UTC).strftime('%Y-%m-%d %H:%M:%S')}"
+            ),
         )
 
         logger.info("README successfully updated on Hugging Face Hub!")
 
         # Also update the dataset itself to ensure it's in sync
         logger.info("Updating dataset on Hub...")
-        with open(OUTPUT_PATH, "r", encoding="utf-8") as f:
+        with Path(OUTPUT_PATH).open(encoding="utf-8") as f:
             data = json.load(f)
 
         dataset = Dataset.from_list(data)
-        dataset.push_to_hub(DATASET_ID, commit_message=f"Update dataset - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        dataset.push_to_hub(
+            DATASET_ID,
+            commit_message=(
+                "Update dataset - "
+                f"{datetime.now(tz=UTC).strftime('%Y-%m-%d %H:%M:%S')}"
+            ),
+        )
 
         logger.info("Dataset update complete!")
 

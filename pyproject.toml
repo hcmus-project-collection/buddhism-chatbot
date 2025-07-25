@@ -1,5 +1,5 @@
 [tool.ruff]
-line-length = 79
+line-length = 119
 indent-width = 4
 target-version = "py312"
 namespace-packages = ["docs"]
@@ -35,8 +35,6 @@ extend-select = [
   "DTZ",
   # https://docs.astral.sh/ruff/rules/#flake8-debugger-t10
   "T10",
-  # https://docs.astral.sh/ruff/rules/#flake8-django-dj
-  "DJ",
   # https://docs.astral.sh/ruff/rules/#flake8-implicit-str-concat-isc
   "ISC",
   # https://docs.astral.sh/ruff/rules/#flake8-no-pep420-inp
@@ -66,7 +64,7 @@ extend-select = [
   # https://docs.astral.sh/ruff/rules/#flake8-async-async
   "ASYNC",
   # https://docs.astral.sh/ruff/rules/#ruff-specific-rules-ruf
-  "RUF"
+  "RUF",
 ]
 ignore = [
   # https://docs.astral.sh/ruff/rules/missing-type-args
@@ -103,11 +101,31 @@ ignore = [
   "TRY003",
   # https://docs.astral.sh/ruff/rules/try-consider-else
   "TRY300",
+  # https://docs.astral.sh/ruff/rules/datetime-no-tz
+  "DTZ005",
 ]
 [tool.ruff.lint.per-file-ignores]
 "__init__.py" = [
   # https://docs.astral.sh/ruff/rules/unused-import
   "F401",
+]
+"evaluation/test_dataset/update_dataset_readme.py" = [
+  # https://docs.astral.sh/ruff/rules/line-too-long
+  "E501",
+  # https://docs.astral.sh/ruff/rules/datetime-no-tz
+  "DTZ005",
+]
+"data_scripts/convert_xml_to_jsonl.py" = [
+  # https://docs.astral.sh/ruff/rules/camelcase-imported-as-acronym
+  "N817"
+]
+"backend/llm/tools.py" = [
+  # https://docs.astral.sh/ruff/rules/import-outside-toplevel
+  "E402",
+]
+"backend/llm/*.py" = [
+  # https://docs.astral.sh/ruff/rules/line-too-long
+  "E501",
 ]
 
 
@@ -117,11 +135,8 @@ split-on-trailing-comma = true
 section-order = [
     "future",
     "standard-library",
-    "django",
-    "drf",
     "third-party",
     "first-party",
-    "apps",
     "local-folder",
 ]
 
@@ -136,11 +151,3 @@ quote-style = "double"
 indent-style = "space"
 skip-magic-trailing-comma = false
 line-ending = "auto"
-exclude = [
-  # Disabling for admin since it's just configs and black/ruff format one item
-  # tuples as one line
-  "**/admin.py",
-  "**/views.py",
-  "**/admin/*",
-  "**/views/*",
-]

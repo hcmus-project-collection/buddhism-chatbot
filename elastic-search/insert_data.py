@@ -1,5 +1,6 @@
 import json
 import os
+from collections.abc import Generator
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -32,7 +33,7 @@ def _normalize_entities(entities: dict) -> dict:
     return normalized_entities
 
 
-def extract_entities_from_jsonl(jsonl_file: str | Path):
+def extract_entities_from_jsonl(jsonl_file: str | Path) -> Generator[dict, None, None]:
     """Extract NER entities from a JSONL file."""
     if isinstance(jsonl_file, str):
         jsonl_file = Path(jsonl_file)
@@ -70,7 +71,7 @@ def extract_entities_from_jsonl(jsonl_file: str | Path):
 def index_named_entities(
     client: Elasticsearch,
     jsonl_dir: str | Path,
-):
+) -> None:
     """Index named entities into Elasticsearch with logging and progress."""
     if isinstance(jsonl_dir, str):
         jsonl_dir = Path(jsonl_dir)

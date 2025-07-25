@@ -8,10 +8,9 @@ from backend.config import COLLECTION_NAME, PORT
 from backend.llm import generate_answer, generate_answer_with_tools
 from backend.rag import query_qdrant
 
-# Configure loguru to match the existing logging format
-logger.remove()  # Remove default handler
+logger.remove()
 logger.add(
-    sink=lambda message: print(message, end=""),
+    sink=lambda message: print(message, end=""),  # noqa: T201
     format="{time:YYYY-MM-DD HH:mm:SS} - {level} - {message}",
     level="INFO",
 )
@@ -90,4 +89,4 @@ async def query(request: QueryRequest) -> QueryResponse:
 
 
 if __name__ == "__main__":
-    uvicorn.run("backend.main:app", host="0.0.0.0", port=PORT, reload=True)
+    uvicorn.run("backend.main:app", host="0.0.0.0", port=PORT, reload=True)  # noqa: S104

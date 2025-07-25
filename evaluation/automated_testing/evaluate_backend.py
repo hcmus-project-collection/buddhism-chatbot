@@ -1,24 +1,9 @@
-#!/usr/bin/env python3
-"""
-Backend Performance Evaluation Script
-
-This script evaluates the performance of the Eastern Religion Chatbot backend
-using the test dataset from HuggingFace (vanloc1808/buddhist-scholar-test-set).
-
-Features:
-- Load test dataset from HuggingFace
-- Test both regular and tool-enabled backend endpoints
-- Calculate performance metrics (accuracy, response time, etc.)
-- Generate evaluation report
-"""
-
 import json
 import statistics
 import time
 from dataclasses import asdict, dataclass
 from datetime import datetime
 from pathlib import Path
-from typing import Optional
 
 import pandas as pd
 import requests
@@ -30,9 +15,10 @@ logger.add(f"evaluation/evaluation_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 
 @dataclass
 class EvaluationResult:
-    """Data class to store evaluation results for a single query"""
+    """Data class to store evaluation results for a single query."""
+
     query: str
-    expected_answer: Optional[str]
+    expected_answer: str | None
     actual_answer: str
     response_time: float
     status_code: int
@@ -42,7 +28,8 @@ class EvaluationResult:
 
 @dataclass
 class EvaluationMetrics:
-    """Data class to store aggregated evaluation metrics"""
+    """Data class to store aggregated evaluation metrics."""
+
     total_queries: int
     successful_queries: int
     failed_queries: int
@@ -55,15 +42,15 @@ class EvaluationMetrics:
     regular_queries: int
 
 class BackendEvaluator:
-    """Main class for evaluating backend performance"""
+    """Main class for evaluating backend performance."""
 
-    def __init__(self, backend_url: str = "https://backend-easternchatbot.nguyenvanloc.com"):
+    def __init__(self, backend_url: str = "https://backend-easternchatbot.nguyenvanloc.com") -> None:
         self.backend_url = backend_url
         self.results: list[EvaluationResult] = []
         self.dataset = None
 
     def load_test_dataset(self, dataset_name: str = "vanloc1808/buddhist-scholar-test-set") -> bool:
-        """Load the test dataset from HuggingFace"""
+        """Load the test dataset from HuggingFace."""
         try:
             logger.info(f"Loading dataset: {dataset_name}")
             self.dataset = load_dataset(dataset_name)
@@ -74,14 +61,14 @@ class BackendEvaluator:
             return False
 
     def check_backend_health(self) -> bool:
-        """Check if the backend is running and healthy"""
+        """Check if the backend is running and healthy."""
         try:
             # Test with a simple query to check if the backend is responsive
             test_payload = {
                 "query": "test",
                 "top_k": 1,
                 "metadata_filter": {},
-                "using_tools": False
+                "using_tools": False,
             }
 
             headers = {
@@ -89,14 +76,14 @@ class BackendEvaluator:
                 "content-type": "application/json",
                 "origin": "https://eastern-chatbot.nguyenvanloc.com",
                 "referer": "https://eastern-chatbot.nguyenvanloc.com/",
-                "user-agent": "Mozilla/5.0 (compatible; EvaluationBot/1.0)"
+                "user-agent": "Mozilla/5.0 (compatible; EvaluationBot/1.0)",
             }
 
             response = requests.post(
                 f"{self.backend_url}/query",
                 json=test_payload,
                 headers=headers,
-                timeout=30
+                timeout=30,
             )
 
             if response.status_code == 200:
@@ -110,14 +97,14 @@ class BackendEvaluator:
             return False
 
     def query_backend(self, query: str, using_tools: bool = False, top_k: int = 5) -> tuple[dict, float]:
-        """Send a query to the backend and measure response time"""
+        """Send a query to the backend and measure response time."""
         start_time = time.time()
 
         payload = {
             "query": query,
             "top_k": top_k,
             "metadata_filter": {},
-            "using_tools": using_tools
+            "using_tools": using_tools,
         }
 
         # Headers matching the production frontend requests
@@ -127,7 +114,7 @@ class BackendEvaluator:
             "content-type": "application/json",
             "origin": "https://eastern-chatbot.nguyenvanloc.com",
             "referer": "https://eastern-chatbot.nguyenvanloc.com/",
-            "user-agent": "Mozilla/5.0 (compatible; EvaluationBot/1.0)"
+            "user-agent": "Mozilla/5.0 (compatible; EvaluationBot/1.0)",
         }
 
         try:
@@ -135,7 +122,7 @@ class BackendEvaluator:
                 f"{self.backend_url}/query",
                 json=payload,
                 headers=headers,
-                timeout=30
+                timeout=30,
             )
             response_time = time.time() - start_time
 
@@ -154,9 +141,13 @@ class BackendEvaluator:
             logger.error(f"Query failed: {e}")
             return {"error": str(e)}, response_time
 
-    def evaluate_single_query(self, query: str, expected_answer: Optional[str] = None,
-                            using_tools: bool = False) -> EvaluationResult:
-        """Evaluate a single query"""
+    def evaluate_single_query(
+        self,
+        query: str,
+        expected_answer: str | None = None,
+        using_tools: bool = False,
+    ) -> EvaluationResult | None:
+        """Evaluate a single query."""
         logger.debug(f"Evaluating query: {query[:100]}...")
 
         response_data, response_time = self.query_backend(query, using_tools)
@@ -178,14 +169,14 @@ class BackendEvaluator:
             status_code=status_code,
             using_tools=using_tools,
             relevant_texts_count=relevant_texts_count,
-            timestamp=datetime.now().isoformat()
+            timestamp=datetime.now().isoformat(),
         )
 
         self.results.append(result)
         return result
 
-    def run_evaluation(self, max_queries: Optional[int] = None, test_both_modes: bool = True) -> EvaluationMetrics:
-        """Run the complete evaluation process"""
+    def run_evaluation(self, max_queries: int | None = None, test_both_modes: bool = True) -> EvaluationMetrics | None:
+        """Run the complete evaluation process."""
         if self.dataset is None:
             logger.error("No dataset loaded. Please load a dataset first.")
             return None
@@ -235,8 +226,8 @@ class BackendEvaluator:
 
         return metrics
 
-    def calculate_metrics(self) -> EvaluationMetrics:
-        """Calculate evaluation metrics from results"""
+    def calculate_metrics(self) -> EvaluationMetrics | None:
+        """Calculate evaluation metrics from results."""
         if not self.results:
             logger.warning("No results to calculate metrics from")
             return None
@@ -255,29 +246,33 @@ class BackendEvaluator:
             avg_response_time=statistics.mean(response_times),
             min_response_time=min(response_times),
             max_response_time=max(response_times),
-            p95_response_time=statistics.quantiles(response_times, n=20)[18] if len(response_times) > 1 else response_times[0],
+            p95_response_time=(
+                statistics.quantiles(response_times, n=20)[18]
+                if len(response_times) > 1
+                else response_times[0]
+            ),
             success_rate=len(successful_results) / len(self.results) * 100,
             tool_enabled_queries=tool_enabled_count,
-            regular_queries=regular_count
+            regular_queries=regular_count,
         )
 
         return metrics
 
-    def save_results(self, output_dir: str = "evaluation/results"):
-        """Save evaluation results to files"""
+    def save_results(self, output_dir: str = "evaluation/results") -> tuple[Path, Path | None]:
+        """Save evaluation results to files."""
         Path(output_dir).mkdir(parents=True, exist_ok=True)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
         # Save detailed results as JSON
         results_file = Path(output_dir) / f"evaluation_results_{timestamp}.json"
-        with open(results_file, 'w', encoding='utf-8') as f:
+        with Path(results_file).open("w", encoding="utf-8") as f:
             json.dump([asdict(result) for result in self.results], f, indent=2, ensure_ascii=False)
 
         # Save metrics
         metrics = self.calculate_metrics()
         if metrics:
             metrics_file = Path(output_dir) / f"evaluation_metrics_{timestamp}.json"
-            with open(metrics_file, 'w', encoding='utf-8') as f:
+            with Path(metrics_file).open("w", encoding="utf-8") as f:
                 json.dump(asdict(metrics), f, indent=2)
 
         # Save as CSV for easy analysis
@@ -289,8 +284,8 @@ class BackendEvaluator:
         logger.info(f"Results saved to {output_dir}")
         return results_file, metrics_file if metrics else None
 
-    def print_summary(self):
-        """Print a summary of the evaluation results"""
+    def print_summary(self) -> None:
+        """Print a summary of the evaluation results."""
         if not self.results:
             logger.warning("No results to summarize")
             return
@@ -323,8 +318,8 @@ class BackendEvaluator:
             logger.info(f"Status: {'✓' if result.status_code == 200 else '✗'}")
 
 
-def main():
-    """Main function to run the evaluation"""
+def main() -> None:
+    """Implement the main function to run the evaluation."""
     import argparse
 
     parser = argparse.ArgumentParser(description="Evaluate Eastern Religion Chatbot Backend")

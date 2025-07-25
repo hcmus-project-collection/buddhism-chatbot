@@ -1,4 +1,3 @@
-# Ensure to run this yourself, because the output of embedding for kinhtuongungbo.jsonl is 512MB, so I cannot push it to GitHub.
 import json
 import os
 from pathlib import Path
@@ -34,7 +33,8 @@ logger.info("Model loaded successfully.")
 def embed_jsonl_sentences(
     input_file: str,
     output_file: str,
-):
+) -> None:
+    """Embed sentences from JSONL files using SentenceTransformer."""
     logger.info(f"Embedding sentences from: {input_file}")
     logger.info(f"🔥 Using device: {device}")
 
@@ -47,7 +47,7 @@ def embed_jsonl_sentences(
             record = json.loads(line)
             text = record.get("text", "").strip()
             logger.info(
-                f"Processing record: {record.get('id', 'unknown')} - Text length: {len(text)}"
+                f"Processing record: {record.get('id', 'unknown')} - Text length: {len(text)}",
             )
             if text:
                 records.append(record)
@@ -65,14 +65,15 @@ def embed_jsonl_sentences(
     # Save output JSONL
     output_path = Path(output_file)
     with output_path.open("w", encoding="utf-8") as fout:
-        for record, embedding in zip(records, embeddings):
+        for record, embedding in zip(records, embeddings, strict=False):
             record["embedding"] = embedding.tolist()
             fout.write(json.dumps(record, ensure_ascii=False) + "\n")
 
     logger.info(f"✅ Saved {len(records)} embedded records to: {output_path}")
 
 
-def main():
+def main() -> None:
+    """Implement the main function."""
     jsonl_files = BASE_CLEANED_JSONL_PATH.glob("*.jsonl")
     for jsonl_file in jsonl_files:
         embed_jsonl_sentences(

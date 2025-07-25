@@ -1,7 +1,11 @@
+import asyncio
 import json
+import os
 from typing import Any
 
 import json_repair
+import openai
+from dotenv import load_dotenv
 from fastmcp import Client
 from loguru import logger
 from mcp import Tool
@@ -9,6 +13,8 @@ from mcp.types import CallToolResult
 from openai.types.chat import (ChatCompletionMessageToolCall,
                                ChatCompletionToolParam)
 from pydantic import BaseModel
+
+load_dotenv()
 
 
 class FunctionCall(BaseModel):
@@ -159,9 +165,8 @@ async def call_and_return_tool_result(
     return results
 
 
-async def main():
-    from fastmcp import Client  # noqa
-
+async def main() -> None:
+    """Implement the main function."""
     async with Client("backend/llm/tools.py") as client:
         tools = await client.list_tools()
         logger.info(f"Type of tools: {type(tools)}")
@@ -169,12 +174,6 @@ async def main():
         logger.info(f"Type of each tool: {[type(tool) for tool in tools]}")
         openai_tools = convert_tools_to_openai_format(tools)
         logger.info(f"OpenAI tools: {openai_tools}")
-        import os
-
-        import openai
-        from dotenv import load_dotenv
-
-        load_dotenv()
 
         openai_client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         response = openai_client.chat.completions.create(
@@ -237,6 +236,4 @@ async def main():
 
 
 if __name__ == "__main__":
-    import asyncio
-
     asyncio.run(main())

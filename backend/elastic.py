@@ -21,7 +21,8 @@ def search_texts_by_page_info(
     page_id: str | None = None,
     index_name: str = ELASTIC_INDEX_NAME,
     size: int = 10,
-):
+) -> list[dict]:
+    """Search texts by page info."""
     client = client or connect_to_elasticsearch()
 
     clauses = []

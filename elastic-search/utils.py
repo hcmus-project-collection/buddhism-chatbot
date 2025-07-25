@@ -22,7 +22,7 @@ def connect_to_elasticsearch() -> Elasticsearch:
     )
 
 
-def recreate_index(client: Elasticsearch, index_name: str):
+def recreate_index(client: Elasticsearch, index_name: str) -> None:
     """Delete and re-create the Elasticsearch index."""
     if client.indices.exists(index=index_name):
         logger.warning(f"Index '{index_name}' already exists. Deleting it...")
@@ -36,7 +36,7 @@ def recreate_index(client: Elasticsearch, index_name: str):
                 "text": {"type": "text"},
                 "entity_type": {"type": "keyword"},
                 "entity_value": {"type": "text"},
-            }
+            },
         },
     }
 
@@ -46,4 +46,3 @@ def recreate_index(client: Elasticsearch, index_name: str):
 
 if __name__ == "__main__":
     client = connect_to_elasticsearch()
-    print(client.info())

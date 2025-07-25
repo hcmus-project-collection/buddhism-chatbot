@@ -35,6 +35,7 @@ def generate_answer(
     model_name: str = OPENAI_MODEL_NAME,
     stream: bool = True,
 ) -> str:
+    """Generate answer using LLM."""
     relevant_texts_str = "\n"
     for text in relevant_texts:
         relevant_texts_str += f"- {text['text']}\n"
@@ -61,7 +62,7 @@ def generate_answer(
 
         return response.choices[0].message.content or ""
 
-    response = client.chat.completions.create(
+    return client.chat.completions.create(
         model=model_name,
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},

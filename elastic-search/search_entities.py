@@ -8,7 +8,7 @@ def search_entities_general(
     query: str,
     index_name: str = ELASTIC_INDEX_NAME,
     size: int = 10,
-):
+) -> list[dict]:
     """Search for entities in Elasticsearch."""
     # Query query in this list: text, book_id, chapter_id, page_id, sentence_number
     clauses = [
@@ -20,7 +20,6 @@ def search_entities_general(
     ]
     query = {"bool": {"should": clauses}}
     response = client.search(index=index_name, body={"query": query, "size": size})
-    # return response
     hits = response.get("hits", {}).get("hits", [])
     return [
         {
@@ -45,7 +44,8 @@ def search_texts_by_page_info(
     page_id: str | None = None,
     index_name: str = ELASTIC_INDEX_NAME,
     size: int = 10,
-):
+) -> list[dict]:
+    """Search for texts by page info."""
     clauses = []
     if book_id:
         clauses.append({"match": {"book_id": book_id}})
