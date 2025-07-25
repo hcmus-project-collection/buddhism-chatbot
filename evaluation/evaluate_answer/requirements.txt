@@ -3,3 +3,5 @@ scikit-learn
 pandas
 bert-score
 openai
+matplotlib
+numpy
