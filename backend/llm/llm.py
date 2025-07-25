@@ -1,6 +1,7 @@
 import openai
-from backend.config import OPENAI_API_BASE, OPENAI_API_KEY, OPENAI_MODEL_NAME
 from loguru import logger
+
+from backend.config import OPENAI_API_BASE, OPENAI_API_KEY, OPENAI_MODEL_NAME
 
 client = openai.OpenAI(
     base_url=OPENAI_API_BASE,

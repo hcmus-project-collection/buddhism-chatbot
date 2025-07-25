@@ -1,10 +1,11 @@
 import uvicorn
-from backend.config import COLLECTION_NAME, PORT
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.llm import generate_answer, generate_answer_with_tools
 from loguru import logger
 from pydantic import BaseModel, Field
+
+from backend.config import COLLECTION_NAME, PORT
+from backend.llm import generate_answer, generate_answer_with_tools
 from backend.rag import query_qdrant
 
 # Configure loguru to match the existing logging format

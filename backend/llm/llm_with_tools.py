@@ -1,10 +1,11 @@
-import openai
 import os
+
+import openai
+from dotenv import load_dotenv
+from loguru import logger
 
 from backend.llm.constants import MCP_SERVER_PATH
 from backend.llm.utils import call_and_return_tool_result
-from dotenv import load_dotenv
-from loguru import logger
 
 load_dotenv()
 

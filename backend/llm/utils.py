@@ -1,15 +1,13 @@
+import json
+from typing import Any
+
+import json_repair
+from fastmcp import Client
+from loguru import logger
 from mcp import Tool
 from mcp.types import CallToolResult
-from openai.types.chat import (
-    ChatCompletionMessageToolCall,
-    ChatCompletionToolParam,
-)
-
-from loguru import logger
-from typing import Any
-from fastmcp import Client
-import json_repair
-import json
+from openai.types.chat import (ChatCompletionMessageToolCall,
+                               ChatCompletionToolParam)
 from pydantic import BaseModel
 
 
@@ -171,8 +169,9 @@ async def main():
         logger.info(f"Type of each tool: {[type(tool) for tool in tools]}")
         openai_tools = convert_tools_to_openai_format(tools)
         logger.info(f"OpenAI tools: {openai_tools}")
-        import openai
         import os
+
+        import openai
         from dotenv import load_dotenv
 
         load_dotenv()

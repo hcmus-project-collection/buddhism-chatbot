@@ -1,10 +1,10 @@
+import json
+from datetime import datetime
+
+import json_repair
+from loguru import logger
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-from loguru import logger
-from datetime import datetime
-import json_repair
-import json
-
 
 model = SentenceTransformer("intfloat/e5-base")
 
