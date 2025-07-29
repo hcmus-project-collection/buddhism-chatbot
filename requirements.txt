@@ -15,6 +15,7 @@ docling
 pydantic
 requests
 json-repair
+tiktoken
 
 # Azure AI Inference
 azure.identity
