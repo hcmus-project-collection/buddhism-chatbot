@@ -77,24 +77,20 @@ def load_points_from_jsonl(file_path: str | Path) -> list[PointStruct]:
     with file_path.open("r", encoding="utf-8") as f:
         for line in tqdm(f, desc=f"Loading points from {file_path.name}"):
             data = json.loads(line)
-            sentence_id = data["id"]
-
+            page_id = data["metadata"]["page_id"]
             # Extract structured metadata from sentence_id
             try:
-                book_id, chapter_id, page_id, sentence_number = (
-                    sentence_id.split("."),
-                )
+                book_id, chapter_id, page = page_id.split(".")
             except ValueError:
-                book_id = chapter_id = page_id = sentence_number = None
-                logger.warning(f"Malformed sentence_id: {sentence_id}")
+                book_id = chapter_id = page = None
+                logger.warning(f"Malformed page_id: {page_id}")
 
             payload = {
                 "text": data["text"],
-                "sentence_id": sentence_id,
+                "page_id": page_id,
                 "book_id": book_id,
                 "chapter_id": chapter_id,
-                "page_id": page_id,
-                "sentence_number": sentence_number,
+                "page": page,
                 **data.get("meta", {}),
             }
 
