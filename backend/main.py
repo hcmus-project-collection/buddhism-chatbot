@@ -30,6 +30,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+BOOK_ID_MAP = {
+    "RBI_002": "An Sĩ Toàn Thư",
+    "RBI_010": "Kinh Tương Ưng Bộ",
+    "RBI_007": "Quan Âm Thị Kính",
+    "RBI_008": "Thiền Uyển Tập Anh",
+}
+
 
 class RelevantText(BaseModel):
     """Relevant text from Qdrant."""
@@ -45,7 +52,7 @@ class QueryRequest(BaseModel):
 
     query: str
     top_k: int = 5
-    metadata_filter: dict[str, str] = Field(default_factory=dict, example={})  # type: ignore
+    metadata_filter: dict[str, str] = Field(default_factory=dict, json_schema_extra={"example": {}})  # type: ignore
     using_tools: bool = False
 
 
@@ -56,10 +63,31 @@ class QueryResponse(BaseModel):
     relevant_texts: list[RelevantText]
 
 
+class Book(BaseModel):
+    """Book information."""
+
+    id: str
+    title: str
+
+
+class BooksResponse(BaseModel):
+    """Response body for the books endpoint."""
+
+    books: list[Book]
+
+
 @app.get("/")
 async def health_check() -> dict[str, str]:
     """Implement the health check endpoint."""
     return {"status": "ok"}
+
+
+@app.get("/books", response_model=BooksResponse)
+async def get_books() -> BooksResponse:
+    """Get the list of available books."""
+    logger.info("Fetching book list")
+    books = [Book(id=book_id, title=title) for book_id, title in BOOK_ID_MAP.items()]
+    return BooksResponse(books=books)
 
 
 @app.post("/query", response_model=QueryResponse)
