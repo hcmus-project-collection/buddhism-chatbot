@@ -68,21 +68,24 @@ def query_qdrant(
         query_filter=qdrant_filter,
     )
 
-    return [
-        {
-            "score": r.score,
-            "text": r.payload["text"] if r.payload else "",
-            "sentence_id": (
-                r.payload.get("sentence_id", "") if r.payload else ""
-            ),
-            "meta": {
-                k: v
-                for k, v in (r.payload or {}).items()
-                if k not in {"text", "sentence_id"}
-            },
-        }
-        for r in results
-    ]
+    logger.info(f"Results: {results}")
+
+    # return [
+    #     {
+    #         "score": r.score,
+    #         "text": r.payload["text"] if r.payload else "",
+    #         "sentence_id": (
+    #             r.payload.get("sentence_id", "") if r.payload else ""
+    #         ),
+    #         "meta": {
+    #             k: v
+    #             for k, v in (r.payload or {}).items()
+    #             if k not in {"text", "sentence_id"}
+    #         },
+    #     }
+    #     for r in results
+    # ]
+    return results
 
 
 if __name__ == "__main__":
@@ -94,6 +97,3 @@ if __name__ == "__main__":
         query=user_query,
         top_k=5,
     )
-
-    for i, r in enumerate(results, 1):
-        logger.info(f"\n🔹 Result {i} (score: {r['score']:.4f}):\n{r['text']}")
