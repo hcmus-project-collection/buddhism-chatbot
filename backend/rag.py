@@ -3,8 +3,13 @@ from qdrant_client import QdrantClient
 from qdrant_client.models import FieldCondition, Filter, MatchValue
 from sentence_transformers import SentenceTransformer
 
-from backend.config import (COLLECTION_NAME, DEVICE, EMBEDDING_MODEL_NAME,
-                            QDRANT_API_KEY, QDRANT_URL)
+from backend.config import (
+    COLLECTION_NAME,
+    DEVICE,
+    EMBEDDING_MODEL_NAME,
+    QDRANT_API_KEY,
+    QDRANT_URL,
+)
 
 
 def connect_to_qdrant() -> QdrantClient:
@@ -68,24 +73,16 @@ def query_qdrant(
         query_filter=qdrant_filter,
     )
 
-    logger.info(f"Results: {results}")
-
-    # return [
-    #     {
-    #         "score": r.score,
-    #         "text": r.payload["text"] if r.payload else "",
-    #         "sentence_id": (
-    #             r.payload.get("sentence_id", "") if r.payload else ""
-    #         ),
-    #         "meta": {
-    #             k: v
-    #             for k, v in (r.payload or {}).items()
-    #             if k not in {"text", "sentence_id"}
-    #         },
-    #     }
-    #     for r in results
-    # ]
-    return results
+    return [
+        {
+            "score": r.score,
+            "text": r.payload["text"] if r.payload else "",
+            "book_id": r.payload.get("book_id", "") if r.payload else "",
+            "chapter_id": r.payload.get("chapter_id", "") if r.payload else "",
+            "page": r.payload.get("page", "") if r.payload else "",
+        }
+        for r in results
+    ]
 
 
 if __name__ == "__main__":
