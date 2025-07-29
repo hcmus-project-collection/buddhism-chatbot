@@ -1,5 +1,12 @@
 from enum import Enum
 
+BOOK_ID_MAP = {
+    "RBI_002": "An Sĩ Toàn Thư",
+    "RBI_010": "Kinh Tương Ưng Bộ",
+    "RBI_007": "Quan Âm Thị Kính",
+    "RBI_008": "Thiền Uyển Tập Anh",
+}
+
 
 class Title(Enum):
     """Enumeration of titles."""
