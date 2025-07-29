@@ -1,4 +1,3 @@
-# Ensure to run this yourself, because the output of embedding for kinhtuongungbo.jsonl is 512MB, so I cannot push it to GitHub.
 import json
 import os
 from pathlib import Path

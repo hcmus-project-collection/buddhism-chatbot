@@ -1,10 +1,11 @@
-import openai
 import os
+
+import openai
+from dotenv import load_dotenv
+from loguru import logger
 
 from backend.llm.constants import MCP_SERVER_PATH
 from backend.llm.utils import call_and_return_tool_result
-from dotenv import load_dotenv
-from loguru import logger
 
 load_dotenv()
 
@@ -13,9 +14,7 @@ Bạn là một chuyên gia trả lời câu hỏi về tôn giáo phương Đô
 
 Bạn sẽ được cung cấp tools để query câu hỏi từ user và trả ra kết quả.
 
-Tool sẽ trả ra cho bạn các nội dung có liên quan với câu hỏi, với thứ tự similarity giảm dần. Ngoài ra, các kết quả sẽ đi kèm một field là texts_on_the_same_page, là các câu khác cùng trang với câu đó. Bạn sẽ cần những câu này để có một cái nhìn tổng quan về query của user.
-
-Bạn cần dựa vào các nội dung này để trả lời câu hỏi.
+Tool sẽ trả ra cho bạn các nội dung có liên quan với câu hỏi, với thứ tự similarity giảm dần. Bạn cần dựa vào các nội dung này để trả lời câu hỏi.
 
 Nếu câu hỏi không liên quan đến tôn giáo phương Đông (như giá BTC hôm nay bao nhiêu, Python là gì, ...), hãy trả lời một cách lịch sự rằng câu hỏi này không liên quan đến lĩnh vực chuyên môn của bạn.
 

@@ -20,7 +20,6 @@ QDRANT_API_KEY = os.getenv("QDRANT_API_KEY", None)
 COLLECTION_NAME = os.getenv("QDRANT_COLLECTION_NAME", "eastern_religion")
 
 # Embedding model configuration
-# EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-base"
 EMBEDDING_MODEL_NAME = os.getenv(
     "EMBEDDING_MODEL_NAME",
     "intfloat/multilingual-e5-base",

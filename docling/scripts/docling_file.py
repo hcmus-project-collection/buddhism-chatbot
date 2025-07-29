@@ -10,5 +10,5 @@ for pdf_file in all_pdf_files:
     result = converter.convert(pdf_file)
     markdown_content = result.document.export_to_markdown()
     output_path = pdf_file.with_suffix('.md')
-    with open(output_path, 'w', encoding='utf-8') as f:
+    with Path(output_path).open("w", encoding="utf-8") as f:
         f.write(markdown_content)

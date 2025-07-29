@@ -31,11 +31,11 @@ if query:
 
     payload = {
         "query": query,
-        "top_k": 3
+        "top_k": 3,
     }
 
     try:
-        response = requests.post(API_ENDPOINT, json=payload)
+        response = requests.post(API_ENDPOINT, json=payload, timeout=60)
         response.raise_for_status()
         data = response.json()
 
@@ -64,11 +64,13 @@ if query:
 
         st.session_state.messages.append({
             "role": "assistant",
-            "content": f"**Answer:** {answer}"
+            "content": f"**Answer:** {answer}",
         })
 
     except Exception as e:
         error_msg = f"⚠️ Error: {e}"
         with st.chat_message("assistant"):
             st.error(error_msg)
-        st.session_state.messages.append({"role": "assistant", "content": error_msg})
+        st.session_state.messages.append(
+            {"role": "assistant", "content": error_msg},
+        )

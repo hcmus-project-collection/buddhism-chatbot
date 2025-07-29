@@ -1,14 +1,10 @@
-from backend.config import (
-    COLLECTION_NAME,
-    DEVICE,
-    EMBEDDING_MODEL_NAME,
-    QDRANT_API_KEY,
-    QDRANT_URL,
-)
 from loguru import logger
 from qdrant_client import QdrantClient
 from qdrant_client.models import FieldCondition, Filter, MatchValue
 from sentence_transformers import SentenceTransformer
+
+from backend.config import (COLLECTION_NAME, DEVICE, EMBEDDING_MODEL_NAME,
+                            QDRANT_API_KEY, QDRANT_URL)
 
 
 def connect_to_qdrant() -> QdrantClient:

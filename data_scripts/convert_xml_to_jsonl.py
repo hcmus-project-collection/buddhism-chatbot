@@ -1,15 +1,16 @@
 import json
-import xml.etree.ElementTree as ET
 from collections import defaultdict
 from pathlib import Path
 
+import defusedxml.ElementTree as ET
 from loguru import logger
 
 BASE_JSONL_DIR = Path("jsonl/raw")
 BASE_JSONL_DIR.mkdir(exist_ok=True)
 
 
-def parse_ner(ner_elem):
+def parse_ner(ner_elem: ET.Element) -> dict:
+    """Parse NER elements from XML."""
     entities = defaultdict(list)
     for tag in ["PER", "LOC", "ORG", "TITLE", "TME", "NUM"]:
         for ent in ner_elem.findall(tag):
@@ -17,7 +18,8 @@ def parse_ner(ner_elem):
     return dict(entities)
 
 
-def extract_metadata(meta_elem):
+def extract_metadata(meta_elem: ET.Element) -> dict:
+    """Extract metadata from XML."""
     return {
         "title": meta_elem.findtext("TITLE"),
         "volume": meta_elem.findtext("VOLUME"),
@@ -28,14 +30,15 @@ def extract_metadata(meta_elem):
     }
 
 
-def convert_xml_to_jsonl(xml_path, jsonl_path):
+def convert_xml_to_jsonl(xml_path: str, jsonl_path: str) -> None:
+    """Convert XML to JSONL."""
     tree = ET.parse(xml_path)
     root = tree.getroot()
 
     file_elem = root.find("FILE")
     meta = extract_metadata(file_elem.find("meta"))
 
-    with open(jsonl_path, "w", encoding="utf-8") as fout:
+    with Path(jsonl_path).open("w", encoding="utf-8") as fout:
         for sect in file_elem.findall("SECT"):
             section_id = sect.get("ID")
             for page in sect.findall("PAGE"):
@@ -62,8 +65,9 @@ def convert_xml_to_jsonl(xml_path, jsonl_path):
     logger.info(f"✅ Finished writing to: {jsonl_path}")
 
 
-def main():
-    XML_PATHS = [
+def main() -> None:
+    """Implement the main function."""
+    xml_paths = [
         "xml/An-Si-Toan-Thu-DIEUPHAPAM-Dich-Am-Chat-Van-quyen-thuong_with_ner.xml",
         "xml/an-sy-toan-thu-q3-khuyen-bo-su-giet-hai_with_ner.xml",
         "xml/an-sy-toan-thu-q4-khuyen-bo-su-tham-duc_with_ner.xml",
@@ -76,7 +80,7 @@ def main():
     # Use jsonl for better handling of large files (streaming, etc.)
     xml_json_tuple = [
         (xml_path, xml_path.replace(".xml", ".jsonl").split("/")[-1])
-        for xml_path in XML_PATHS
+        for xml_path in xml_paths
     ]
 
     for xml_path, jsonl_path in xml_json_tuple:

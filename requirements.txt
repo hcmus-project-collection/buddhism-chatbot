@@ -4,7 +4,7 @@ qdrant-client
 python-dotenv
 openai
 fastapi
-uvicorn
+uvicorn[standard]
 streamlit
 elasticsearch==8.13.1  # to be compatible with elasticsearch 8.7.0 inside Makefile
 # https://pypi.org/project/loguru/
@@ -12,3 +12,16 @@ loguru
 fastmcp
 json-repair
 docling
+pydantic
+requests
+json-repair
+
+# Azure AI Inference
+azure.identity
+azure-ai-inference
+azure-core
+
+# For processing datasets
+datasets
+huggingface-hub
+defusedxml

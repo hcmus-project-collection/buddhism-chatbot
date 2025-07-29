@@ -1,21 +1,34 @@
 import uvicorn
-from backend.config import COLLECTION_NAME, PORT
-from backend.elastic import search_texts_by_page_info
 from fastapi import FastAPI
-from backend.llm import generate_answer, generate_answer_with_tools
+from fastapi.middleware.cors import CORSMiddleware
 from loguru import logger
 from pydantic import BaseModel, Field
+
+from backend.config import COLLECTION_NAME, PORT
+from backend.llm import generate_answer, generate_answer_with_tools
 from backend.rag import query_qdrant
 
-# Configure loguru to match the existing logging format
-logger.remove()  # Remove default handler
+logger.remove()
 logger.add(
-    sink=lambda message: print(message, end=""),
+    sink=lambda message: print(message, end=""),  # noqa: T201
     format="{time:YYYY-MM-DD HH:mm:SS} - {level} - {message}",
     level="INFO",
 )
 
 app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://eastern-chatbot.nguyenvanloc.com",
+        "http://localhost:3000",  # For local development
+        "http://127.0.0.1:3000",  # For local development
+    ],
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allow_headers=["*"],
+)
 
 
 class RelevantText(BaseModel):
@@ -25,7 +38,6 @@ class RelevantText(BaseModel):
     score: float
     sentence_id: str
     meta: dict
-    texts_on_the_same_page: list[str]
 
 
 class QueryRequest(BaseModel):
@@ -61,22 +73,6 @@ async def query(request: QueryRequest) -> QueryResponse:
         metadata_filter=request.metadata_filter,
     )
 
-    for text in relevant_texts:
-        logger.info(f"Processing text: {text}")
-        sentence_id = text["sentence_id"]
-        if not sentence_id:
-            text["texts_on_the_same_page"] = []
-            continue
-        book_id = text.get("meta", {}).get("book_id", "")
-        chapter_id = text.get("meta", {}).get("chapter_id")
-        page_id = text.get("meta", {}).get("page_id")
-        texts_on_the_same_page = search_texts_by_page_info(
-            book_id=book_id,
-            chapter_id=chapter_id,
-            page_id=page_id,
-        )
-        text["texts_on_the_same_page"] = texts_on_the_same_page
-
     if request.using_tools:
         answer = await generate_answer_with_tools(request.query)
         if not answer:
@@ -86,11 +82,6 @@ async def query(request: QueryRequest) -> QueryResponse:
         if not answer:
             answer = "Không tìm thấy thông tin về câu hỏi này"
 
-    for text in relevant_texts:
-        text["texts_on_the_same_page"] = [
-            text["text"] for text in texts_on_the_same_page
-        ]
-
     return QueryResponse(
         answer=answer,
         relevant_texts=[RelevantText(**text) for text in relevant_texts],
@@ -98,4 +89,4 @@ async def query(request: QueryRequest) -> QueryResponse:
 
 
 if __name__ == "__main__":
-    uvicorn.run("backend.main:app", host="0.0.0.0", port=PORT, reload=True)
+    uvicorn.run("backend.main:app", host="0.0.0.0", port=PORT, reload=True)  # noqa: S104

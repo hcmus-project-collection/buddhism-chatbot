@@ -1,12 +1,8 @@
-from backend.config import (
-    ELASTIC_HOST,
-    ELASTIC_INDEX_NAME,
-    ELASTIC_PASSWORD,
-    ELASTIC_PORT,
-    ELASTIC_USERNAME,
-)
 from elasticsearch import Elasticsearch
 from loguru import logger
+
+from backend.config import (ELASTIC_HOST, ELASTIC_INDEX_NAME, ELASTIC_PASSWORD,
+                            ELASTIC_PORT, ELASTIC_USERNAME)
 
 
 def connect_to_elasticsearch() -> Elasticsearch:
@@ -25,7 +21,8 @@ def search_texts_by_page_info(
     page_id: str | None = None,
     index_name: str = ELASTIC_INDEX_NAME,
     size: int = 10,
-):
+) -> list[dict]:
+    """Search texts by page info."""
     client = client or connect_to_elasticsearch()
 
     clauses = []
