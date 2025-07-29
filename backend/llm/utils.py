@@ -12,23 +12,10 @@ from mcp import Tool
 from mcp.types import CallToolResult
 from openai.types.chat import (ChatCompletionMessageToolCall,
                                ChatCompletionToolParam)
-from pydantic import BaseModel
+
+from backend.models import FunctionCall, ToolCall
 
 load_dotenv()
-
-
-class FunctionCall(BaseModel):
-    """Representation of a function call."""
-
-    name: str
-    arguments: str | dict
-
-
-class ToolCall(BaseModel):
-    """Representation of a tool call."""
-
-    id: str
-    function: FunctionCall
 
 
 # https://github.com/bartolli/mcp-llm-bridge/blob/main/src/mcp_llm_bridge/bridge.py#L140

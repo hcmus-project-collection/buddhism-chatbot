@@ -2,10 +2,17 @@ import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from loguru import logger
-from pydantic import BaseModel, Field
 
 from backend.config import COLLECTION_NAME, PORT
+from backend.constants import BOOK_ID_MAP
 from backend.llm import generate_answer, generate_answer_with_tools
+from backend.models import (
+    Book,
+    BooksResponse,
+    QueryRequest,
+    QueryResponse,
+    RelevantText,
+)
 from backend.rag import query_qdrant
 
 logger.remove()
@@ -30,51 +37,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-BOOK_ID_MAP = {
-    "RBI_002": "An Sĩ Toàn Thư",
-    "RBI_010": "Kinh Tương Ưng Bộ",
-    "RBI_007": "Quan Âm Thị Kính",
-    "RBI_008": "Thiền Uyển Tập Anh",
-}
 
-
-class RelevantText(BaseModel):
-    """Relevant text from Qdrant."""
-
-    text: str
-    score: float
-    book_id: str
-    chapter_id: str
-    page: str
-
-
-class QueryRequest(BaseModel):
-    """Request body for the query endpoint."""
-
-    query: str
-    top_k: int = 5
-    metadata_filter: dict[str, str] = Field(default_factory=dict, json_schema_extra={"example": {}})  # type: ignore
-    using_tools: bool = False
-
-
-class QueryResponse(BaseModel):
-    """Response body for the query endpoint."""
-
-    answer: str
-    relevant_texts: list[RelevantText]
-
-
-class Book(BaseModel):
-    """Book information."""
-
-    id: str
-    title: str
-
-
-class BooksResponse(BaseModel):
-    """Response body for the books endpoint."""
-
-    books: list[Book]
 
 
 @app.get("/")
