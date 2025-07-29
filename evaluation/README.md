@@ -1,6 +1,6 @@
-# Backend Performance Evaluation
+# Evaluation
 
-This directory contains scripts and tools for evaluating the performance of the Eastern Religion Chatbot backend using the test dataset from HuggingFace.
+This directory contains scripts and tools for evaluating the performance of the Buddhism Chatbot backend using the test dataset from HuggingFace.
 
 ## Overview
 

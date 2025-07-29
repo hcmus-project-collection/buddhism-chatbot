@@ -1,5 +1,5 @@
 
-# ✅ Plan for Eastern Religion RAG Chatbot
+# ✅ Plan for Buddhism RAG Chatbot
 
 ## ✅ Stage 1: Data Preparation
 - ✅ Convert XML to sentence-level JSONL format

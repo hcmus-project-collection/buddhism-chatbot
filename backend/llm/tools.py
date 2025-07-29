@@ -12,7 +12,7 @@ from loguru import logger
 from backend.constants import Title, Volume
 from backend.rag import query_qdrant
 
-mcp = FastMCP("Eastern Religion Retriever")
+mcp = FastMCP("Buddhism Retriever")
 
 
 @mcp.tool()

@@ -32,10 +32,10 @@ export default function Home() {
                 {/* Header */}
                 <div className="text-center mb-8">
                     <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-200 mb-4">
-                        Eastern Religion Chatbot
+                        Buddhism Chatbot
                     </h1>
                     <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-                        Ask questions about Buddhism, Hinduism, Taoism, and other Eastern philosophical traditions.
+                        Ask questions about Buddhist teachings, philosophy, and practices.
                         Get informed answers backed by relevant sources.
                     </p>
                 </div>

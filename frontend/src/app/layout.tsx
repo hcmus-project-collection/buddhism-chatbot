@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Eastern Religion Chatbot',
-  description: 'Ask questions about Eastern religions and get informed answers',
+  title: 'Buddhism Chatbot',
+  description: 'Ask questions about Buddhism and get informed answers',
 }
 
 export default function RootLayout({

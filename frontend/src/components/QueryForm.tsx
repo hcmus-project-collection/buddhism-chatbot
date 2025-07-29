@@ -55,7 +55,7 @@ export default function QueryForm({ onSubmit, isLoading }: QueryFormProps) {
                 <div className="space-y-4">
                     <div>
                         <label htmlFor="query" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                            Ask your question about Eastern religions
+                            Ask your question about Buddhism
                         </label>
                         <textarea
                             id="query"
