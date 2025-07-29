@@ -43,8 +43,9 @@ class RelevantText(BaseModel):
 
     text: str
     score: float
-    sentence_id: str
-    meta: dict
+    book_id: str
+    chapter_id: str
+    page: str
 
 
 class QueryRequest(BaseModel):
