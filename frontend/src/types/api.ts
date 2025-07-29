@@ -16,3 +16,12 @@ export interface QueryResponse {
   answer: string;
   relevant_texts: RelevantText[];
 }
+
+export interface Book {
+  id: string;
+  title: string;
+}
+
+export interface BooksResponse {
+  books: Book[];
+}

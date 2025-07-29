@@ -1,7 +1,8 @@
 'use client';
 
-import { useState } from 'react';
-import { QueryRequest } from '@/types/api';
+import { useState, useEffect } from 'react';
+import { QueryRequest, Book } from '@/types/api';
+import { fetchBooks } from '@/lib/api';
 
 interface QueryFormProps {
     onSubmit: (request: QueryRequest) => void;
@@ -12,15 +13,38 @@ export default function QueryForm({ onSubmit, isLoading }: QueryFormProps) {
     const [query, setQuery] = useState('');
     const [topK, setTopK] = useState(5);
     const [usingTools, setUsingTools] = useState(false);
+    const [books, setBooks] = useState<Book[]>([]);
+    const [selectedBookId, setSelectedBookId] = useState<string>('');
+    const [isLoadingBooks, setIsLoadingBooks] = useState(true);
+
+    useEffect(() => {
+        const loadBooks = async () => {
+            try {
+                const response = await fetchBooks();
+                setBooks(response.books);
+            } catch (error) {
+                console.error('Failed to load books:', error);
+            } finally {
+                setIsLoadingBooks(false);
+            }
+        };
+
+        loadBooks();
+    }, []);
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         if (query.trim()) {
+            const metadata_filter: Record<string, string> = {};
+            if (selectedBookId) {
+                metadata_filter.book_id = selectedBookId;
+            }
+
             onSubmit({
                 query: query.trim(),
                 top_k: topK,
                 using_tools: usingTools,
-                metadata_filter: {}
+                metadata_filter
             });
         }
     };
@@ -59,6 +83,26 @@ export default function QueryForm({ onSubmit, isLoading }: QueryFormProps) {
                                 className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
                                 disabled={isLoading}
                             />
+                        </div>
+
+                        <div className="flex-1">
+                            <label htmlFor="bookFilter" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                                Filter by book
+                            </label>
+                            <select
+                                id="bookFilter"
+                                value={selectedBookId}
+                                onChange={(e) => setSelectedBookId(e.target.value)}
+                                className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
+                                disabled={isLoading || isLoadingBooks}
+                            >
+                                <option value="">All books</option>
+                                {books.map((book) => (
+                                    <option key={book.id} value={book.id}>
+                                        {book.title}
+                                    </option>
+                                ))}
+                            </select>
                         </div>
 
                         <div className="flex items-end">
