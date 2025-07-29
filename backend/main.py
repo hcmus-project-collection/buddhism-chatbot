@@ -38,8 +38,6 @@ app.add_middleware(
 )
 
 
-
-
 @app.get("/")
 async def health_check() -> dict[str, str]:
     """Implement the health check endpoint."""
