@@ -2,6 +2,9 @@ export interface RelevantText {
   text: string;
   score: number;
   sentence_id: string;
+  book_id: string;
+  chapter_id: string;
+  page: string;
   meta: Record<string, any>;
 }
 
