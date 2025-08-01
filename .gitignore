@@ -208,3 +208,4 @@ __marimo__/
 .vscode/
 jsonl/embeddings/
 qdrant/
+!frontend/src/lib
