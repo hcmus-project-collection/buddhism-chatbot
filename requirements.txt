@@ -16,6 +16,8 @@ pydantic
 requests
 json-repair
 tiktoken
+langchain
+langchain-community
 
 # Azure AI Inference
 azure.identity
