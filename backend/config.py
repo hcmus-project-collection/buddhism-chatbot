@@ -33,9 +33,3 @@ DEVICE = (
     else "cpu"
 )
 PORT = int(os.getenv("PORT", 8000))
-
-ELASTIC_HOST = os.getenv("ELASTIC_HOST", "localhost")
-ELASTIC_PORT = int(os.getenv("ELASTIC_PORT", 9200))
-ELASTIC_INDEX_NAME = os.getenv("ELASTIC_INDEX_NAME", "eastern_religion")
-ELASTIC_USERNAME = os.getenv("ELASTIC_USERNAME", "elastic")
-ELASTIC_PASSWORD = os.getenv("ELASTIC_PASSWORD", "elastic")
