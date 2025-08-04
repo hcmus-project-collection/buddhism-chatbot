@@ -44,7 +44,7 @@ class EvaluationMetrics:
 class BackendEvaluator:
     """Main class for evaluating backend performance."""
 
-    def __init__(self, backend_url: str = "https://backend-easternchatbot.nguyenvanloc.com") -> None:
+    def __init__(self, backend_url: str = "https://backend-buddhismchatbot.nguyenvanloc.com") -> None:
         self.backend_url = backend_url
         self.results: list[EvaluationResult] = []
         self.dataset = None
@@ -74,8 +74,8 @@ class BackendEvaluator:
             headers = {
                 "accept": "application/json, text/plain, */*",
                 "content-type": "application/json",
-                "origin": "https://eastern-chatbot.nguyenvanloc.com",
-                "referer": "https://eastern-chatbot.nguyenvanloc.com/",
+                "origin": "https://buddhism-chatbot.nguyenvanloc.com",
+                "referer": "https://buddhism-chatbot.nguyenvanloc.com/",
                 "user-agent": "Mozilla/5.0 (compatible; EvaluationBot/1.0)",
             }
 
@@ -112,8 +112,8 @@ class BackendEvaluator:
             "accept": "application/json, text/plain, */*",
             "accept-language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6,zh;q=0.5,fr-FR;q=0.4,fr;q=0.3",
             "content-type": "application/json",
-            "origin": "https://eastern-chatbot.nguyenvanloc.com",
-            "referer": "https://eastern-chatbot.nguyenvanloc.com/",
+            "origin": "https://buddhism-chatbot.nguyenvanloc.com",
+            "referer": "https://buddhism-chatbot.nguyenvanloc.com/",
             "user-agent": "Mozilla/5.0 (compatible; EvaluationBot/1.0)",
         }
 
@@ -323,8 +323,8 @@ def main() -> None:
     import argparse
 
     parser = argparse.ArgumentParser(description="Evaluate Eastern Religion Chatbot Backend")
-    parser.add_argument("--backend-url", default="https://backend-easternchatbot.nguyenvanloc.com",
-                       help="Backend URL (default: https://backend-easternchatbot.nguyenvanloc.com)")
+    parser.add_argument("--backend-url", default="https://backend-buddhismchatbot.nguyenvanloc.com",
+                       help="Backend URL (default: https://backend-buddhismchatbot.nguyenvanloc.com)")
     parser.add_argument("--dataset", default="vanloc1808/buddhist-scholar-test-set",
                        help="HuggingFace dataset name")
     parser.add_argument("--max-queries", type=int, default=None,

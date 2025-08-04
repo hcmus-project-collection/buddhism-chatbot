@@ -19,7 +19,7 @@ COPY . .
 # Set environment variables for build
 ENV NEXT_TELEMETRY_DISABLED 1
 ENV NODE_ENV production
-ENV NEXT_PUBLIC_API_URL https://backend-easternchatbot.nguyenvanloc.com
+ENV NEXT_PUBLIC_API_URL https://backend-buddhismchatbot.nguyenvanloc.com
 
 RUN npm run build
 

@@ -28,7 +28,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://eastern-chatbot.nguyenvanloc.com",
+        "https://buddhism-chatbot.nguyenvanloc.com",
         "http://localhost:3000",  # For local development
         "http://127.0.0.1:3000",  # For local development
     ],

@@ -3,17 +3,17 @@ services:
     build:
       context: .
       dockerfile: backend/Dockerfile
-    container_name: eastern-religion-backend
+    container_name: buddhism-religion-backend
     environment:
       - PORT=8000
     volumes:
       - ./.env:/app/.env:ro
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.eastern-backend.rule=Host(`backend-easternchatbot.nguyenvanloc.com`)"
-      - "traefik.http.routers.eastern-backend.entrypoints=websecure"
-      - "traefik.http.routers.eastern-backend.tls=true"
-      - "traefik.http.services.eastern-backend.loadbalancer.server.port=8000"
+      - "traefik.http.routers.buddhism-backend.rule=Host(`backend-buddhismchatbot.nguyenvanloc.com`)"
+      - "traefik.http.routers.buddhism-backend.entrypoints=websecure"
+      - "traefik.http.routers.buddhism-backend.tls=true"
+      - "traefik.http.services.buddhism-backend.loadbalancer.server.port=8000"
     networks:
       - localnet
     restart: unless-stopped
@@ -28,15 +28,15 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    container_name: eastern-religion-frontend
+    container_name: buddhism-religion-frontend
     environment:
       - NODE_ENV=production
-      - NEXT_PUBLIC_API_URL=https://backend-easternchatbot.nguyenvanloc.com
+      - NEXT_PUBLIC_API_URL=https://backend-buddhismchatbot.nguyenvanloc.com
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.eastern-frontend.rule=Host(`eastern-chatbot.nguyenvanloc.com`)"
-      - "traefik.http.routers.eastern-frontend.entrypoints=websecure"
-      - "traefik.http.routers.eastern-frontend.tls=true"
+      - "traefik.http.routers.buddhism-frontend.rule=Host(`buddhism-chatbot.nguyenvanloc.com`)"
+      - "traefik.http.routers.buddhism-frontend.entrypoints=websecure"
+      - "traefik.http.routers.buddhism-frontend.tls=true"
       - "traefik.http.services.frontend.loadbalancer.server.port=3000"
     networks:
       - localnet
