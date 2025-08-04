@@ -17,7 +17,7 @@ OPENAI_MODEL_NAME = os.getenv(
 
 QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333")
 QDRANT_API_KEY = os.getenv("QDRANT_API_KEY", None)
-COLLECTION_NAME = os.getenv("QDRANT_COLLECTION_NAME", "eastern_religion")
+COLLECTION_NAME = os.getenv("QDRANT_COLLECTION_NAME", "buddhism_religion")
 
 # Embedding model configuration
 EMBEDDING_MODEL_NAME = os.getenv(

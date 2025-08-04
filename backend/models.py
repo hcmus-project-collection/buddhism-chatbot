@@ -1,5 +1,3 @@
-"""Pydantic models for the Eastern Religion Chatbot backend."""
-
 from pydantic import BaseModel, Field
 
 
