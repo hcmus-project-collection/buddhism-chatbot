@@ -204,6 +204,6 @@ This project is licensed under the terms specified in the LICENSE file.
 
 ---
 
-## Motivation
+## 🎓 Motivation
 
 This is done as a final project for the "Advanced Natural Language Processing" subject (MTH020), for the Master's program at the University of Science, VNUHCM.
