@@ -10,10 +10,7 @@ from fastmcp import Client
 from loguru import logger
 from mcp import Tool
 from mcp.types import CallToolResult
-from openai.types.chat import (ChatCompletionMessageToolCall,
-                               ChatCompletionToolParam)
-
-from backend.models import FunctionCall, ToolCall
+from openai.types.chat import ChatCompletionMessageToolCall, ChatCompletionToolParam
 
 load_dotenv()
 
