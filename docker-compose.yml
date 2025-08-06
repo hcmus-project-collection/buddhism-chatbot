@@ -10,7 +10,7 @@ services:
       - ./.env:/app/.env:ro
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.buddhism-backend.rule=Host(`backend-buddhismchatbot.nguyenvanloc.com`)"
+      - "traefik.http.routers.buddhism-backend.rule=Host(`backend-buddhismchatbot.nguyenvanloc.com`) | Host(`backend-sanghagpt.nguyenvanloc.com`)"
       - "traefik.http.routers.buddhism-backend.entrypoints=websecure"
       - "traefik.http.routers.buddhism-backend.tls=true"
       - "traefik.http.services.buddhism-backend.loadbalancer.server.port=8000"
@@ -31,10 +31,10 @@ services:
     container_name: buddhism-religion-frontend
     environment:
       - NODE_ENV=production
-      - NEXT_PUBLIC_API_URL=https://backend-buddhismchatbot.nguyenvanloc.com
+      - NEXT_PUBLIC_API_URL=https://backend-sanghagpt.nguyenvanloc.com
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.buddhism-frontend.rule=Host(`buddhism-chatbot.nguyenvanloc.com`)"
+      - "traefik.http.routers.buddhism-frontend.rule=Host(`buddhism-chatbot.nguyenvanloc.com`) | Host(`sanghagpt.nguyenvanloc.com`)"
       - "traefik.http.routers.buddhism-frontend.entrypoints=websecure"
       - "traefik.http.routers.buddhism-frontend.tls=true"
       - "traefik.http.services.frontend.loadbalancer.server.port=3000"
