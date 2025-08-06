@@ -1,4 +1,4 @@
-# Buddhism Chatbot
+# SanghaGPT
 
 A comprehensive RAG (Retrieval-Augmented Generation) chatbot system focused on Buddhism, built with Vietnamese Buddhist texts from classical Buddhist literatures. This project implements a full-stack solution for answering questions about Buddhist teachings using modern AI techniques.
 

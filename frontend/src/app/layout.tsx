@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Buddhism Chatbot',
+  title: 'SanghaGPT',
   description: 'Ask questions about Buddhism and get informed answers',
 }
 

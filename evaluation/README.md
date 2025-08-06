@@ -1,6 +1,6 @@
 # Evaluation
 
-This directory contains scripts and tools for evaluating the performance of the Buddhism Chatbot backend using the test dataset from HuggingFace.
+This directory contains scripts and tools for evaluating the performance of the SanghaGPT backend using the test dataset from HuggingFace.
 
 ## Overview
 

@@ -1,5 +1,5 @@
 
-# ✅ Plan for Buddhism RAG Chatbot
+# ✅ Plan for SanghaGPT RAG Chatbot
 
 ## ✅ Stage 1: Data Preparation
 - ✅ Convert XML to sentence-level JSONL format

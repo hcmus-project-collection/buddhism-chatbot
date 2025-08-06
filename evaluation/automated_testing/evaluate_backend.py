@@ -322,7 +322,7 @@ def main() -> None:
     """Implement the main function to run the evaluation."""
     import argparse
 
-    parser = argparse.ArgumentParser(description="Evaluate Buddhism Chatbot Backend")
+    parser = argparse.ArgumentParser(description="Evaluate SanghaGPT Backend")
     parser.add_argument("--backend-url", default="https://backend-buddhismchatbot.nguyenvanloc.com",
                        help="Backend URL (default: https://backend-buddhismchatbot.nguyenvanloc.com)")
     parser.add_argument("--dataset", default="vanloc1808/buddhist-scholar-test-set",
