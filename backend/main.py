@@ -29,6 +29,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://buddhism-chatbot.nguyenvanloc.com",
+        "https://sanghagpt.nguyenvanloc.com",
         "http://localhost:3000",  # For local development
         "http://127.0.0.1:3000",  # For local development
     ],
